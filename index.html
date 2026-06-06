@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Plano de Estudos - INSS 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header id="topbar">
+      <h1>INSS 2026</h1>
+      <span id="current-date"></span>
+    </header>
+
+    <main id="main-content">
+      <!-- CRONOGRAMA -->
+      <section id="page-cronograma" class="page active">
+        <h2>Cronograma Semanal</h2>
+        <div class="week-selector">
+          <button id="prev-week">&larr;</button>
+          <span id="week-label">Esta Semana</span>
+          <button id="next-week">&rarr;</button>
+        </div>
+        <div id="cronograma-grid"></div>
+      </section>
+
+      <!-- CHECKLIST -->
+      <section id="page-checklist" class="page">
+        <h2>Checklist Diário</h2>
+        <div id="checklist-date-nav">
+          <button id="prev-day">&larr;</button>
+          <span id="checklist-date-label">Hoje</span>
+          <button id="next-day">&rarr;</button>
+        </div>
+        <div id="checklist-stats">
+          <span id="checklist-progress-text">0/0 concluído</span>
+          <div id="checklist-progress-bar"><div id="checklist-progress-fill"></div></div>
+        </div>
+        <ul id="checklist-items"></ul>
+        <button id="add-checklist-item" class="btn-secondary">+ Adicionar tarefa</button>
+      </section>
+
+      <!-- PROGRESSO -->
+      <section id="page-progresso" class="page">
+        <h2>Progresso por Disciplina</h2>
+        <div id="progresso-geral">
+          <span id="progresso-geral-text">Geral: 0%</span>
+          <div id="progresso-geral-bar"><div id="progresso-geral-fill"></div></div>
+        </div>
+        <div id="progresso-lista"></div>
+      </section>
+
+      <!-- SIMULADOS -->
+      <section id="page-simulados" class="page">
+        <h2>Simulados & Questões</h2>
+        <button id="add-simulado-btn" class="btn-primary">+ Novo Simulado</button>
+        <div id="simulados-lista"></div>
+        <div id="simulados-form" class="hidden">
+          <h3>Registrar Simulado</h3>
+          <select id="simulado-materia"></select>
+          <input type="number" id="simulado-acertos" placeholder="Acertos" min="0">
+          <input type="number" id="simulado-total" placeholder="Total de questões" min="1">
+          <input type="date" id="simulado-data">
+          <div class="form-buttons">
+            <button id="save-simulado" class="btn-primary">Salvar</button>
+            <button id="cancel-simulado" class="btn-secondary">Cancelar</button>
+          </div>
+        </div>
+        <canvas id="simulado-chart"></canvas>
+      </section>
+
+      <!-- CALENDÁRIO -->
+      <section id="page-calendario" class="page">
+        <h2>Calendário</h2>
+        <div class="cal-nav">
+          <button id="prev-month">&larr;</button>
+          <span id="cal-month-label">Junho 2026</span>
+          <button id="next-month">&rarr;</button>
+        </div>
+        <div id="cal-grid">
+          <div class="cal-header">Dom</div>
+          <div class="cal-header">Seg</div>
+          <div class="cal-header">Ter</div>
+          <div class="cal-header">Qua</div>
+          <div class="cal-header">Qui</div>
+          <div class="cal-header">Sex</div>
+          <div class="cal-header">Sáb</div>
+        </div>
+        <div id="cal-days"></div>
+        <div id="cal-day-detail" class="hidden">
+          <h3 id="cal-day-title"></h3>
+          <textarea id="cal-goal-input" placeholder="Meta para este dia..."></textarea>
+          <button id="save-cal-goal" class="btn-primary">Salvar Meta</button>
+        </div>
+      </section>
+    </main>
+
+    <nav id="bottom-nav">
+      <button class="nav-btn active" data-page="cronograma">
+        <span class="nav-icon">&#128197;</span>
+        <span class="nav-label">Cronograma</span>
+      </button>
+      <button class="nav-btn" data-page="checklist">
+        <span class="nav-icon">&#9989;</span>
+        <span class="nav-label">Checklist</span>
+      </button>
+      <button class="nav-btn" data-page="progresso">
+        <span class="nav-icon">&#128200;</span>
+        <span class="nav-label">Progresso</span>
+      </button>
+      <button class="nav-btn" data-page="simulados">
+        <span class="nav-icon">&#128218;</span>
+        <span class="nav-label">Simulados</span>
+      </button>
+      <button class="nav-btn" data-page="calendario">
+        <span class="nav-icon">&#128467;</span>
+        <span class="nav-label">Calendário</span>
+      </button>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
