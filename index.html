@@ -2,195 +2,790 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estudos INSS 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0a1a">
+  <title>INSS 2026 — Dashboard Galáctica</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- FUNDO CÓSMICO -->
+<div class="cosmos">
+  <div class="stars"></div>
+  <div class="stars stars-2"></div>
+  <div class="stars stars-3"></div>
+  <div class="nebula nebula-1"></div>
+  <div class="nebula nebula-2"></div>
+  <div class="nebula nebula-3"></div>
+  <div class="shooting-star"></div>
+  <div class="shooting-star shooting-star-2"></div>
+</div>
+
+<!-- TOASTS -->
+<div id="toast-container"></div>
+
 <div id="app">
+
+  <!-- TOPBAR -->
   <header id="topbar">
     <div class="topbar-left">
-      <span class="topbar-icon">&#9733;</span>
-      <h1>INSS 2026</h1>
+      <div class="logo">
+        <span class="logo-glyph">&#10022;</span>
+        <span class="logo-pulse"></span>
+      </div>
+      <div class="topbar-text">
+        <h1>INSS <span class="year">2026</span></h1>
+        <span class="topbar-sub">Miss&atilde;o Aprovação</span>
+      </div>
     </div>
     <div class="topbar-right">
-      <span id="streak-display">&#128293; 0</span>
+      <button id="theme-toggle" class="icon-btn" title="Alternar tema">
+        <span class="theme-icon">&#9728;</span>
+      </button>
+      <div class="streak-pill" id="streak-display">
+        <span class="flame">&#128293;</span>
+        <span id="streak-count">0</span>
+      </div>
     </div>
   </header>
 
   <main id="main-content">
-    <!-- DASHBOARD -->
-    <section id="page-dashboard" class="page active">
-      <div class="greeting" id="greeting">Bom dia!</div>
 
-      <div class="dash-cards-top">
-        <div class="dash-card progress-ring-card">
-          <div class="ring-container">
-            <svg class="progress-ring" viewBox="0 0 120 120">
-              <circle class="ring-bg" cx="60" cy="60" r="54"/>
-              <circle class="ring-fill" id="ring-fill-dash" cx="60" cy="60" r="54"/>
-            </svg>
-            <div class="ring-center">
-              <span id="ring-pct">0%</span>
-              <span class="ring-label">Geral</span>
-            </div>
+    <!-- ============== DASHBOARD ============== -->
+    <section id="page-dashboard" class="page active">
+      <div class="hero">
+        <div class="hero-greeting">
+          <h2 id="greeting">Carregando...</h2>
+          <p id="hero-sub">Sua jornada até a aprova&ccedil;&atilde;o come&ccedil;a aqui.</p>
+        </div>
+        <div class="hero-planet"></div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card kpi-primary">
+          <div class="kpi-icon-wrap">
+            <div class="kpi-icon">&#128218;</div>
+            <div class="kpi-pulse"></div>
           </div>
-          <div class="ring-stats">
-            <div class="ring-stat">
-              <span class="ring-stat-value" id="dash-concluidas">0</span>
-              <span class="ring-stat-label">Matérias<br>concluídas</span>
-            </div>
-            <div class="ring-stat">
-              <span class="ring-stat-value" id="dash-topicos">0</span>
-              <span class="ring-stat-label">Tópicos<br>estudados</span>
-            </div>
-            <div class="ring-stat">
-              <span class="ring-stat-value" id="dash-simulados">0</span>
-              <span class="ring-stat-label">Simulados<br>feitos</span>
-            </div>
+          <div class="kpi-info">
+            <span class="kpi-value" data-counter="0" id="kpi-progresso">0%</span>
+            <span class="kpi-label">Progresso Geral</span>
+          </div>
+          <div class="kpi-bar">
+            <div class="kpi-bar-fill" id="kpi-progresso-bar" style="width:0%"></div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-wrap"><div class="kpi-icon">&#9989;</div></div>
+          <div class="kpi-info">
+            <span class="kpi-value" data-counter="0" id="kpi-concluidas">0/9</span>
+            <span class="kpi-label">Mat&eacute;rias</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-wrap"><div class="kpi-icon">&#127942;</div></div>
+          <div class="kpi-info">
+            <span class="kpi-value" data-counter="0" id="kpi-simulados">0</span>
+            <span class="kpi-label">Simulados</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-wrap"><div class="kpi-icon">&#9881;</div></div>
+          <div class="kpi-info">
+            <span class="kpi-value" data-counter="0" id="kpi-topicos">0</span>
+            <span class="kpi-label">T&oacute;picos</span>
           </div>
         </div>
       </div>
 
-      <div class="section-header">
-        <h2>Estudo de Hoje</h2>
-        <span class="section-date" id="dash-today-date"></span>
+      <!-- ANEL DE PROGRESSO + COUNTDOWN -->
+      <div class="ring-row">
+        <div class="glass-card ring-card">
+          <div class="ring-header">
+            <h3>Progresso da Miss&atilde;o</h3>
+            <span class="ring-tag" id="dash-mission-tag">Recruta</span>
+          </div>
+          <div class="ring-body">
+            <div class="ring-container">
+              <svg class="progress-ring" viewBox="0 0 160 160">
+                <defs>
+                  <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#7c3aed"/>
+                    <stop offset="50%" stop-color="#06b6d4"/>
+                    <stop offset="100%" stop-color="#22d3ee"/>
+                  </linearGradient>
+                </defs>
+                <circle class="ring-bg" cx="80" cy="80" r="70"/>
+                <circle class="ring-fill" id="ring-fill-dash" cx="80" cy="80" r="70"/>
+                <circle class="ring-spark" cx="80" cy="80" r="70"/>
+              </svg>
+              <div class="ring-center">
+                <span class="ring-pct" id="ring-pct">0%</span>
+                <span class="ring-pct-label">completo</span>
+              </div>
+            </div>
+            <div class="ring-meta">
+              <div class="ring-meta-item">
+                <span class="dot dot-cyan"></span>
+                <span><b id="meta-topicos">0</b>/<span id="meta-topicos-total">0</span> t&oacute;picos</span>
+              </div>
+              <div class="ring-meta-item">
+                <span class="dot dot-violet"></span>
+                <span><b id="meta-horas">0h</b> estudadas</span>
+              </div>
+              <div class="ring-meta-item">
+                <span class="dot dot-green"></span>
+                <span><b id="meta-media">0%</b> de acertos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card countdown-card">
+          <div class="countdown-header">
+            <h3>Pr&oacute;xima Prova</h3>
+            <span class="countdown-tag">CEBRASPE</span>
+          </div>
+          <div class="countdown-body">
+            <div class="countdown-num" id="countdown-days">--</div>
+            <div class="countdown-label">dias restantes</div>
+            <div class="countdown-grid">
+              <div class="countdown-cell">
+                <span id="countdown-hours">00</span>
+                <label>horas</label>
+              </div>
+              <div class="countdown-cell">
+                <span id="countdown-mins">00</span>
+                <label>min</label>
+              </div>
+              <div class="countdown-cell">
+                <span id="countdown-secs">00</span>
+                <label>seg</label>
+              </div>
+            </div>
+            <div class="countdown-target">Data prevista: <b id="countdown-target">15/03/2026</b></div>
+          </div>
+        </div>
       </div>
 
-      <div id="dash-hoje">
-        <div class="dash-empty">Nenhuma matéria programada para hoje</div>
+      <!-- ESTUDO DE HOJE -->
+      <div class="section-head">
+        <div>
+          <h3>Estudo de Hoje</h3>
+          <span class="section-date" id="dash-today-date"></span>
+        </div>
+        <button class="see-all" data-page="cronograma">Ver semana &rarr;</button>
       </div>
+      <div id="dash-hoje" class="study-list"></div>
 
-      <div class="section-header">
-        <h2>Últimos Simulados</h2>
-        <button class="see-all-btn" data-page="progresso" data-tab="prog-simulados">Ver todos</button>
+      <!-- TOP ASSUNTOS -->
+      <div class="section-head">
+        <div>
+          <h3>&#128293; Top Assuntos Mais Cobrados</h3>
+          <span class="section-date">Frequ&ecirc;ncia nas &uacute;ltimas provas Cebraspe</span>
+        </div>
+        <button class="see-all" data-page="topassuntos">Ver todos &rarr;</button>
       </div>
-      <div id="dash-simulados"></div>
+      <div id="dash-topassuntos" class="hot-topics"></div>
+
+      <!-- ÚLTIMOS SIMULADOS -->
+      <div class="section-head">
+        <div>
+          <h3>Performance Recente</h3>
+          <span class="section-date">&Uacute;ltimos simulados</span>
+        </div>
+        <button class="see-all" data-page="simulados" data-tab="lista">Ver hist&oacute;rico &rarr;</button>
+      </div>
+      <div id="dash-simulados" class="simulados-list"></div>
     </section>
 
-    <!-- MATÉRIAS -->
+    <!-- ============== MATÉRIAS ============== -->
     <section id="page-materias" class="page">
-      <div class="page-header">
-        <h2>Matérias</h2>
-        <div class="search-box">
-          <input type="text" id="search-materia" placeholder="Buscar matéria...">
+      <div class="page-head">
+        <div>
+          <h2>Mat&eacute;rias</h2>
+          <p>Conte&uacute;do program&aacute;tico completo do edital</p>
         </div>
       </div>
-      <div id="materias-lista"></div>
+
+      <div class="search-wrap">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" id="search-materia" placeholder="Buscar mat&eacute;ria ou t&oacute;pico...">
+      </div>
+
+      <div id="materias-lista" class="materias-grid"></div>
 
       <div id="materia-detail" class="hidden">
-        <button id="back-materias" class="back-btn">&larr; Voltar</button>
-        <h3 id="materia-detail-title"></h3>
-        <div id="materia-detail-progress">
-          <span id="materia-detail-pct">0%</span>
-          <div class="progress-track"><div id="materia-detail-bar" class="progress-fill"></div></div>
+        <button id="back-materias" class="back-btn">&larr; Voltar para mat&eacute;rias</button>
+        <div class="detail-head">
+          <div class="detail-icon" id="detail-icon"></div>
+          <div>
+            <h3 id="materia-detail-title"></h3>
+            <span class="detail-sub" id="materia-detail-sub"></span>
+          </div>
         </div>
-        <div id="materia-detail-topics"></div>
+        <div class="detail-progress">
+          <div class="detail-pct"><span id="materia-detail-pct">0%</span></div>
+          <div class="progress-track"><div id="materia-detail-bar" class="progress-fill"></div></div>
+          <span class="detail-count" id="materia-detail-count"></span>
+        </div>
+        <div class="detail-tabs">
+          <button class="detail-tab active" data-dtab="topicos">T&oacute;picos</button>
+          <button class="detail-tab" data-dtab="materia">Mat&eacute;ria</button>
+          <button class="detail-tab" data-dtab="quentes">+ Cobrados</button>
+          <button class="detail-tab" data-dtab="resumo">Resumo</button>
+        </div>
+        <div id="detail-content-topicos" class="detail-content active"></div>
+        <div id="detail-content-materia" class="detail-content"></div>
+        <div id="detail-content-quentes" class="detail-content"></div>
+        <div id="detail-content-resumo" class="detail-content"></div>
       </div>
     </section>
 
-    <!-- CRONOGRAMA -->
-    <section id="page-cronograma" class="page">
-      <div class="page-header">
-        <h2>Cronograma Semanal</h2>
+    <!-- ============== TOP ASSUNTOS ============== -->
+    <section id="page-topassuntos" class="page">
+      <div class="page-head">
+        <div>
+          <h2>&#128293; Top Assuntos Mais Cobrados</h2>
+          <p>Frequ&ecirc;ncia nas &uacute;ltimas provas do INSS (CEBRASPE)</p>
+        </div>
       </div>
-      <div class="week-nav">
-        <button id="prev-week">&larr;</button>
-        <span id="week-label">Esta Semana</span>
-        <button id="next-week">&rarr;</button>
+
+      <div class="filter-chips" id="topassuntos-filtros">
+        <button class="chip active" data-filter="todas">Todas</button>
+        <button class="chip" data-filter="conhecimentos-basicos">Conhecimentos B&aacute;sicos</button>
+        <button class="chip" data-filter="conhecimentos-especificos">Conhecimentos Espec&iacute;ficos</button>
       </div>
-      <div id="cronograma-grid"></div>
+
+      <div id="topassuntos-lista" class="hot-topics"></div>
     </section>
 
-    <!-- PROGRESSO & SIMULADOS -->
-    <section id="page-progresso" class="page">
-      <div class="page-header">
-        <h2>Progresso & Simulados</h2>
+    <!-- ============== SIMULADOS ============== -->
+    <section id="page-simulados" class="page">
+      <div class="page-head">
+        <div>
+          <h2>Simulados</h2>
+          <p>Pratique com quest&otilde;es no estilo CEBRASPE</p>
+        </div>
       </div>
 
       <div class="tab-bar">
-        <button class="tab-btn active" data-tab="prog-materias">Matérias</button>
-        <button class="tab-btn" data-tab="prog-simulados">Simulados</button>
+        <button class="tab-btn active" data-tab="sim-novo">Iniciar Simulado</button>
+        <button class="tab-btn" data-tab="sim-lista">Hist&oacute;rico</button>
+        <button class="tab-btn" data-tab="sim-questoes">Banco de Quest&otilde;es</button>
       </div>
 
-      <div id="prog-materias" class="tab-content active">
-        <div id="progresso-lista"></div>
+      <!-- INICIAR SIMULADO -->
+      <div id="sim-novo" class="tab-content active">
+        <div class="simulado-config glass-card">
+          <h3>Configurar Simulado</h3>
+          <div class="config-row">
+            <label>Mat&eacute;ria</label>
+            <select id="sim-materia-select"></select>
+          </div>
+          <div class="config-row">
+            <label>Quantidade de quest&otilde;es</label>
+            <div class="qty-buttons">
+              <button class="qty-btn" data-qty="5">5</button>
+              <button class="qty-btn active" data-qty="10">10</button>
+              <button class="qty-btn" data-qty="15">15</button>
+              <button class="qty-btn" data-qty="20">20</button>
+              <button class="qty-btn" data-qty="0">Todas</button>
+            </div>
+          </div>
+          <div class="config-row">
+            <label>Modo</label>
+            <div class="qty-buttons">
+              <button class="mode-btn active" data-mode="treino">Treino (ver gabarito)</button>
+              <button class="mode-btn" data-mode="real">Simula&ccedil;&atilde;o (timer)</button>
+            </div>
+          </div>
+          <button id="iniciar-simulado" class="btn-primary btn-block">&#9889; Iniciar Simulado</button>
+        </div>
       </div>
 
-      <div id="prog-simulados" class="tab-content">
-        <button id="add-simulado-btn" class="btn-primary">+ Novo Simulado</button>
-        <div id="simulados-lista"></div>
-        <div id="simulados-form" class="hidden">
-          <h3>Registrar Simulado</h3>
-          <select id="simulado-materia"></select>
-          <input type="number" id="simulado-acertos" placeholder="Acertos" min="0">
-          <input type="number" id="simulado-total" placeholder="Total de questões" min="1">
-          <input type="date" id="simulado-data">
-          <div class="form-actions">
-            <button id="save-simulado" class="btn-primary">Salvar</button>
-            <button id="cancel-simulado" class="btn-outline">Cancelar</button>
+      <!-- SIMULADO ATIVO -->
+      <div id="sim-ativo" class="tab-content hidden">
+        <div class="simulado-running">
+          <div class="simulado-header">
+            <div class="simulado-info">
+              <span id="sim-materia-nome">Mat&eacute;ria</span>
+              <span class="simulado-progress"><b id="sim-current">0</b>/<b id="sim-total-q">0</b></span>
+            </div>
+            <div class="simulado-timer" id="sim-timer">00:00</div>
+          </div>
+          <div class="simulado-progress-bar">
+            <div class="simulado-progress-fill" id="sim-progress-fill"></div>
+          </div>
+          <div id="sim-questao-container" class="questao-container"></div>
+          <div class="simulado-actions">
+            <button id="sim-questao-anterior" class="btn-outline">&larr; Anterior</button>
+            <button id="sim-finalizar" class="btn-primary">Finalizar</button>
+            <button id="sim-questao-proxima" class="btn-primary">Pr&oacute;xima &rarr;</button>
           </div>
         </div>
-        <div class="chart-wrapper">
+      </div>
+
+      <!-- RESULTADO -->
+      <div id="sim-resultado" class="tab-content hidden">
+        <div class="resultado-card">
+          <div class="resultado-hero">
+            <div class="resultado-circle">
+              <span id="resultado-pct">0%</span>
+            </div>
+            <h3 id="resultado-titulo">Simulado Conclu&iacute;do!</h3>
+            <p id="resultado-sub"></p>
+          </div>
+          <div class="resultado-stats">
+            <div class="resultado-stat">
+              <span class="rstat-value" id="resultado-acertos">0</span>
+              <span class="rstat-label">Acertos</span>
+            </div>
+            <div class="resultado-stat">
+              <span class="rstat-value" id="resultado-erros">0</span>
+              <span class="rstat-label">Erros</span>
+            </div>
+            <div class="resultado-stat">
+              <span class="rstat-value" id="resultado-tempo">00:00</span>
+              <span class="rstat-label">Tempo</span>
+            </div>
+          </div>
+          <div id="resultado-questoes" class="resultado-questoes"></div>
+          <div class="resultado-actions">
+            <button id="resultado-novo" class="btn-primary">Novo Simulado</button>
+            <button id="resultado-voltar" class="btn-outline">Voltar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- HISTÓRICO -->
+      <div id="sim-lista" class="tab-content">
+        <div id="simulados-lista" class="simulados-list"></div>
+        <div class="chart-wrapper glass-card">
+          <h4>Evolu&ccedil;&atilde;o dos Simulados</h4>
           <canvas id="simulado-chart"></canvas>
         </div>
       </div>
+
+      <!-- BANCO DE QUESTÕES -->
+      <div id="sim-questoes" class="tab-content">
+        <div id="banco-questoes" class="banco-questoes"></div>
+      </div>
     </section>
 
-    <!-- CALENDÁRIO -->
-    <section id="page-calendario" class="page">
-      <div class="page-header">
-        <h2>Calendário</h2>
+    <!-- ============== PROGRESSO ============== -->
+    <section id="page-progresso" class="page">
+      <div class="page-head">
+        <div>
+          <h2>Progresso &amp; Estat&iacute;sticas</h2>
+          <p>Acompanhe sua evolu&ccedil;&atilde;o na jornada</p>
+        </div>
       </div>
-      <div class="cal-nav">
-        <button id="prev-month">&larr;</button>
-        <span id="cal-month-label">Junho 2026</span>
-        <button id="next-month">&rarr;</button>
+
+      <div class="stats-grid">
+        <div class="stat-card glass-card">
+          <span class="stat-icon">&#128197;</span>
+          <span class="stat-value" id="stat-dias">0</span>
+          <span class="stat-label">Dias de estudo</span>
+        </div>
+        <div class="stat-card glass-card">
+          <span class="stat-icon">&#9200;</span>
+          <span class="stat-value" id="stat-tempo">0h</span>
+          <span class="stat-label">Tempo total</span>
+        </div>
+        <div class="stat-card glass-card">
+          <span class="stat-icon">&#127942;</span>
+          <span class="stat-value" id="stat-media">0%</span>
+          <span class="stat-label">M&eacute;dia simulados</span>
+        </div>
+        <div class="stat-card glass-card">
+          <span class="stat-icon">&#128293;</span>
+          <span class="stat-value" id="stat-streak">0</span>
+          <span class="stat-label">Streak atual</span>
+        </div>
       </div>
-      <div class="cal-grid-header">
-        <span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span>
+
+      <div class="glass-card">
+        <h3>Progresso por Mat&eacute;ria</h3>
+        <div id="progresso-lista" class="progresso-list"></div>
       </div>
-      <div id="cal-days" class="cal-grid"></div>
-      <div id="cal-day-detail" class="hidden">
-        <h4 id="cal-day-title"></h4>
-        <textarea id="cal-goal-input" placeholder="Meta para este dia..." rows="2"></textarea>
-        <button id="save-cal-goal" class="btn-primary">Salvar Meta</button>
-        <div class="cal-checklist">
-          <h5>Checklist do dia</h5>
-          <ul id="cal-checklist-items"></ul>
-          <button id="cal-add-task" class="btn-outline">+ Tarefa</button>
+
+      <div class="glass-card">
+        <h3>Heatmap de Atividade</h3>
+        <p class="muted">Atividade dos &uacute;ltimos 90 dias</p>
+        <div id="heatmap" class="heatmap"></div>
+      </div>
+
+      <div class="glass-card">
+        <h3>Conquistas</h3>
+        <div id="achievements" class="achievements"></div>
+      </div>
+    </section>
+
+    <!-- ============== FERRAMENTAS ============== -->
+    <section id="page-ferramentas" class="page">
+      <div class="page-head">
+        <div>
+          <h2>Ferramentas</h2>
+          <p>Recursos extras para turbinar seus estudos</p>
+        </div>
+      </div>
+
+      <div class="tools-grid">
+        <button class="tool-card" data-tool="calc">
+          <div class="tool-icon">&#128290;</div>
+          <div class="tool-title">Calculadora Cient&iacute;fica</div>
+          <div class="tool-desc">Fun&ccedil;&otilde;es avan&ccedil;adas</div>
+        </button>
+        <button class="tool-card" data-tool="notes">
+          <div class="tool-icon">&#128221;</div>
+          <div class="tool-title">Anota&ccedil;&otilde;es</div>
+          <div class="tool-desc">Salve com mat&eacute;ria e data</div>
+        </button>
+        <button class="tool-card" data-tool="pomodoro">
+          <div class="tool-icon">&#9201;</div>
+          <div class="tool-title">Pomodoro</div>
+          <div class="tool-desc">Foco total nos estudos</div>
+        </button>
+        <button class="tool-card" data-tool="cronograma">
+          <div class="tool-icon">&#128197;</div>
+          <div class="tool-title">Cronograma</div>
+          <div class="tool-desc">Plano semanal</div>
+        </button>
+        <button class="tool-card" data-tool="calendario">
+          <div class="tool-icon">&#128467;</div>
+          <div class="tool-title">Calend&aacute;rio</div>
+          <div class="tool-desc">Metas e tarefas</div>
+        </button>
+        <button class="tool-card" data-tool="dados">
+          <div class="tool-icon">&#128190;</div>
+          <div class="tool-title">Backup</div>
+          <div class="tool-desc">Exportar/Importar dados</div>
+        </button>
+      </div>
+    </section>
+
+    <!-- ============== CALCULADORA ============== -->
+    <section id="page-calc" class="page">
+      <div class="page-head">
+        <button class="back-btn back-tool">&larr; Voltar</button>
+        <div>
+          <h2>&#128290; Calculadora Cient&iacute;fica</h2>
+          <p>Use para matem&aacute;tica financeira e racioc&iacute;nio l&oacute;gico</p>
+        </div>
+      </div>
+
+      <div class="calc-wrap">
+        <div class="calc-display glass-card">
+          <div class="calc-history" id="calc-history"></div>
+          <div class="calc-expr" id="calc-expr">0</div>
+        </div>
+
+        <div class="calc-modes">
+          <button class="mode-btn active" data-mode="deg">DEG</button>
+          <button class="mode-btn" data-mode="rad">RAD</button>
+          <button class="mode-btn" data-mode="hyp">HYP</button>
+        </div>
+
+        <div class="calc-keypad">
+          <button class="key key-fn" data-fn="mc">MC</button>
+          <button class="key key-fn" data-fn="mr">MR</button>
+          <button class="key key-fn" data-fn="mplus">M+</button>
+          <button class="key key-fn" data-fn="mminus">M-</button>
+          <button class="key key-fn" data-fn="ms">MS</button>
+
+          <button class="key key-fn" data-fn="sin">sin</button>
+          <button class="key key-fn" data-fn="cos">cos</button>
+          <button class="key key-fn" data-fn="tan">tan</button>
+          <button class="key key-fn" data-fn="pi">&pi;</button>
+          <button class="key key-fn" data-fn="e">e</button>
+
+          <button class="key key-fn" data-fn="asin">sin&#8315;&sup1;</button>
+          <button class="key key-fn" data-fn="acos">cos&#8315;&sup1;</button>
+          <button class="key key-fn" data-fn="atan">tan&#8315;&sup1;</button>
+          <button class="key key-fn" data-fn="log">log</button>
+          <button class="key key-fn" data-fn="ln">ln</button>
+
+          <button class="key key-fn" data-fn="sqrt">&radic;</button>
+          <button class="key key-fn" data-fn="pow">x<sup>y</sup></button>
+          <button class="key key-fn" data-fn="sq">x&sup2;</button>
+          <button class="key key-fn" data-fn="cube">x&sup3;</button>
+          <button class="key key-fn" data-fn="fact">n!</button>
+
+          <button class="key key-ac" data-fn="ac">AC</button>
+          <button class="key key-fn" data-fn="back">&larr;</button>
+          <button class="key key-fn" data-fn="lparen">(</button>
+          <button class="key key-fn" data-fn="rparen">)</button>
+          <button class="key key-op" data-fn="div">&divide;</button>
+
+          <button class="key key-num" data-num="7">7</button>
+          <button class="key key-num" data-num="8">8</button>
+          <button class="key key-num" data-num="9">9</button>
+          <button class="key key-fn" data-fn="pct">%</button>
+          <button class="key key-op" data-fn="mul">&times;</button>
+
+          <button class="key key-num" data-num="4">4</button>
+          <button class="key key-num" data-num="5">5</button>
+          <button class="key key-num" data-num="6">6</button>
+          <button class="key key-fn" data-fn="neg">&plusmn;</button>
+          <button class="key key-op" data-fn="sub">&minus;</button>
+
+          <button class="key key-num" data-num="1">1</button>
+          <button class="key key-num" data-num="2">2</button>
+          <button class="key key-num" data-num="3">3</button>
+          <button class="key key-fn" data-fn="abs">|&nbsp;|</button>
+          <button class="key key-op" data-fn="add">+</button>
+
+          <button class="key key-num key-zero" data-num="0">0</button>
+          <button class="key key-num" data-num=".">.</button>
+          <button class="key key-eq" data-fn="eq">=</button>
+        </div>
+
+        <div class="calc-mem" id="calc-mem-display" style="display:none">M: <span id="calc-mem-value">0</span></div>
+
+        <div class="calc-history-panel glass-card">
+          <div class="calc-history-head">
+            <h4>Hist&oacute;rico</h4>
+            <button class="btn-mini" id="clear-history">Limpar</button>
+          </div>
+          <ul id="calc-history-list"></ul>
         </div>
       </div>
     </section>
+
+    <!-- ============== ANOTAÇÕES ============== -->
+    <section id="page-notes" class="page">
+      <div class="page-head">
+        <button class="back-btn back-tool">&larr; Voltar</button>
+        <div>
+          <h2>&#128221; Anota&ccedil;&otilde;es</h2>
+          <p>Salve lembretes por mat&eacute;ria e data</p>
+        </div>
+      </div>
+
+      <div class="note-composer glass-card">
+        <input type="text" id="note-titulo" placeholder="T&iacute;tulo da anota&ccedil;&atilde;o..." class="note-title-input">
+        <div class="note-meta">
+          <select id="note-materia" class="note-select"></select>
+          <input type="date" id="note-data" class="note-date-input">
+        </div>
+        <textarea id="note-conteudo" placeholder="Escreva sua anota&ccedil;&atilde;o..." rows="4"></textarea>
+        <div class="note-actions">
+          <button id="note-pin" class="btn-mini" title="Fixar">&#128204;</button>
+          <button id="note-cancelar" class="btn-outline">Cancelar</button>
+          <button id="note-salvar" class="btn-primary">Salvar Anota&ccedil;&atilde;o</button>
+        </div>
+      </div>
+
+      <div class="note-filters">
+        <input type="text" id="note-search" placeholder="&#128269; Buscar anota&ccedil;&otilde;es...">
+        <select id="note-filter-materia"><option value="">Todas mat&eacute;rias</option></select>
+      </div>
+
+      <div id="notes-lista" class="notes-list"></div>
+    </section>
+
+    <!-- ============== POMODORO ============== -->
+    <section id="page-pomodoro" class="page">
+      <div class="page-head">
+        <button class="back-btn back-tool">&larr; Voltar</button>
+        <div>
+          <h2>&#9201; Pomodoro</h2>
+          <p>Foco total nos estudos</p>
+        </div>
+      </div>
+
+      <div class="pomodoro-wrap">
+        <div class="pomodoro-card glass-card">
+          <div class="pomodoro-mode">
+            <button class="mode-btn active" data-pmode="focus">Foco</button>
+            <button class="mode-btn" data-pmode="short">Pausa Curta</button>
+            <button class="mode-btn" data-pmode="long">Pausa Longa</button>
+          </div>
+          <div class="pomodoro-circle">
+            <svg viewBox="0 0 220 220">
+              <defs>
+                <linearGradient id="pomoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#7c3aed"/>
+                  <stop offset="100%" stop-color="#06b6d4"/>
+                </linearGradient>
+              </defs>
+              <circle class="pomo-bg" cx="110" cy="110" r="100"/>
+              <circle class="pomo-fill" id="pomo-fill" cx="110" cy="110" r="100"/>
+            </svg>
+            <div class="pomo-center">
+              <div class="pomo-time" id="pomo-time">25:00</div>
+              <div class="pomo-label" id="pomo-label">Foco</div>
+            </div>
+          </div>
+          <div class="pomodoro-actions">
+            <button id="pomo-start" class="btn-primary">Iniciar</button>
+            <button id="pomo-pause" class="btn-outline" style="display:none">Pausar</button>
+            <button id="pomo-reset" class="btn-outline">Resetar</button>
+          </div>
+          <div class="pomo-stats">
+            <div><b id="pomo-count">0</b> ciclos hoje</div>
+            <div><b id="pomo-tempo">0</b> min estudados</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CRONOGRAMA ============== -->
+    <section id="page-cronograma" class="page">
+      <div class="page-head">
+        <div>
+          <h2>Cronograma Semanal</h2>
+          <p>Plano de estudos da semana</p>
+        </div>
+      </div>
+
+      <div class="week-nav glass-card">
+        <button id="prev-week" class="icon-btn">&larr;</button>
+        <span id="week-label">Esta Semana</span>
+        <button id="next-week" class="icon-btn">&rarr;</button>
+      </div>
+      <div id="cronograma-grid" class="cronograma-grid"></div>
+    </section>
+
+    <!-- ============== CALENDÁRIO ============== -->
+    <section id="page-calendario" class="page">
+      <div class="page-head">
+        <div>
+          <h2>Calend&aacute;rio de Metas</h2>
+          <p>Defina objetivos di&aacute;rios</p>
+        </div>
+      </div>
+
+      <div class="cal-nav glass-card">
+        <button id="prev-month" class="icon-btn">&larr;</button>
+        <span id="cal-month-label">Junho 2026</span>
+        <button id="next-month" class="icon-btn">&rarr;</button>
+      </div>
+      <div class="cal-grid-header">
+        <span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>S&aacute;b</span>
+      </div>
+      <div id="cal-days" class="cal-grid"></div>
+      <div id="cal-day-detail" class="glass-card hidden">
+        <h4 id="cal-day-title"></h4>
+        <textarea id="cal-goal-input" placeholder="Meta para este dia..." rows="2"></textarea>
+        <button id="save-cal-goal" class="btn-primary btn-block">Salvar Meta</button>
+        <div class="cal-checklist">
+          <h5>Checklist do dia</h5>
+          <ul id="cal-checklist-items"></ul>
+          <button id="cal-add-task" class="btn-outline btn-block">+ Tarefa</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== DADOS / BACKUP ============== -->
+    <section id="page-dados" class="page">
+      <div class="page-head">
+        <button class="back-btn back-tool">&larr; Voltar</button>
+        <div>
+          <h2>&#128190; Backup de Dados</h2>
+          <p>Exporte ou importe seu progresso</p>
+        </div>
+      </div>
+
+      <div class="glass-card">
+        <h3>Exportar Dados</h3>
+        <p class="muted">Baixe um arquivo JSON com todo o seu progresso.</p>
+        <button id="export-data" class="btn-primary btn-block">&#128190; Exportar</button>
+      </div>
+
+      <div class="glass-card">
+        <h3>Importar Dados</h3>
+        <p class="muted">Carregue um backup. Isso substituir&aacute; os dados atuais.</p>
+        <input type="file" id="import-file" accept=".json" style="display:none">
+        <button id="import-data" class="btn-outline btn-block">&#128228; Importar</button>
+      </div>
+
+      <div class="glass-card">
+        <h3>Resetar Tudo</h3>
+        <p class="muted danger">Apaga todo o progresso. Esta a&ccedil;&atilde;o n&atilde;o pode ser desfeita.</p>
+        <button id="reset-data" class="btn-danger btn-block">&#128465; Resetar Dados</button>
+      </div>
+
+      <div class="glass-card">
+        <h3>Sobre</h3>
+        <p class="muted">Dashboard INSS 2026 — Edi&ccedil;&atilde;o Gal&aacute;ctica</p>
+        <p class="muted">Banca: CEBRASPE &middot; Conte&uacute;do: Edital 2024/2025</p>
+      </div>
+    </section>
+
   </main>
 
+  <!-- BOTTOM NAV -->
   <nav id="bottom-nav">
     <button class="nav-btn active" data-page="dashboard">
-      <span class="nav-icon">&#9673;</span>
-      <span class="nav-label">Início</span>
+      <span class="nav-icon">&#9728;</span>
+      <span class="nav-label">In&iacute;cio</span>
     </button>
     <button class="nav-btn" data-page="materias">
       <span class="nav-icon">&#128218;</span>
-      <span class="nav-label">Matérias</span>
+      <span class="nav-label">Mat&eacute;rias</span>
     </button>
-    <button class="nav-btn" data-page="cronograma">
-      <span class="nav-icon">&#128197;</span>
-      <span class="nav-label">Cronograma</span>
+    <button class="nav-btn" data-page="simulados">
+      <span class="nav-icon">&#127942;</span>
+      <span class="nav-label">Simulados</span>
     </button>
     <button class="nav-btn" data-page="progresso">
       <span class="nav-icon">&#128200;</span>
       <span class="nav-label">Progresso</span>
     </button>
-    <button class="nav-btn" data-page="calendario">
-      <span class="nav-icon">&#128467;</span>
-      <span class="nav-label">Calendário</span>
+    <button class="nav-btn" data-page="ferramentas">
+      <span class="nav-icon">&#9881;</span>
+      <span class="nav-label">Ferramentas</span>
     </button>
   </nav>
+
+  <!-- BALÃO LATERAL DE ANOTAÇÕES -->
+  <button id="notes-fab" class="notes-fab" title="Anota&ccedil;&otilde;es r&aacute;pidas">
+    <span class="fab-icon">&#128221;</span>
+    <span class="fab-pulse"></span>
+  </button>
+
+  <div id="notes-balloon" class="notes-balloon">
+    <div class="balloon-head">
+      <div>
+        <h3>&#128221; Anota&ccedil;&otilde;es R&aacute;pidas</h3>
+        <span class="balloon-sub" id="balloon-date"></span>
+      </div>
+      <button id="balloon-close" class="icon-btn">&times;</button>
+    </div>
+    <div class="balloon-body">
+      <div class="balloon-form">
+        <input type="text" id="balloon-titulo" placeholder="T&iacute;tulo...">
+        <div class="balloon-row">
+          <select id="balloon-materia"></select>
+          <input type="date" id="balloon-data">
+        </div>
+        <textarea id="balloon-texto" placeholder="Digite sua anota&ccedil;&atilde;o..."></textarea>
+        <button id="balloon-save" class="btn-primary btn-block">&#128190; Salvar</button>
+      </div>
+      <div class="balloon-list" id="balloon-list"></div>
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content glass-card">
+      <h3 id="modal-title">Modal</h3>
+      <p id="modal-text"></p>
+      <div class="modal-actions" id="modal-actions"></div>
+    </div>
+  </div>
+
 </div>
 
+<script src="data.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
