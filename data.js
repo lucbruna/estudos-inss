@@ -150,6 +150,147 @@
               'Coes&atilde;o sequencial: <em>primeiro... em seguida... finalmente</em>.',
               'Substitui&ccedil;&atilde;o, elipse, repeti&ccedil;&atilde;o, paralelismo.'
             ]
+          },
+          {
+            h: '11. Classes de Palavras &mdash; Detalhamento',
+            p: '<p>As 10 classes gramaticais se dividem em <strong>vari&aacute;veis</strong> (substantivo, adjetivo, artigo, numeral, pronome, verbo) e <strong>invari&aacute;veis</strong> (adv&eacute;rbio, preposi&ccedil;&atilde;o, conjun&ccedil;&atilde;o, interjei&ccedil;&atilde;o).</p>',
+            ul: [
+              '<strong>Substantivo:</strong> nomeia seres, objetos, sentimentos. Classifica&ccedil;&atilde;o: comum/pr&oacute;prio, concreto/abstrato, simples/composto, primitivo/derivado.',
+              '<strong>Adjetivo:</strong> qualifica o substantivo. G&ecirc;nero, n&uacute;mero e grau (comparativo e superlativo).',
+              '<strong>Artigo:</strong> definido (o, a, os, as) e indefinido (um, uma, uns, umas).',
+              '<strong>Numeral:</strong> cardinal, ordinal, fracion&aacute;rio, multiplicativo.',
+              '<strong>Pronome:</strong> pessoais (reto, obl&iacute;quo, de tratamento), possessivos, demonstrativos, indefinidos, relativos, interrogativos.',
+              '<strong>Verbo:</strong> expressa a&ccedil;&atilde;o, estado, fen&ocirc;meno. Conjugado em tempo, modo, pessoa, n&uacute;mero, voz.',
+              '<strong>Adv&eacute;rbio:</strong> modifica verbo, adjetivo ou outro adv&eacute;rbio. Classifica&ccedil;&atilde;o: tempo, lugar, modo, intensidade, afirma&ccedil;&atilde;o, nega&ccedil;&atilde;o, d&uacute;vida.',
+              '<strong>Preposi&ccedil;&atilde;o:</strong> liga termos. Essenciais (a, de, em, para, com, por, sem, at&eacute;) e acidentais.',
+              '<strong>Conjun&ccedil;&atilde;o:</strong> liga ora&ccedil;&otilde;es. Coordenativas e subordinativas.',
+              '<strong>Interjei&ccedil;&atilde;o:</strong> exprime emo&ccedil;&atilde;o. Oh! Ah! Ufa!'
+            ]
+          },
+          {
+            h: '12. Sintaxe do Per&iacute;odo Simples &mdash; Termos da Ora&ccedil;&atilde;o',
+            p: '<p><strong>Termos essenciais:</strong> sujeito e predicado. <strong>Termos integrantes:</strong> objeto direto, objeto indireto, complemento nominal, agente da passiva. <strong>Termos acess&oacute;rios:</strong> adjunto adverbial, adjunto adnominal, aposto. <strong>Termo independente:</strong> vocativo.</p>',
+            ul: [
+              '<strong>Sujeito:</strong> simples, composto, oculto (desinencial), indeterminado, inexistente.',
+              '<strong>Predicado:</strong> verbal (n&uacute;cleo &eacute; verbo), nominal (n&uacute;cleo &eacute; nome), verbo-nominal (verbo + nome).',
+              '<strong>Objeto direto:</strong> complemento sem preposi&ccedil;&atilde;o. Ex: <em>Comprei o livro</em>.',
+              '<strong>Objeto indireto:</strong> complemento com preposi&ccedil;&atilde;o. Ex: <em>Gosto de m&uacute;sica</em>.',
+              '<strong>Complemento nominal:</strong> completa nome (substantivo, adjetivo, adv&eacute;rbio). Ex: <em>amor &agrave; vida</em>.',
+              '<strong>Adjunto adverbial:</strong> modifica verbo indicando tempo, lugar, modo, etc.',
+              '<strong>Aposto:</strong> explica ou especifica um termo.',
+              '<strong>Vocativo:</strong> chamamento (termo independente).'
+            ]
+          },
+          {
+            h: '13. Vozes Verbais',
+            p: '<p>A <strong>voz verbal</strong> indica se o sujeito pratica, recebe ou sofre a a&ccedil;&atilde;o.</p>',
+            ul: [
+              '<strong>Voz ativa:</strong> sujeito pratica a a&ccedil;&atilde;o. Ex: <em>O aluno estudou a li&ccedil;&atilde;o</em>.',
+              '<strong>Voz passiva:</strong> sujeito sofre a a&ccedil;&atilde;o. Pode ser <em>anal&iacute;tica</em> (com ser + partic&iacute;pio) ou <em>sint&eacute;tica</em> (com pronome se).',
+              '<strong>Passiva anal&iacute;tica:</strong> O livro <em>foi lido</em> por mim. Agente da passiva introduzido por <em>por</em>.',
+              '<strong>Passiva sint&eacute;tica (ou pronominal):</strong> Vendem-se casas (= casas s&atilde;o vendidas).',
+              '<strong>Voz reflexiva:</strong> sujeito pratica e recebe a a&ccedil;&atilde;o. Ex: <em>Eu me cortei</em>.',
+              '<strong>Pegadinha CEBRASPE:</strong> confundir voz passiva pronominal com voz ativa &mdash; o sujeito em &quot;vendem-se casas&quot; &eacute; indeterminado, n&atilde;o &quot;casas&quot;.'
+            ]
+          },
+          {
+            h: '14. Conectivos e Conjun&ccedil;&otilde;es',
+            p: '<p>Os conectivos s&atilde;o essenciais para a coer&ecirc;ncia textual e muito cobrados pela CEBRASPE em quest&otilde;es de reescrita.</p>',
+            ul: [
+              '<strong>Aditivos:</strong> e, tamb&eacute;m, nem, tampouco, al&eacute;m disso, outrossim.',
+              '<strong>Adversativos:</strong> mas, por&eacute;m, todavia, contudo, entretanto, no entanto, embora, sen&atilde;o.',
+              '<strong>Alternativos:</strong> ou, ora...ora, j&aacute;...j&aacute;, quer...quer.',
+              '<strong>Conclusivos:</strong> logo, portanto, pois, por conseguinte, dessa forma, em vista disso.',
+              '<strong>Causais:</strong> porque, pois, j&aacute; que, uma vez que, visto que, como.',
+              '<strong>Concessivos:</strong> embora, conquanto, mesmo que, ainda que, se bem que, posto que.',
+              '<strong>Condicionais:</strong> se, caso, contanto que, a menos que, desde que.',
+              '<strong>Comparativos:</strong> como, tal qual, assim como, tanto...quanto.',
+              '<strong>Temporais:</strong> quando, enquanto, antes que, depois que, logo que, mal.',
+              '<strong>Finais:</strong> para que, a fim de que, com o objetivo de.',
+              '<strong>Proporcionais:</strong> &agrave; medida que, &agrave; propor&ccedil;&atilde;o que, quanto mais...mais.'
+            ]
+          },
+          {
+            h: '15. Per&iacute;odo Composto &mdash; Subordina&ccedil;&atilde;o Detalhada',
+            p: '<p>O per&iacute;odo composto por subordina&ccedil;&atilde;o tem ora&ccedil;&otilde;es que exercem fun&ccedil;&atilde;o sint&aacute;tica umas das outras.</p>',
+            ul: [
+              '<strong>Substantivas:</strong> exercem fun&ccedil;&atilde;o de substantivo. Tipos: subjetiva, objetiva direta, objetiva indireta, completiva nominal, predicativa, apositiva, agente da passiva.',
+              '<strong>Adjetivas:</strong> exercem fun&ccedil;&atilde;o de adjetivo. Restritiva (limita o sentido) ou explicativa (apenas acrescenta).',
+              '<strong>Adverbiais:</strong> exercem fun&ccedil;&atilde;o de adjunto adverbial. Causais, concessivas, condicionais, temporais, finais, consecutivas, comparativas, conformativas, proporcionais.',
+              '<strong>Reduzidas:</strong> sem conjun&ccedil;&atilde;o; usam verbo no infinitivo, ger&uacute;ndio ou partic&iacute;pio. Ex: <em>Estudo para passar</em> (= para que eu passe).',
+              '<strong>Pegadinha cl&aacute;ssica:</strong> classifica&ccedil;&atilde;o de ora&ccedil;&atilde;o adjetiva restritiva vs explicativa. Observe a presen&ccedil;a ou n&atilde;o de v&iacute;rgulas.'
+            ]
+          },
+          {
+            h: '16. Sem&acirc;ntica e Estil&iacute;stica',
+            p: '<p>Rela&ccedil;&otilde;es sem&acirc;nticas entre palavras muito cobradas:</p>',
+            ul: [
+              '<strong>Sinon&iacute;mia:</strong> palavras de sentido similar. Ex: casa / resid&ecirc;ncia.',
+              '<strong>Anton&iacute;mia:</strong> sentido oposto. Ex: bom / mau.',
+              '<strong>Polissemia:</strong> m&uacute;ltiplos sentidos. Ex: <em>m&atilde;o</em> (parte do corpo / de f&atacute;brica).',
+              '<strong>Homon&iacute;mia:</strong> palavras com mesma grafia ou som, sentidos diferentes. Ex: <em>conserto</em> (reparo) / <em>concerto</em> (m&uacute;sica).',
+              '<strong>Hiperon&iacute;mia/hipon&iacute;mia:</strong> g&ecirc;nero e esp&eacute;cie. Ex: <em>animal</em> (hiper&ocirc;nimo) / <em>cachorro</em> (hip&ocirc;nimo).',
+              '<strong>Paron&iacute;mia:</strong> palavras parecidas com sentidos diferentes. Ex: <em>eminente</em> (ilustre) / <em>iminente</em> (prestes a acontecer).',
+              '<strong>Denota&ccedil;&atilde;o x conota&ccedil;&atilde;o:</strong> sentido literal / sentido figurado.',
+              '<strong>Figuras de linguagem:</strong> met&aacute;fora, meton&iacute;mia, pleonasmo, eufemismo, ironia, hip&eacute;rbole.'
+            ]
+          },
+          {
+            h: '17. Manual de Reda&ccedil;&atilde;o da Presid&ecirc;ncia da Rep&uacute;blica (3&ordf; ed. 2018)',
+            p: '<p>Documento oficial que padroniza a reda&ccedil;&atilde;o de atos oficiais. Aplica-se aos &oacute;rg&atilde;os da Administra&ccedil;&atilde;o P&uacute;blica Federal. Caracter&iacute;sticas principais:</p>',
+            ul: [
+              '<strong>Impessoalidade:</strong> evitar 1&ordf; e 2&ordf; pessoa (eu, n&oacute;s, voc&ecirc;). Usar 3&ordf; pessoa ou 1&ordf; do plural (n&oacute;s) com sentido impessoal.',
+              '<strong>Clareza:</strong> linguagem simples e direta, sem ambiguidades.',
+              '<strong>Concis&atilde;o:</strong> eliminar palavras desnecess&aacute;rias.',
+              '<strong>Formalidade:</strong> registro formal, sem g&iacute;rias, sem coloquialismos.',
+              '<strong>Padroniza&ccedil;&atilde;o:</strong> seguir o formato pr&eacute;-estabelecido para cada tipo de documento.',
+              '<strong>Documentos:</strong> of&iacute;cio, memorando, aviso, mensagem, telegrama, requerimento, parecer, rela&at&oacute;rio, ata.',
+              '<strong>Concord&acirc;ncia com 1&ordf; do plural:</strong> <em>Somos de parecer que...</em> (sujeito indeterminado, n&atilde;o pessoal).',
+              '<strong>Abrevia&ccedil;&otilde;es:</strong> V.Sa. (Vossa Senhoria), V.Exa. (Vossa Excel&ecirc;ncia), Dr. (Doutor), Ilmo. (Ilustr&iacute;ssimo).',
+              '<strong>Numerais:</strong> escrever por extenso de um a dez; acima, em algarismos. Datas: <em>14 de mar&ccedil;o de 2026</em> (n&atilde;o &quot;14/03/2026&quot;).',
+              '<strong>Fecho:</strong> <em>Atenciosamente</em> (para autoridades de mesma hierarquia ou inferior), <em>Respeitosamente</em> (para autoridades superiores).'
+            ]
+          },
+          {
+            h: '18. Coloca&ccedil;&atilde;o Pronominal',
+            p: '<p>Posi&ccedil;&atilde;o do pronome obl&iacute;quo &aacute;tono (me, te, se, lhe, nos, vos, lhes) em rela&ccedil;&atilde;o ao verbo.</p>',
+            ul: [
+              '<strong>Pr&oacute;clise:</strong> pronome ANTES do verbo. Ocorre com palavras atrativas: <em>n&atilde;o, nunca, todos, algu&eacute;m, talvez, se, quando, que, onde</em>. Ex: <em>N&atilde;o me diga isso</em>.',
+              '<strong>&Ecirc;nclise:</strong> pronome DEPOIS do verbo. Padr&atilde;o na norma culta quando n&atilde;o h&aacute; atrativo. Ex: <em>Entregaram-me o documento</em>.',
+              '<strong>Mes&oacute;clise:</strong> pronome NO MEIO do verbo (apenas com futuro do presente e futuro do pret&eacute;rito). Ex: <em>Far-lhe-ei um favor</em>.',
+              '<strong>Regras importantes:</strong>',
+              '1. Com verbo no infinitivo: pr&oacute;clise ou &ecirc;nclise (ambas aceitas). Ex: <em>Para me ver / Para ver-me</em>.',
+              '2. Com verbo no ger&uacute;ndio: obrigat&oacute;ria pr&oacute;clise. Ex: <em>Estava se vestindo</em>.',
+              '3. Com verbo no partic&iacute;pio: obrigat&oacute;ria &ecirc;nclise. Ex: <em>Tinha dito-me</em>.',
+              '<strong>Pegadinha CEBRASPE:</strong> &quot;Me empresta seu livro?&quot; &eacute; errado na norma culta (deve ser &quot;Empreste-me&quot;).'
+            ]
+          },
+          {
+            h: '19. An&aacute;lise Sint&aacute;tica Completa &mdash; Passo a Passo',
+            p: '<p>M&eacute;todo para identificar a fun&ccedil;&atilde;o de cada termo da ora&ccedil;&atilde;o:</p>',
+            ul: [
+              '<strong>1.&deg; passo:</strong> encontre o verbo e separe o sujeito do predicado.',
+              '<strong>2.&deg; passo:</strong> classifique o sujeito (simples, composto, oculto, indeterminado, inexistente).',
+              '<strong>3.&deg; passo:</strong> classifique o predicado (verbal, nominal, verbo-nominal).',
+              '<strong>4.&deg; passo:</strong> identifique os complementos (objetos, complemento nominal, agente da passiva).',
+              '<strong>5.&deg; passo:</strong> identifique os termos acess&oacute;rios (adjuntos, apostos).',
+              '<strong>6.&deg; passo:</strong> identifique o vocativo.',
+              '<strong>Exemplo:</strong> <em>Entreguei o livro ao aluno estudioso ontem</em>.',
+              '&nbsp;&nbsp;&bull; Sujeito: <em>eu</em> (oculto).<br>&nbsp;&nbsp;&bull; Predicado: verbal.<br>&nbsp;&nbsp;&bull; Verbo: <em>entreguei</em>.<br>&nbsp;&nbsp;&bull; Objeto direto: <em>o livro</em>.<br>&nbsp;&nbsp;&bull; Objeto indireto: <em>ao aluno</em>.<br>&nbsp;&nbsp;&bull; Adjunto adnominal: <em>estudioso</em>.<br>&nbsp;&nbsp;&bull; Adjunto adverbial: <em>ontem</em>.'
+            ]
+          },
+          {
+            h: '20. Reescrita e Par&aacute;frase (CEBRASPE)',
+            p: '<p>A CEBRASPE adora quest&otilde;es de reescrita. Preste aten&ccedil;&atilde;o a:</p>',
+            ul: [
+              '<strong>Substitui&ccedil;&atilde;o de palavras:</strong> sin&ocirc;nimos devem manter o sentido original.',
+              '<strong>Deslocamento de termos:</strong> pode alterar a rela&ccedil;&atilde;o sint&aacute;tica (ex: adverbial deslocada).',
+              '<strong>Paragrafa&ccedil;&atilde;o:</strong> divis&atilde;o de per&iacute;odo em dois n&atilde;o pode mudar o sentido.',
+              '<strong>Vocabul&aacute;rio:</strong> troca de palavra exige aten&ccedil;&atilde;o &agrave; reg&ecirc;ncia, crase, concord&acirc;ncia.',
+              '<strong>Pegadinha:</strong> substitui&ccedil;&atilde;o de conector &mdash; &quot;por&eacute;m&quot; (adversativo) n&atilde;o pode virar &quot;portanto&quot; (conclusivo).',
+              '<strong>Pegadinha:</strong> voz passiva muda a fun&ccedil;&atilde;o sint&aacute;tica: <em>Os alunos estudaram</em> (sujeito: alunos, objeto impl&iacute;cito: a mat&eacute;ria) &rarr; <em>A mat&eacute;ria foi estudada pelos alunos</em> (sujeito: mat&eacute;ria, agente: alunos).',
+              '<strong>Exerc&iacute;cio mental:</strong> sempre pergunte: a nova frase mant&eacute;m o mesmo sentido e a mesma estrutura l&oacute;gica?'
+            ]
           }
         ]
       },
@@ -390,6 +531,165 @@
               'Somat&oacute;rio de hor&aacute;rios: n&atilde;o pode exceder 60h semanais (S&uacute;mula AGU).',
               'Aposentado: pode acumular com cargos acumul&aacute;veis na ativa.'
             ]
+          },
+          {
+            h: '9. Deveres e Proibi&ccedil;&otilde;es do Servidor (Lei 8.112/90)',
+            p: '<p>Art. 116 (deveres) e 117 (proibi&ccedil;&otilde;es) da Lei 8.112/90.</p>',
+            ul: [
+              '<strong>Deveres principais (art. 116):</strong>',
+              '&nbsp;&bull; Exercer com zelo e dedica&ccedil;&atilde;o as atribui&ccedil;&otilde;es do cargo.<br>',
+              '&nbsp;&bull; Ser leal &agrave;s institui&ccedil;&otilde;es a que servir.<br>',
+              '&nbsp;&bull; Observar as normas legais e regulamentares.<br>',
+              '&nbsp;&bull; Cumprir as ordens superiores, exceto quando manifestamente ilegais.<br>',
+              '&nbsp;&bull; Atender com presteza ao p&uacute;blico, prestando informa&ccedil;&otilde;es conforme a lei.<br>',
+              '&nbsp;&bull; Levar ao conhecimento da autoridade superior irregularidade de que tiver ci&ecirc;ncia.<br>',
+              '&nbsp;&bull; Zelar pela economia do material e conserva&ccedil;&atilde;o do patrim&ocirc;nio p&uacute;blico.<br>',
+              '&nbsp;&bull; Guardar sigilo sobre assunto da reparti&ccedil;&atilde;o.<br>',
+              '&nbsp;&bull; Manter conduta compat&iacute;vel com a moralidade administrativa.<br>',
+              '&nbsp;&bull; Ser ass&iacute;duo e pontual.<br>',
+              '&nbsp;&bull; Tratar com urbanidade as pessoas.<br>',
+              '&nbsp;&bull; Representar contra ilegalidade, omiss&atilde;o ou abuso de poder.',
+              '<strong>Proibi&ccedil;&otilde;es (art. 117):</strong>',
+              '&nbsp;&bull; Ausentar-se do servi&ccedil;o durante o expediente sem autoriza&ccedil;&atilde;o.<br>',
+              '&nbsp;&bull; Retirar, sem pr&eacute;via autoriza&ccedil;&atilde;o, documento ou objeto da reparti&ccedil;&atilde;o.<br>',
+              '&nbsp;&bull; Recusar f&eacute; a documentos p&uacute;blicos.<br>',
+              '&nbsp;&bull; Opor resist&ecirc;ncia injustificada ao andamento de documento, processo ou execu&ccedil;&atilde;o de servi&ccedil;o.<br>',
+              '&nbsp;&bull; Promover manifesta&ccedil;&atilde;o de apre&ccedil;o ou desapre&ccedil;o no recinto da reparti&ccedil;&atilde;o.<br>',
+              '&nbsp;&bull; Referir-se de modo depreciativo a autoridade ou servidor.<br>',
+              '&nbsp;&bull; Cometer a pessoa estranha &agrave; reparti&ccedil;&atilde;o, fora dos casos previstos em lei, o desempenho de encargo.<br>',
+              '&nbsp;&bull; Compor com administrador, ou contratar com ele, mesmo fora do exerc&iacute;cio do cargo.<br>',
+              '&nbsp;&bull; Valer-se do cargo para obter proveito pessoal.<br>',
+              '&nbsp;&bull; Participar de ger&ecirc;ncia ou administra&ccedil;&atilde;o de empresa privada.<br>',
+              '&nbsp;&bull; Atuar como procurador ou intermedi&aacute;rio.<br>',
+              '&nbsp;&bull; Aceitar comiss&atilde;o, emprego ou pens&atilde;o de Estado estrangeiro.<br>',
+              '&nbsp;&bull; Praticar usura.<br>',
+              '&nbsp;&bull; Proceder de forma desidiosa.<br>',
+              '&nbsp;&bull; Cometer a outro servidor atribui&ccedil;&otilde;es estranhas ao cargo.<br>',
+              '&nbsp;&bull; Exercer quaisquer atividades incompat&iacute;veis com o cargo ou a jornada.'
+            ]
+          },
+          {
+            h: '10. Responsabilidades do Servidor (Art. 121-126-A)',
+            p: '<p>O servidor p&uacute;blico responde civil, penal e administrativamente pelo exerc&iacute;cio irregular de suas atribui&ccedil;&otilde;es.</p>',
+            ul: [
+              '<strong>Responsabilidade civil (art. 122):</strong> obriga&ccedil;&atilde;o de reparar dano causado a terceiro ou &agrave; Administra&ccedil;&atilde;o. A&ccedil;&atilde;o regressiva da Administra&ccedil;&atilde;o contra o servidor.',
+              '<strong>Responsabilidade penal (art. 123):</strong> crimes funcionais (art. 312-326 CP) e crimes comuns. Aplica&ccedil;&atilde;o cumulativa das san&ccedil;&otilde;es.',
+              '<strong>Responsabilidade administrativa (art. 124-126):</strong> san&ccedil;&otilde;es disciplinares (advert&ecirc;ncia, suspens&atilde;o, demiss&atilde;o).',
+              '<strong>Independ&ecirc;ncia das inst&acirc;ncias (art. 125):</strong> as responsabilidades s&atilde;o <strong>independentes</strong>. A absolvi&ccedil;&atilde;o criminal n&atilde;o impede a&ccedil;&atilde;o administrativa, salvo se a senten&ccedil;a criminal negar a exist&ecirc;ncia do fato ou a autoria.',
+              '<strong>Prescri&ccedil;&atilde;o (art. 142, I):</strong> 5 anos para a&ccedil;&atilde;o disciplinar punitiva. Decad&ecirc;ncia (art. 144): 2 anos para a Administra&ccedil;&atilde;o constituir a comiss&atilde;o.',
+              '<strong>San&ccedil;&otilde;es disciplinares (art. 127):</strong> advert&ecirc;ncia, suspens&atilde;o, demiss&atilde;o, cassa&ccedil;&atilde;o de aposentadoria/disponibilidade, destitui&ccedil;&atilde;o de cargo em comiss&atilde;o.'
+            ]
+          },
+          {
+            h: '11. Penalidades Disciplinares Detalhadas',
+            p: '<p>Art. 127 e seguintes da Lei 8.112/90.</p>',
+            ul: [
+              '<strong>Advert&ecirc;ncia (art. 129):</strong> para falta leve, aplicada por escrito. &Eacute; prescrit&aacute;vel ap&oacute;s 3 anos sem reincid&ecirc;ncia (Lei 9.527/97).',
+              '<strong>Suspens&atilde;o (art. 130):</strong> at&eacute; 90 dias. Aplicada para faltas graves. Converter em multa de 50% da remunera&ccedil;&atilde;o por dia, se houver conveni&ecirc;ncia.',
+              '<strong>Demiss&atilde;o (art. 132):</strong> faltas graves especificadas na lei. Hip&oacute;teses: crime contra a Administra&ccedil;&atilde;o, improbidade, insubordina&ccedil;&atilde;o, abandono, incontin&ecirc;ncia p&uacute;blica, jogo, aplica&ccedil;&atilde;o irregular de dinheiro p&uacute;blico, les&atilde;o aos cofres p&uacute;blicos.',
+              '<strong>Cassa&ccedil;&atilde;o de aposentadoria (art. 134):</strong> para inativo que praticou falta pun&iacute;vel com demiss&atilde;o.',
+              '<strong>Destitui&ccedil;&atilde;o de cargo em comiss&atilde;o (art. 135):</strong> para ocupante de cargo em comiss&atilde;o que praticou falta pun&iacute;vel com demiss&atilde;o.',
+              '<strong>Destitui&ccedil;&atilde;o de fun&ccedil;&atilde;o de confian&ccedil;a:</strong> aplicada a quem ocupa fun&ccedil;&atilde;o gratificada.',
+              '<strong>Efeitos da demiss&atilde;o (art. 137):</strong> inabilita&ccedil;&atilde;o para 5 anos para outro cargo p&uacute;blico, perda da aposentadoria (se houver), ressarcimento ao er&aacute;rio.',
+              '<strong>Demiss&atilde;o de cargo efetivo incompat&iacute;vel (art. 132, &sect; &uacute;nico):</strong> aplica&ccedil;&atilde;o da pena de demiss&atilde;o a servidor em disponibilidade por falta pun&iacute;vel.'
+            ]
+          },
+          {
+            h: '12. Processo Administrativo Disciplinar (PAD) &mdash; Detalhamento',
+            p: '<p>Apura&ccedil;&atilde;o de responsabilidade funcional de servidores. Fases detalhadas (art. 148-166):</p>',
+            ul: [
+              '<strong>1&ordf; fase: Instaura&ccedil;&atilde;o (art. 149):</strong>',
+              '&nbsp;&bull; Portaria da autoridade competente (com poderes para aplicar a penalidade).<br>',
+              '&nbsp;&bull; Indica&ccedil;&atilde;o dos fatos e fundamentos.<br>',
+              '&nbsp;&bull; Nomea&ccedil;&atilde;o da comiss&atilde;o (3 servidores est&aacute;veis, sem v&iacute;nculo com o caso).',
+              '<strong>2&ordf; fase: Inqu&eacute;rito (art. 150-156):</strong>',
+              '&nbsp;&bull; <strong>Instru&ccedil;&atilde;o:</strong> produ&ccedil;&atilde;o de provas (testemunhal, documental, pericial).<br>',
+              '&nbsp;&bull; <strong>Defesa escrita:</strong> 10 dias para o indiciado ap&oacute;s c&iacute;te.<br>',
+              '&nbsp;&bull; <strong>Relat&oacute;rio:</strong> conclus&atilde;o da comiss&atilde;o, com recomenda&ccedil;&atilde;o.',
+              '<strong>3&ordf; fase: Julgamento (art. 157-166):</strong>',
+              '&nbsp;&bull; Prazo: 20 dias (prorrog&aacute;veis por mais 10).<br>',
+              '&nbsp;&bull; Decis&atilde;o da autoridade competente (pode aceitar, reformar ou aplicar pena mais branda).<br>',
+              '&nbsp;&bull; Decis&atilde;o motivada.',
+              '<strong>Prazos (art. 152, &sect;1&ordm;):</strong>',
+              '&nbsp;&bull; 60 dias para conclus&atilde;o do processo.<br>',
+              '&nbsp;&bull; Prorroga&ccedil;&atilde;o: 60 dias, motivada.<br>',
+              '&nbsp;&bull; Total m&aacute;ximo: 120 dias.',
+              '<strong>Comiss&atilde;o (art. 149, &sect;2&ordm;):</strong>',
+              '&nbsp;&bull; 3 servidores est&aacute;veis.<br>',
+              '&nbsp;&bull; Presidente com cargo de n&iacute;vel igual ou superior ao do indiciado.<br>',
+              '&nbsp;&bull; N&atilde;o podem integrar: c&ocirc;njuge, companheiro, parente consangu&iacute;neo ou afim at&eacute; 3&ordm; grau do indiciado.',
+              '<strong>Afastamento preventivo (art. 147):</strong>',
+              '&nbsp;&bull; Aplicado para evitar influ&ecirc;ncia na apura&ccedil;&atilde;o.<br>',
+              '&nbsp;&bull; Prazo: at&eacute; 60 dias, prorrog&aacute;vel por mais 60.<br>',
+              '&nbsp;&bull; Com ou sem remunera&ccedil;&atilde;o, conforme o caso.',
+              '<strong>Sindic&acirc;ncia (art. 161-169):</strong>',
+              '&nbsp;&bull; <strong>Sum&aacute;ria:</strong> para casos de aplica&ccedil;&atilde;o de advert&ecirc;ncia ou suspens&atilde;o at&eacute; 30 dias. Prazo: 30 dias.<br>',
+              '&nbsp;&bull; <strong>Irregularidades funcionais:</strong> para apurar a materialidade dos fatos.<br>',
+              '&nbsp;&bull; <strong>Acad&ecirc;mica:</strong> para investiga&ccedil;&atilde;o pr&eacute;via. Prazo: 30 dias.<br>',
+              '&nbsp;&bull; <strong>Punitiva (contradit&oacute;ria):</strong> para apura&ccedil;&atilde;o com ampla defesa. Rito do PAD.'
+            ]
+          },
+          {
+            h: '13. Seguran&ccedil;a do Servidor &mdash; Regime de Previd&ecirc;ncia',
+            p: '<p>Lei 8.112/90 trata de v&aacute;rios benef&iacute;cios previdenci&aacute;rios e assistenciais ao servidor.</p>',
+            ul: [
+              '<strong>Aposentadoria:</strong> regime pr&oacute;prio (RPPS) ou RGPS, conforme o caso (servidor efetivo ou comissionado).',
+              '<strong>Pens&atilde;o por morte:</strong> 50% + 10% por dependente, vital&iacute;cia ou tempor&aacute;ria.',
+              '<strong>Aux&iacute;lio-funeral:</strong> indeniza&ccedil;&atilde;o por despesas de funeral.',
+              '<strong>Aux&iacute;lio-natalidade:</strong> indeniza&ccedil;&atilde;o por nascimento de filho.',
+              '<strong>Sal&aacute;rio-fam&iacute;lia:</strong> para dependentes at&eacute; 14 anos.',
+              '<strong>Licen&ccedil;a para tratamento de sa&uacute;de:</strong> 24 meses (prorrog&aacute;vel).',
+              '<strong>Licen&ccedil;a por motivo de doen&ccedil;a em pessoa da fam&iacute;lia:</strong> 60 dias (remunerada) + 90 (sem).',
+              '<strong>Licen&ccedil;a &agrave; gestante:</strong> 120 dias. Adotante: prazos por idade da crian&ccedil;a.',
+              '<strong>Licen&ccedil;a-paternidade:</strong> 5 dias (regra geral).',
+              '<strong>Licen&ccedil;a para capacita&ccedil;&atilde;o:</strong> 3 meses a cada 5 anos.',
+              '<strong>Licen&ccedil;a para tratar de interesses particulares:</strong> at&eacute; 3 anos, sem remunera&ccedil;&atilde;o.',
+              '<strong>Afastamento para miss&atilde;o no exterior:</strong> com perda total da remunera&ccedil;&atilde;o (Lei 9.527/97).',
+              '<strong>Afastamento para estudo no exterior:</strong> com perda total da remunera&ccedil;&atilde;o.',
+              '<strong>Exerc&iacute;cio de mandato eletivo:</strong> com afastamento do cargo (sem &eacute;poca de mandato).',
+              '<strong>Afastamento para servir em organismo internacional:</strong> com perda total.',
+              '<strong>Afastamento para desempenho de mandato classista:</strong> mandato classista em associa&ccedil;&atilde;o representativa de classe.'
+            ]
+          },
+          {
+            h: '14. Vencimento, Remunera&ccedil;&atilde;o e Vantagens',
+            p: '<p>Sistema remunerat&oacute;rio (art. 40-50, Lei 8.112/90):</p>',
+            ul: [
+              '<strong>Vencimento (art. 40):</strong> retribui&ccedil;&atilde;o pecuni&aacute;ria pelo exerc&iacute;cio de cargo p&uacute;blico. N&atilde;o pode ser inferior ao sal&aacute;rio-m&iacute;nimo nem superior ao teto.',
+              '<strong>Remunera&ccedil;&atilde;o (art. 41):</strong> vencimento + vantagens pecuni&aacute;rias (adicionais, gratifica&ccedil;&otilde;es).',
+              '<strong>Irredutibilidade (art. 37, XV, CF):</strong> garantia constitucional.',
+              '<strong>Teto remunerat&oacute;rio (art. 37, XI, CF):</strong> subs&iacute;dio do Ministro do STF (R$ 41.650,92 em 2026).',
+              '<strong>Vantagens (art. 61-91):</strong> adicionais, gratifica&ccedil;&otilde;es, indeniza&ccedil;&otilde;es.',
+              '<strong>Indeniza&ccedil;&otilde;es (art. 51):</strong> ajuda de custo, di&aacute;rias, transporte, aux&iacute;lio-moradia.',
+              '<strong>Ajuda de custo (art. 53-57):</strong> para deslocamento a servi&ccedil;o, com mudan&ccedil;a de sede.',
+              '<strong>Di&aacute;rias (art. 58):</strong> 50% do valor integral em caso de meno de 50% de afastamento. Cobre alimenta&ccedil;&atilde;o, hospedagem, transporte.',
+              '<strong>Adicional por tempo de servi&ccedil;o (anu&eacute;nio):</strong> extinto pela Lei 9.527/97 (mantido o direito adquirido).',
+              '<strong>Adicional de qualifica&ccedil;&atilde;o (art. 41, &sect;1&ordm;):</strong> 5% (ensino m&eacute;dio) ou 10% (ensino superior) sobre o vencimento, para servidores com pr&eacute;-requisito al&eacute;m do exigido.',
+              '<strong>Adicional de insalubridade, periculosidade, atividade penosa (art. 68-72):</strong> 5%, 10% e 20% sobre o vencimento.',
+              '<strong>Adicional de servi&ccedil;o extraordin&aacute;rio (hora extra, art. 73-75):</strong> 50% diurno, 100% noturno, s&aacute;bado/domingo/feriado.',
+              '<strong>Adicional noturno (art. 75):</strong> 25% sobre o valor da hora diurna. Prorroga&ccedil;&atilde;o em feriado ou repouso.',
+              '<strong>Adicional de f&eacute;rias (art. 76-78):</strong> 1/3 constitucional.',
+              '<strong>Gratifica&ccedil;&atilde;o (art. 79-80):</strong> por fun&ccedil;&atilde;o, cargo, natalidade, jubila&iacedil;&atilde;o.',
+              '<strong>Indeniza&ccedil;&atilde;o (art. 51, 49):</strong> aux&iacute;lio-moradia, f&eacute;rias, ajuda de custo.',
+              '<strong>13&ordm; sal&aacute;rio (Lei 4.090/62):</strong> obrigat&oacute;rio para servidor p&uacute;blico. Pago em duas parcelas (novembro e dezembro).'
+            ]
+          },
+          {
+            h: '15. Seguran&ccedil;a Jur&iacute;dica do Servidor &mdash; Garantias',
+            p: '<p>Direitos e garantias do servidor p&uacute;blico federal (art. 3&ordm; a 41, Lei 8.112/90):</p>',
+            ul: [
+              '<strong>Estabilidade (art. 41, CF):</strong> ap&oacute;s 3 anos de efetivo exerc&iacute;cio. Perda do cargo est&aacute;vel apenas por senten&ccedil;a judicial transitada em julgado, processo administrativo (com ampla defesa) ou avalia&ccedil;&atilde;o de desempenho insatisfat&oacute;ria (LC 173/21 e 191/22).',
+              '<strong>Disponibilidade (art. 30):</strong> o servidor est&aacute;vel pode ser posto em disponibilidade com remunera&ccedil;&atilde;o proporcional, quando o cargo &eacute; extinto ou declarado desnecess&aacute;rio.',
+              '<strong>Aproveitamento (art. 32):</strong> retorno do servidor em disponibilidade a cargo compat&iacute;vel. Prazo: 12 meses.',
+              '<strong>Reintegra&ccedil;&atilde;o (art. 28):</strong> reinvestidura do servidor no cargo por decis&atilde;o judicial. Indeniza&ccedil;&atilde;o ao anterior.',
+              '<strong>Recondu&ccedil;&atilde;o (art. 29):</strong> retorno ao cargo anterior em raz&atilde;o de inabilita&ccedil;&atilde;o em est&aacute;gio probat&oacute;rio em outro cargo ou reintegra&ccedil;&atilde;o do anterior.',
+              '<strong>Revers&atilde;o (art. 27):</strong> retorno do aposentado por invalidez, se a junta m&eacute;dica declara insubsistente o motivo.',
+              '<strong>Readapta&ccedil;&atilde;o (art. 24):</strong> aproveitamento em cargo compat&iacute;vel com limita&ccedil;&atilde;o f&iacute;sica ou mental. Sem diminui&ccedil;&atilde;o de vencimento.',
+              '<strong>Direito a remo&ccedil;&atilde;o (art. 36):</strong> a pedido ou de of&iacute;cio, para compatibilizar o exerc&iacute;cio do cargo com o interesse p&uacute;blico.',
+              '<strong>Direito de peti&ccedil;&atilde;o (art. 104-115):</strong> requerimento, representa&ccedil;&atilde;o, recurso, pedido de reconsidera&ccedil;&atilde;o.',
+              '<strong>Prescri&ccedil;&atilde;o (art. 142):</strong> 5 anos para a&ccedil;&otilde;es disciplinares punitivas da Administra&ccedil;&atilde;o.',
+              '<strong>Decad&ecirc;ncia (art. 144):</strong> 2 anos para a Administra&ccedil;&atilde;o constituir a comiss&atilde;o (PAD).'
+            ]
           }
         ]
       }
@@ -517,7 +817,135 @@
               'Comprovadamente financiar custeio de atos il&iacute;citos.',
               'Utilizar intermedi&aacute;rio para ocultar interesse ou identidade.',
               'Dificultar atividade de investiga&ccedil;&atilde;o ou fiscaliza&ccedil;&atilde;o.',
-              'San&ccedil;&otilde;es: multa (0,1% a 20% do faturamento bruto), publica&ccedil;&atilde;o extraordin&atilde;ria da decis&atilde;o, etc.'
+              'San&ccedil;&otilde;es: multa (0,1% a 20% do faturamento bruto), publica&ccedil;&atilde;o extraordin&aacute;ria da decis&atilde;o, etc.'
+            ]
+          },
+          {
+            h: '7. Decreto 1.171/94 &mdash; C&oacute;digo de &Eacute;tica &mdash; Detalhamento',
+            p: '<p>O C&oacute;digo de &Eacute;tica Profissional do Servidor P&uacute;blico Civil do Poder Executivo Federal foi institu&iacute;do pelo Decreto 1.171/94. Estabelece princ&iacute;pios, deveres e vedações.</p>',
+            ul: [
+              '<strong>Princ&iacute;pios (art. 1&ordm;):</strong>',
+              '&nbsp;&bull; Legalidade, impessoalidade, moralidade, publicidade, efici&ecirc;ncia (LIMPE)<br>',
+              '&nbsp;&bull; Honestidade, decoro, lealdade, dignidade, cortesia, transpar&ecirc;ncia<br>',
+              '&nbsp;&bull; Respeito &agrave; vida privada e &agrave; dignidade da pessoa humana',
+              '<strong>Deveres (art. 3&ordm;):</strong>',
+              '&nbsp;&bull; Desempenhar com zelo, dedica&ccedil;&atilde;o e presteza as atribui&ccedil;&otilde;es<br>',
+              '&nbsp;&bull; Conhecer as normas que regem o servi&ccedil;o<br>',
+              '&nbsp;&bull; Zelar pela economia do material e patrim&ocirc;nio p&uacute;blico<br>',
+              '&nbsp;&bull; Atender com presteza o p&uacute;blico<br>',
+              '&nbsp;&bull; Levar ao conhecimento da autoridade superior irregularidade<br>',
+              '&nbsp;&bull; Exercer suas fun&ccedil;&otilde;es com retid&atilde;o, decoro e honestidade',
+              '<strong>Vedações (art. 4&ordm;):</strong>',
+              '&nbsp;&bull; Usar o cargo para obter proveito pessoal<br>',
+              '&nbsp;&bull; Utilizar informa&ccedil;&otilde;es privilegiadas<br>',
+              '&nbsp;&bull; Aceitar presentes, comiss&otilde;es ou vantagens de qualquer esp&eacute;cie<br>',
+              '&nbsp;&bull; Manifestar opini&atilde;o depreciativa sobre colega, autoridade ou institui&ccedil;&atilde;o<br>',
+              '&nbsp;&bull; Atuar em benef&iacute;cio pr&oacute;prio ou de terceiros em processos<br>',
+              '&nbsp;&bull; Fazer declara&ccedil;&otilde;es p&uacute;blicas prejudiciais ao Servi&ccedil;o P&uacute;blico<br>',
+              '&nbsp;&bull; Prejudicar deliberadamente a reputa&ccedil;&atilde;o de colega',
+              '<strong>Penalidades (art. 10-12):</strong>',
+              '&nbsp;&bull; Advert&ecirc;ncia (faltas leves)<br>',
+              '&nbsp;&bull; Censura (faltas m&eacute;dias)<br>',
+              '&nbsp;&bull; Multa de at&eacute; 50% da remunera&ccedil;&atilde;o (faltas graves)',
+              '<strong>Comiss&otilde;es de &Eacute;tica (art. 9&ordm;-15):</strong>',
+              '&nbsp;&bull; Car&aacute;ter educativo, n&atilde;o punitivo<br>',
+              '&nbsp;&bull; 3 membros titulares e 3 suplentes<br>',
+              '&nbsp;&bull; Mandato de 3 anos, renov&aacute;vel<br>',
+              '&nbsp;&bull; Sede em Bras&iacute;lia para a Comiss&atilde;o de &Eacute;tica P&uacute;blica (CEP)',
+              '<strong>C&oacute;digo de Conduta do Servidor (Decreto 6.029/07):</strong>',
+              '&nbsp;&bull; Regulamenta o funcionamento da CEP<br>',
+              '&nbsp;&bull; Sistematiza as comiss&otilde;es de &eacute;tica em cada &oacute;rg&atilde;o',
+              '<strong>Crit&eacute;rios para avalia&ccedil;&atilde;o &eacute;tica (art. 8&ordm;):</strong> honestidade, decoro, urbanidade, lealdade, efici&ecirc;ncia, transpar&ecirc;ncia.'
+            ]
+          },
+          {
+            h: '8. Ass&eacute;dio Moral e Sexual no Servi&ccedil;o P&uacute;blico',
+            p: '<p>Tem&aacute;ticas relevantes para o servidor p&uacute;blico.</p>',
+            ul: [
+              '<strong>Ass&eacute;dio moral (Lei 5.352/19, no Estado; sem lei federal espec&iacute;fica):</strong>',
+              '&nbsp;&bull; Exposição de servidor a situa&ccedil;&otilde;es humilhantes e constrangedoras, repetitivas e prolongadas.<br>',
+              '&nbsp;&bull; Caracterizado por: agress&atilde;o verbal, isolamento, subestima&ccedil;&atilde;o, sobrecarga, des&iacute;qualifica&ccedil;&atilde;o.<br>',
+              '&nbsp;&bull; Consequ&ecirc;ncias: doen&ccedil;as, depress&atilde;o, absente&iacute;smo, pedido de demiss&atilde;o.<br>',
+              '&nbsp;&bull; Responsabilidade: administrativa (sanção disciplinar), civil (indeniza&ccedil;&atilde;o) e penal (crimes).',
+              '<strong>Ass&eacute;dio sexual (CP, art. 216-A):</strong>',
+              '&nbsp;&bull; Constranger algu&eacute;m com o intuito de obter vantagem ou favorecimento sexual.<br>',
+              '&nbsp;&bull; Pena: deten&ccedil;&atilde;o de 1 a 2 anos.<br>',
+              '&nbsp;&bull; Forma qualificada: se o ato &eacute; praticado por superior hier&aacute;rquico (aumento de pena).<br>',
+              '&nbsp;&bull; A&ccedil;&atilde;o penal: p&uacute;blica condicionada &agrave; representa&ccedil;&atilde;o.',
+              '<strong>Consequ&ecirc;ncias disciplinares:</strong> o ass&eacute;dio configura falta funcional grave, podendo levar &agrave; demiss&atilde;o.',
+              '<strong>Preven&ccedil;&atilde;o:</strong> c&oacute;digos de conduta, comit&ecirc;s de &eacute;tica, canais de den&uacute;ncia, ouvidoria.'
+            ]
+          },
+          {
+            h: '9. Lei 12.527/11 &mdash; Acesso &agrave; Informa&ccedil;&atilde;o &mdash; Detalhamento',
+            p: '<p>Lei de Acesso &agrave; Informa&ccedil;&atilde;o (LAI) regulamenta o art. 5&ordm;, XXXIII da CF/88.</p>',
+            ul: [
+              '<strong>Princ&iacute;pios (art. 3&ordm;):</strong> publicidade &eacute; regra, sigilo &eacute; exce&ccedil;&atilde;o. Transpar&ecirc;ncia ativa e passiva.',
+              '<strong>Transpar&ecirc;ncia ativa (art. 8&ordm;):</strong> &oacute;rg&atilde;os p&uacute;blicos devem divulgar informa&ccedil;&otilde;es de interesse coletivo, independente de solicita&ccedil;&atilde;o. P&aacute;gina institucional.',
+              '<strong>Transpar&ecirc;ncia passiva (art. 10):</strong> direito de qualquer pessoa de solicitar informa&ccedil;&otilde;es. N&atilde;o h&aacute; necessidade de justificativa.',
+              '<strong>Prazo de resposta (art. 11):</strong>',
+              '&nbsp;&bull; 20 dias corridos para resposta.<br>',
+              '&nbsp;&bull; Prorroga&ccedil;&atilde;o por 10 dias, com justifica&ccedil;&atilde;o.',
+              '<strong>Grau de sigilo (art. 24):</strong>',
+              '&nbsp;&bull; <strong>Reservada:</strong> 5 anos.<br>',
+              '&nbsp;&bull; <strong>Secreta:</strong> 15 anos.<br>',
+              '&nbsp;&bull; <strong>Ultrassecreta:</strong> 25 anos.<br>',
+              '&nbsp;&bull; Ap&oacute;s o prazo, a classifica&ccedil;&atilde;o decai (pode ser prorrogada).',
+              '<strong>Autoridade classificadora:</strong> autoridade m&aacute;xima do &oacute;rg&atilde;o, no &acirc;mbito do Executivo Federal.',
+              '<strong>Indisponibilidade do pedido (art. 13):</strong> somente se a informa&ccedil;&atilde;o for sigilosa ou inexistente.',
+              '<strong>Pedido de desclassifica&ccedil;&atilde;o (art. 33):</strong> dirigido &agrave; autoridade que classificou, com recurso &agrave; CMRI (Comiss&atilde;o Mista de Reavalia&ccedil;&atilde;o de Informa&ccedil;&otilde;es).',
+              '<strong>Pedido de acesso a informa&ccedil;&atilde;o pessoal (art. 31):</strong> restrito ao titular, com prazo de sigilo de 100 anos.',
+              '<strong>Monitoramento:</strong> CGU fiscaliza a aplica&ccedil;&atilde;o da LAI. CNJ e CNMP t&ecirc;m compet&ecirc;ncia.',
+              '<strong>San&ccedil;&otilde;es (art. 32):</strong> administrativas (advert&ecirc;ncia a demiss&atilde;o) e responsabilidade civil e penal.'
+            ]
+          },
+          {
+            h: '10. Lei 12.813/13 &mdash; Conflito de Interesses &mdash; Detalhamento',
+            p: '<p>Lei do Conflito de Interesses (LC 12.813/13). Aplica-se a servidores do Poder Executivo federal.</p>',
+            ul: [
+              '<strong>Defini&ccedil;&atilde;o (art. 3&ordm;):</strong> situa&ccedil;&atilde;o na qual o agente p&uacute;blico tem interesse privado que pode influenciar ou parecer influenciar o desempenho imparcial de suas fun&ccedil;&otilde;es.',
+              '<strong>Vedações (art. 5&ordm;):</strong>',
+              '&nbsp;&bull; Atuar em processo em que tenha interesse privado.<br>',
+              '&nbsp;&bull; Prestar consultoria a empresa que tenha interesse em decis&atilde;o do agente.<br>',
+              '&nbsp;&bull; Aceitar presentes de quem tenha interesse em decis&atilde;o do agente.<br>',
+              '&nbsp;&bull; Manter rela&ccedil;&atilde;o de neg&oacute;cio com pessoa f&iacute;sica ou jur&iacute;dica que tenha interesse em decis&atilde;o.<br>',
+              '&nbsp;&bull; Prestar servi&ccedil;o ou manter v&iacute;nculo de qualquer natureza com empresa cuja atividade seja controlada, fiscalizada ou regulada pelo ente ao qual est&aacute; vinculado.<br>',
+              '&nbsp;&bull; Exercer cargo, emprego ou fun&ccedil;&atilde;o em sociedade ou organiza&ccedil;&atilde;o que tenha relacionamento com a Administra&ccedil;&atilde;o.',
+              '<strong>Situações que configuram conflito potencial (art. 6&ordm;):</strong> qualquer ato ou fato que possa vir a configurar conflito em momento futuro pr&oacute;ximo.',
+              '<strong>Pedido de consulta (art. 10):</strong> o servidor pode consultar a Comiss&atilde;o de &Eacute;tica P&uacute;blica sobre situa&ccedil;&otilde;es concretas.',
+              '<strong>San&ccedil;&otilde;es (art. 12):</strong> demiss&atilde;o ou medida equivalente, ap&oacute;s PAD ou CP.',
+              '<strong>Exce&ccedil;&otilde;es (art. 8&ordm;):</strong> exerc&iacute;cio de atividades com autoriza&ccedil;&atilde;o pr&eacute;via da CEP, em hip&oacute;teses de acumula&ccedil;&atilde;o l&iacute;cita de cargos (art. 37, XVI, CF).'
+            ]
+          },
+          {
+            h: '11. Responsabiliza&ccedil;&atilde;o dos Agentes P&uacute;blicos',
+            p: '<p>Os servidores p&uacute;blicos respondem por suas a&ccedil;&otilde;es/omiss&otilde;es em v&aacute;rias esferas.</p>',
+            ul: [
+              '<strong>Responsabilidade civil:</strong> indeniza&ccedil;&atilde;o por danos. A Administra&ccedil;&atilde;o tem a&ccedil;&atilde;o regressiva.',
+              '<strong>Responsabilidade penal:</strong> crimes funcionais (CP, arts. 312-326) e crimes comuns.',
+              '<strong>Responsabilidade administrativa:</strong> apurada em PAD. Independ&ecirc;ncia das inst&acirc;ncias.',
+              '<strong>Improbidade administrativa (Lei 8.429/92, com Lei 14.230/21):</strong> 3 modalidades, todas com dolo.',
+              '<strong>Lei Anticorrup&ccedil;&atilde;o (Lei 12.846/13):</strong> responsabiliza&ccedil;&atilde;o objetiva da pessoa jur&iacute;dica.',
+              '<strong>Crimes do CP (art. 312-326):</strong> peculato, concuss&atilde;o, corrup&ccedil;&atilde;o passiva, prevarica&ccedil;&atilde;o, viola&ccedil;&atilde;o de sigilo funcional, advocacia administrativa.',
+              '<strong>Peculato (art. 312):</strong> apropriar-se de dinheiro, valor ou bem p&uacute;blico. Pena: reclus&atilde;o 2-12 anos, multa.',
+              '<strong>Concuss&atilde;o (art. 316):</strong> exigir, para si ou para outrem, direta ou indiretamente, vantagem indevida. Pena: reclus&atilde;o 2-8 anos, multa.',
+              '<strong>Corrup&ccedil;&atilde;o passiva (art. 317):</strong> solicitar ou receber vantagem indevida. Pena: reclus&atilde;o 2-12 anos, multa.',
+              '<strong>Prevarica&ccedil;&atilde;o (art. 319):</strong> retardar ou deixar de praticar ato de of&iacute;cio com inten&ccedil;&atilde;o de satisfazer interesse pessoal. Pena: deten&ccedil;&atilde;o 3 meses-1 ano, multa.',
+              '<strong>Acumulação de penalidades (Lei 8.112/90, art. 125):</strong> as inst&acirc;ncias s&atilde;o independentes. A absolvi&ccedil;&atilde;o criminal n&atilde;o afasta a administrativa, salvo quando negar o fato ou autoria.'
+            ]
+          },
+          {
+            h: '12. Lei Geral de Prote&ccedil;&atilde;o de Dados (LGPD) Aplicada ao Setor P&uacute;blico',
+            p: '<p>Lei 13.709/2018. Aplic&aacute;vel ao INSS, dada a natureza dos dados tratados (sa&uacute;de, previdenci&aacute;rios, biom&eacute;tricos).</p>',
+            ul: [
+              '<strong>Aplica&ccedil;&atilde;o (art. 1&ordm;):</strong> tratamento de dados pessoais por pessoa f&iacute;sica ou jur&iacute;dica, p&uacute;blica ou privada, no Brasil.',
+              '<strong>Princ&iacute;pios (art. 6&ordm;):</strong> finalidade, adequa&ccedil;&atilde;o, necessidade, livre acesso, qualidade dos dados, transpar&ecirc;ncia, seguran&ccedil;a, preven&ccedil;&atilde;o, n&atilde;o discrimina&ccedil;&atilde;o, responsabiliza&ccedil;&atilde;o.',
+              '<strong>10 hip&oacute;teses de tratamento (art. 7&ordm;):</strong> consentimento, cumprimento de obriga&ccedil;&atilde;o legal/regulat&oacute;ria, pol&iacute;tica p&uacute;blica, interesse p&uacute;blico, seguran&ccedil;a p&uacute;blica, tutela da sa&uacute;de, exerc&iacute;cio regular de direitos em processo, legitima&ccedil;&atilde;o de contratos, prote&ccedil;&atilde;o do cr&eacute;dito, preven&ccedil;&atilde;o &agrave; fraude &agrave; seguran&ccedil;a do titular.',
+              '<strong>Dados sens&iacute;veis (art. 5&ordm;, II):</strong> origem racial/&eacute;tnica, convic&ccedil;&atilde;o religiosa, opini&atilde;o pol&iacute;tica, dados sobre sa&uacute;de, dados biom&eacute;tricos, gen&eacute;ticos, vida sexual. Bases legais espec&iacute;ficas (art. 11).',
+              '<strong>Direitos do titular (art. 18):</strong> confirma&ccedil;&atilde;o da exist&ecirc;ncia, acesso, corre&ccedil;&atilde;o, anonimiza&ccedil;&atilde;o, portabilidade, elimina&ccedil;&atilde;o, informa&ccedil;&atilde;o sobre compartilhamento.',
+              '<strong>ANPD (Autoridade Nacional):</strong> &oacute;rg&atilde;o fiscalizador. Sancionat&oacute;ria: advert&ecirc;ncia, multa (at&eacute; 2% do faturamento), bloqueio, elimina&ccedil;&atilde;o, etc.',
+              '<strong>Encarregado de dados (DPO):</strong> designa&ccedil;&atilde;o obrigat&oacute;ria em todos os &oacute;rg&atilde;os p&uacute;blicos.',
+              '<strong>Incidente de seguran&ccedil;a (art. 48):</strong> comunica&ccedil;&atilde;o &agrave; ANPD e aos titulares em prazo razo&aacute;vel.'
             ]
           }
         ]
@@ -701,6 +1129,203 @@
               '<strong>Direitos do titular:</strong> confirma&ccedil;&atilde;o de exist&ecirc;ncia, acesso, corre&ccedil;&atilde;o, anonimiza&ccedil;&atilde;o, portabilidade, elimina&ccedil;&atilde;o.',
               '<strong>ANPD (Autoridade Nacional):</strong> &oacute;rg&atilde;o fiscalizador, com poder de san&ccedil;&atilde;o.',
               'Diferen&ccedil;as para GDPR europeu: LGPD &eacute; menos rigorosa, mas similar em esp&iacute;rito.'
+            ]
+          },
+          {
+            h: '8. Excel Avan&ccedil;ado &mdash; F&oacute;rmulas e Fun&ccedil;&otilde;es Detalhadas',
+            p: '<p>O Excel &eacute; o software mais cobrado em provas de inform&aacute;tica para concursos. Domine as fun&ccedil;&otilde;es:</p>',
+            ul: [
+              '<strong>Fun&ccedil;&otilde;es Matem&aacute;ticas e Estat&iacute;sticas:</strong>',
+              '&nbsp;&bull; =SOMA(intervalo): soma valores<br>',
+              '&nbsp;&bull; =M&Eacute;DIA(intervalo): m&eacute;dia aritm&eacute;tica<br>',
+              '&nbsp;&bull; =M&Aacute;XIMO(intervalo): maior valor<br>',
+              '&nbsp;&bull; =M&Iacute;NIMO(intervalo): menor valor<br>',
+              '&nbsp;&bull; =CONTAGEM(intervalo): conta c&eacute;lulas com n&uacute;meros<br>',
+              '&nbsp;&bull; =CONT.VALORES(intervalo): conta c&eacute;lulas n&atilde;o vazias<br>',
+              '&nbsp;&bull; =CONT.SE(intervalo; crit&eacute;rio): conta c&eacute;lulas que atendem condi&ccedil;&atilde;o<br>',
+              '&nbsp;&bull; =SOMASE(intervalo_soma; crit&eacute;rio): soma valores que atendem condi&ccedil;&atilde;o<br>',
+              '&nbsp;&bull; =CONT.SES(intervalo1; crit&eacute;rio1; intervalo2; crit&eacute;rio2...)<br>',
+              '&nbsp;&bull; =SOMASES(intervalo_soma; intervalo1; crit&eacute;rio1...)',
+              '<strong>Fun&ccedil;&otilde;es L&oacute;gicas:</strong>',
+              '&nbsp;&bull; =SE(condi&ccedil;&atilde;o; valor_se_verdadeiro; valor_se_falso): condicional b&aacute;sica<br>',
+              '&nbsp;&bull; =E(condi&ccedil;&atilde;o1; condi&ccedil;&atilde;o2): verdadeiro se todas verdadeiras<br>',
+              '&nbsp;&bull; =OU(condi&ccedil;&atilde;o1; condi&ccedil;&atilde;o2): verdadeiro se pelo menos uma<br>',
+              '&nbsp;&bull; =N&Atilde;O(condi&ccedil;&atilde;o): inverte<br>',
+              '&nbsp;&bull; =SEERRO(f&oacute;rmula; valor_se_erro): trata erros',
+              '<strong>Fun&ccedil;&otilde;es de Procura:</strong>',
+              '&nbsp;&bull; =PROCV(valor; matriz; coluna; 0): busca vertical (correspond&ecirc;ncia exata)<br>',
+              '&nbsp;&bull; =PROCH(valor; matriz; linha; 0): busca horizontal<br>',
+              '&nbsp;&bull; =PROCX(): substitui PROCV e PROCH (Office 365)<br>',
+              '&nbsp;&bull; =蚽DICE(matriz; linha; coluna): retorna valor pelo &iacute;ndice<br>',
+              '&nbsp;&bull; =CORRESP(valor; matriz; 0): posi&ccedil;&atilde;o do valor',
+              '<strong>Fun&ccedil;&otilde;es de Texto:</strong>',
+              '&nbsp;&bull; =ESQUERDA(texto; n&uacute;mero): primeiros n caracteres<br>',
+              '&nbsp;&bull; =DIREITA(texto; n&uacute;mero): &uacute;ltimos n caracteres<br>',
+              '&nbsp;&bull; =EXT.TEXTO(texto; in&iacute;cio; n&uacute;mero): caracteres do meio<br>',
+              '&nbsp;&bull; =MAI&Uacute;SCULA(texto) / MIN&Uacute;SCULA(texto) / PRI.MAI&Uacute;SCULA(texto)<br>',
+              '&nbsp;&bull; =CONCATENAR(texto1; texto2) ou =texto1&amp;texto2<br>',
+              '&nbsp;&bull; =N&Uacute;M.CARACT(texto): n&uacute;mero de caracteres<br>',
+              '&nbsp;&bull; =TIRAR(texto): remove espa&ccedil;os extras',
+              '<strong>Fun&ccedil;&otilde;es de Data e Hora:</strong>',
+              '&nbsp;&bull; =HOJE(): data atual<br>',
+              '&nbsp;&bull; =AGORA(): data e hora atual<br>',
+              '&nbsp;&bull; =DIAS(data_final; data_inicial)<br>',
+              '&nbsp;&bull; =DIA(data), =M&Ecirc;S(data), =ANO(data)<br>',
+              '&nbsp;&bull; =DIATRABALHO(in&iacute;cio; dias): dias &uacute;teis<br>',
+              '&nbsp;&bull; =DIFDATA() / =DATADIF() (vers&otilde;es antigas)',
+              '<strong>Refer&ecirc;ncia absoluta vs relativa:</strong>',
+              '&nbsp;&bull; =A1 (relativa): muda ao copiar<br>',
+              '&nbsp;&bull; =$A$1 (absoluta): fixa c&eacute;lula<br>',
+              '&nbsp;&bull; =A$1 (mista): fixa linha<br>',
+              '&nbsp;&bull; =$A1 (mista): fixa coluna',
+              '<strong>Formata&ccedil;&atilde;o condicional:</strong> real&ccedil;a c&eacute;lulas conforme condi&ccedil;&otilde;es (maior/menor que, texto, escala de cor, &iacute;cones, barras de dados).',
+              '<strong>Tabela din&acirc;mica:</strong> resumo de dados grandes. Inserir &gt; Tabela Din&acirc;mica. Linhas, colunas, valores, filtros.',
+              '<strong>Gr&aacute;ficos:</strong> coluna, barra, linha, pizza, dispers&atilde;o, &aacute;rea, radar. Inserir &gt; Gr&aacute;ficos.',
+              '<strong>Valida&ccedil;&atilde;o de dados:</strong> restri&ccedil;&atilde;o de entrada. Lista, n&uacute;mero, data, texto.',
+              '<strong>Filtros e classifica&ccedil;&atilde;o:</strong> filtrar dados, classificar A-Z, Z-A, por cor.',
+              '<strong>Subtotal:</strong> calcular subtotais em dados agrupados.'
+            ]
+          },
+          {
+            h: '9. Microsoft Word Avan&ccedil;ado &mdash; Recursos e Formata&ccedil;&atilde;o',
+            p: '<p>Processador de texto. Recursos essenciais para concursos.</p>',
+            ul: [
+              '<strong>Formata&ccedil;&atilde;o de texto:</strong> fonte (tipo, tamanho, cor, negrito, it&aacute;lico, sublinhado), par&aacute;grafo (alinhamento, recuo, espa&ccedil;amento).',
+              '<strong>Estilos:</strong> Normal, T&iacute;tulo 1-3, etc. Permite formata&ccedil;&atilde;o consistente.',
+              '<strong>Listas:</strong> numeradas, com marcadores, multin&iacute;vel. Recuo.',
+              '<strong>Tabelas:</strong> Inserir &gt; Tabela. Linhas, colunas, c&eacute;lulas. Mesclar, dividir, classificar, f&oacute;rmulas em tabelas.',
+              '<strong>Imagens e formas:</strong> Inserir &gt; Imagens/Formas. Dimensionamento, disposi&ccedil;&atilde;o.',
+              '<strong>Cabe&ccedil;alho e rodap&eacute;:</strong> Inserir &gt; Cabe&ccedil;alho/Rodap&eacute;. Numera&ccedil;&atilde;o de p&aacute;gina, data, hora, texto.',
+              '<strong>Quebras:</strong> de p&aacute;gina (Ctrl+Enter), de se&ccedil;&atilde;o, de linha.',
+              '<strong>Localizar e substituir:</strong> Ctrl+L / Ctrl+U. Suporta curingas (^p = par&aacute;grafo, ^t = tabula&ccedil;&atilde;o).',
+              '<strong>Controle de altera&ccedil;&otilde;es:</strong> Revisar &gt; Controle de Altera&ccedil;&otilde;es. Aceitar/rejeitar.',
+              '<strong>Coment&aacute;rios:</strong> Revisar &gt; Novo Coment&aacute;rio. Margem lateral.',
+              '<strong>Sum&aacute;rio autom&aacute;tico:</strong> Refer&ecirc;ncias &gt; Sum&aacute;rio. Baseado em estilos de t&iacute;tulo.',
+              '<strong>Notas de rodap&eacute; e de fim:</strong> Refer&ecirc;ncias &gt; Inserir Nota de Rodap&eacute;. Numera&ccedil;&atilde;o autom&aacute;tica.',
+              '<strong>Margens, tamanho do papel, orienta&ccedil;&atilde;o:</strong> Layout &gt; Configurar P&aacute;gina.',
+              '<strong>Colunas:</strong> Layout &gt; Colunas. 1, 2, 3 colunas.',
+              '<strong>Hifeniza&ccedil;&atilde;o:</strong> Layout &gt; Hifeniza&ccedil;&atilde;o. Hifeniza&ccedil;&atilde;o autom&aacute;tica.',
+              '<strong>Modelos:</strong> Arquivo &gt; Novo. Modelos predefinidos.',
+              '<strong>Atalhos &uacute;teis:</strong> Ctrl+B (negrito), Ctrl+I (it&aacute;lico), Ctrl+U (sublinhado), Ctrl+S (salvar), Ctrl+A (selecionar tudo), Ctrl+Z (desfazer), Ctrl+Y (refazer), Ctrl+C/V/X (copiar/colar/cortar), Ctrl+Home/End (in&iacute;cio/fim do documento).',
+              '<strong>PDF:</strong> Arquivo &gt; Salvar como &gt; PDF.'
+            ]
+          },
+          {
+            h: '10. Microsoft PowerPoint &mdash; Apresenta&ccedil;&otilde;es',
+            p: '<p>Software de apresenta&ccedil;&atilde;o de slides.</p>',
+            ul: [
+              '<strong>Slides:</strong> Inserir &gt; Novo Slide. Layouts pr&eacute;-definidos.',
+              '<strong>Temas:</strong> Design &gt; Temas. Cores, fontes, efeitos.',
+              '<strong>Anima&ccedil;&otilde;es:</strong> Anima&ccedil;&otilde;es &gt; Adicionar Anima&ccedil;&atilde;o. Entrada, &ecirc;nfase, sa&iacute;da, trajet&oacute;ria.',
+              '<strong>Transi&ccedil;&otilde;es:</strong> Transi&ccedil;&otilde;es &gt; Efeitos. Entre slides.',
+              '<strong>Modo de apresenta&ccedil;&atilde;o:</strong> Apresenta&ccedil;&atilde;o &gt; Apresentar. F5 (in&iacute;cio) / Shift+F5 (do atual).',
+              '<strong>Modo de apresenta&ccedil;&atilde;o do apresentador:</strong> mostra slide atual, pr&oacute;ximo, anota&ccedil;&otilde;es do apresentador, timer.',
+              '<strong>Slide mestre:</strong> Exibi&ccedil;&atilde;o &gt; Slide Mestre. Define layout padr&atilde;o (cabe&ccedil;alho, rodap&eacute;, logotipo).',
+              '<strong>Inser&ccedil;&atilde;o:</strong> imagens, v&iacute;deos, &aacute;udios, gr&aacute;ficos, tabelas, SmartArt, formas, &iacute;cones.',
+              '<strong>SmartArt:</strong> diagramas pr&eacute;-definidos (hierarquia, ciclo, processo, etc.).',
+              '<strong>Exporta&ccedil;&atilde;o:</strong> PDF, imagem (PNG, JPG), v&iacute;deo.',
+              '<strong>Atalhos:</strong> F5 (apresentar), Esc (sair), B/W (preto/branco), setas (navegar).'
+            ]
+          },
+          {
+            h: '11. Seguran&ccedil;a da Informa&ccedil;&atilde;o &mdash; Detalhamento',
+            p: '<p>Tr&ecirc;s pilares (CID): Confidencialidade, Integridade, Disponibilidade.</p>',
+            ul: [
+              '<strong>Confidencialidade:</strong> apenas pessoas autorizadas acessam a informa&ccedil;&atilde;o. Criptografia, controle de acesso.',
+              '<strong>Integridade:</strong> informa&ccedil;&atilde;o n&atilde;o foi alterada indevidamente. Assinatura digital, hash.',
+              '<strong>Disponibilidade:</strong> informa&ccedil;&atilde;o acess&iacute;vel quando necess&aacute;rio. Backup, redund&acirc;ncia.',
+              '<strong>Tipos de malware:</strong>',
+              '&nbsp;&bull; <strong>V&iacute;rus:</strong> precisa de hospedeiro. Propaga-se por execu&ccedil;&atilde;o.<br>',
+              '&nbsp;&bull; <strong>Worm:</strong> auto-replicante. N&atilde;o precisa de hospedeiro. Explora vulnerabilidades.<br>',
+              '&nbsp;&bull; <strong>Trojan (Cavalo de Troia):</strong> disfar&ccedil;ado de programa leg&iacute;timo.<br>',
+              '&nbsp;&bull; <strong>Spyware:</strong> coleta dados sem consentimento.<br>',
+              '&nbsp;&bull; <strong>Adware:</strong> exibe an&uacute;ncios.<br>',
+              '&nbsp;&bull; <strong>Ransomware:</strong> criptografa dados e pede resgate. Wannacry, Petya.<br>',
+              '&nbsp;&bull; <strong>Keylogger:</strong> registra teclas digitadas.<br>',
+              '&nbsp;&bull; <strong>Rootkit:</strong> acesso privilegiado ao sistema, dif&iacute;cil detec&ccedil;&atilde;o.<br>',
+              '&nbsp;&bull; <strong>Bot:</strong> computador infectado controlado remotamente. Botnet = rede de bots.',
+              '<strong>Engenharia social:</strong> manipula&ccedil;&atilde;o psicol&oacute;gica. Phishing, vishing, smishing, pretexting, baiting.',
+              '<strong>Phishing:</strong> e-mail fraudulento. Spear phishing (direcionado). Pharming (DNS falso).',
+              '<strong>Firewall:</strong> filtra tr&aacute;fego de rede. Hardware ou software.',
+              '<strong>Antiv&iacute;rus:</strong> detecta e remove malware. Assinaturas, comportamento, heur&iacute;stica.',
+              '<strong>VPN:</strong> t&uacute;nel criptografado em rede p&uacute;blica.',
+              '<strong>Criptografia:</strong>',
+              '&nbsp;&bull; <strong>Sim&eacute;trica:</strong> mesma chave. AES, DES. R&aacute;pida.<br>',
+              '&nbsp;&bull; <strong>Assim&eacute;trica:</strong> chave p&uacute;blica + privada. RSA. Mais lenta, mais segura.<br>',
+              '&nbsp;&bull; <strong>Hash:</strong> fun&ccedil;&atilde;o unidirecional. MD5, SHA-1, SHA-256. Integridade.',
+              '<strong>Senhas fortes:</strong> combina&ccedil;&atilde;o de tipos. Tamanho &gt; 12 caracteres. 2FA. N&atilde;o reutilizar.',
+              '<strong>Backup:</strong>',
+              '&nbsp;&bull; <strong>Completo:</strong> c&oacute;pia de todos os dados.<br>',
+              '&nbsp;&bull; <strong>Incremental:</strong> apenas dados alterados desde o &uacute;ltimo backup.<br>',
+              '&nbsp;&bull; <strong>Diferencial:</strong> dados alterados desde o &uacute;ltimo backup completo.<br>',
+              '&nbsp;&bull; <strong>Regra 3-2-1:</strong> 3 c&oacute;pias, 2 m&iacute;dias diferentes, 1 fora do local.'
+            ]
+          },
+          {
+            h: '12. Internet, Redes e Protocolos',
+            p: '<p>Conceitos fundamentais de internet e redes de computadores.</p>',
+            ul: [
+              '<strong>WWW (World Wide Web):</strong> sistema de documentos em hipertexto (HTML) acessados via HTTP/HTTPS.',
+              '<strong>URL:</strong> esquema://dom&iacute;nio/caminho?par&acirc;metros. Ex: https://www.gov.br/inss',
+              '<strong>DNS (Domain Name System):</strong> converte dom&iacute;nio em IP. Servidores DNS.',
+              '<strong>TCP/IP:</strong> protocolo base da internet. Camadas: aplica&ccedil;&atilde;o, transporte, rede, enlace.',
+              '<strong>HTTP e HTTPS:</strong> protocolos de transfer&ecirc;ncia de hipertexto. HTTPS usa SSL/TLS (porta 443). HTTP sem criptografia (porta 80).',
+              '<strong>FTP:</strong> transfer&ecirc;ncia de arquivos (porta 21). SFTP (SSH File Transfer Protocol) &eacute; seguro.',
+              '<strong>SMTP, POP3, IMAP:</strong> e-mail. SMTP (envio, porta 25). POP3 (recebimento, baixa). IMAP (recebimento, sincroniza).',
+              '<strong>IP:</strong> endere&ccedil;o &uacute;nico do dispositivo. IPv4 (32 bits), IPv6 (128 bits).',
+              '<strong>MAC:</strong> endere&ccedil;o f&iacute;sico da placa de rede (48 bits).',
+              '<strong>LAN, MAN, WAN:</strong> redes locais, metropolitanas, de longa dist&acirc;ncia.',
+              '<strong>Wi-Fi:</strong> rede sem fio. Padr&otilde;es: 802.11n (Wi-Fi 4), 802.11ac (Wi-Fi 5), 802.11ax (Wi-Fi 6).',
+              '<strong>Bluetooth:</strong> rede pessoal sem fio de curto alcance.',
+              '<strong>Cookies:</strong> pequenos arquivos de identifica&ccedil;&atilde;o do usu&aacute;rio em sites.',
+              '<strong>Proxy:</strong> intermedi&aacute;rio entre usu&aacute;rio e internet.',
+              '<strong>Topologia de rede:</strong> estrela, anel, barramento, malha.'
+            ]
+          },
+          {
+            h: '13. Sistemas Operacionais (Windows 10/11 e Linux)',
+            p: '<p>Conceitos e pr&aacute;ticas de sistemas operacionais.</p>',
+            ul: [
+              '<strong>Windows 10/11:</strong>',
+              '&nbsp;&bull; &Aacute;rea de trabalho, barra de tarefas, menu Iniciar.<br>',
+              '&nbsp;&bull; Explorador de Arquivos: copiar, mover, renomear, excluir.<br>',
+              '&nbsp;&bull; Gerenciador de Tarefas (Ctrl+Shift+Esc).<br>',
+              '&nbsp;&bull; Painel de Controle e Configura&ccedil;&otilde;es.<br>',
+              '&nbsp;&bull; Windows Defender (antiv&iacute;rus integrado).<br>',
+              '&nbsp;&bull; OneDrive (nuvem).<br>',
+              '&nbsp;&bull; PowerShell e Prompt de Comando.<br>',
+              '&nbsp;&bull; Extens&otilde;es de arquivo: .exe, .dll, .txt, .docx, .xlsx, .pdf, .jpg, .png.',
+              '<strong>Linux:</strong>',
+              '&nbsp;&bull; Distribui&ccedil;&otilde;es: Ubuntu, Debian, Fedora, CentOS, Red Hat.<br>',
+              '&nbsp;&bull; Interface gr&aacute;fica (GUI) e linha de comando (terminal).<br>',
+              '&nbsp;&bull; Comandos b&aacute;sicos: ls, cd, pwd, mkdir, rmdir, cp, mv, rm, cat, more, less, head, tail, grep, find.<br>',
+              '&nbsp;&bull; Permiss&otilde;es: leitura (r), escrita (w), execu&ccedil;&atilde;o (x).<br>',
+              '&nbsp;&bull; Estrutura de diret&oacute;rios: /, /home, /etc, /var, /usr, /tmp.<br>',
+              '&nbsp;&bull; Gerenciador de pacotes: apt (Debian/Ubuntu), yum (Red Hat), dnf (Fedora).<br>',
+              '&nbsp;&bull; Shell scripts: bash.',
+              '<strong>Permiss&otilde;es NTFS (Windows):</strong> controle de acesso de usu&aacute;rios e grupos.',
+              '<strong>Gerenciamento de processos:</strong> PID, prioridade, threads.'
+            ]
+          },
+          {
+            h: '14. Conceitos de Cloud Computing e Big Data',
+            p: '<p>Conceitos atuais muito cobrados.</p>',
+            ul: [
+              '<strong>Cloud Computing (Computa&ccedil;&atilde;o em Nuvem):</strong>',
+              '&nbsp;&bull; <strong>IaaS (Infrastructure as a Service):</strong> infraestrutura. Ex: AWS EC2, Azure VM.<br>',
+              '&nbsp;&bull; <strong>PaaS (Platform as a Service):</strong> plataforma para desenvolvimento. Ex: Heroku, Google App Engine.<br>',
+              '&nbsp;&bull; <strong>SaaS (Software as a Service):</strong> software pronto. Ex: Office 365, Google Workspace, Salesforce.<br>',
+              '&nbsp;&bull; <strong>Modelos de implanta&ccedil;&atilde;o:</strong> p&uacute;blica, privada, h&iacute;brida, comunit&aacute;ria.<br>',
+              '&nbsp;&bull; <strong>Benef&iacute;cios:</strong> escalabilidade, elasticidade, redu&ccedil;&atilde;o de custos, alta disponibilidade.<br>',
+              '&nbsp;&bull; <strong>Riscos:</strong> depend&ecirc;ncia do provedor, seguran&ccedil;a, conformidade, lat&ecirc;ncia.',
+              '<strong>Big Data:</strong> grandes volumes de dados que n&atilde;o podem ser processados por sistemas tradicionais.',
+              '&nbsp;&bull; <strong>5 V&acute;s:</strong> Volume, Velocidade, Variedade, Veracidade, Valor.<br>',
+              '&nbsp;&bull; <strong>Tecnologias:</strong> Hadoop, Spark, NoSQL, Data Lake, Data Warehouse.<br>',
+              '&nbsp;&bull; <strong>An&aacute;lise:</strong> descritiva, diagn&oacute;stica, preditiva, prescritiva.',
+              '<strong>IoT (Internet das Coisas):</strong> objetos f&iacute;sicos conectados &agrave; internet. Sensores, atuadores.',
+              '<strong>Intelig&ecirc;ncia Artificial e Machine Learning:</strong> algoritmos que aprendem com dados.',
+              '<strong>Blockchain:</strong> livro-raz&atilde;o distribu&iacute;do e imut&aacute;vel. Criptomoedas, contratos inteligentes.',
+              '<strong>DevOps:</strong> integra&ccedil;&atilde;o entre desenvolvimento e opera&ccedil;&otilde;es. CI/CD.'
             ]
           }
         ]
@@ -909,6 +1534,190 @@
               'Afeta&ccedil;&atilde;o: v&iacute;nculo do bem a uma finalidade p&uacute;blica.',
               'Desafeta&ccedil;&atilde;o: perda da finalidade p&uacute;blica.'
             ]
+          },
+          {
+            h: '9. Poderes Administrativos &mdash; Detalhamento',
+            p: '<p>Os quatro poderes administrativos s&atilde;o instrumentos de atua&ccedil;&atilde;o da Administra&ccedil;&atilde;o:</p>',
+            ul: [
+              '<strong>Poder Hier&aacute;rquico:</strong> rela&ccedil;&atilde;o de subordina&ccedil;&atilde;o dentro da Administra&ccedil;&atilde;o. Atributos: dar ordens, fiscalizar, revisar atos dos subordinados, delegar (Lei 9.784/99, art. 12), avocar. Pode ser exercido em todas as entidades administrativas.',
+              '<strong>Poder Disciplinar:</strong> puni&ccedil;&atilde;o interna de servidores p&uacute;blicos e de pessoas com v&iacute;nculo especial (ex: permission&aacute;rios, concession&aacute;rios, delegados). Aplicado pela Administra&ccedil;&atilde;o, com processo administrativo e ampla defesa.',
+              '<strong>Poder Regulamentar (ou Normativo):</strong> edi&ccedil;&atilde;o de atos normativos (decretos, resolu&ccedil;&otilde;es, portarias, instru&ccedil;&otilde;es normativas) para fiel execu&ccedil;&atilde;o da lei. N&atilde;o pode inovar (criar obriga&ccedil;&otilde;es al&eacute;m da lei). Limites: lei, CF, princ&iacute;pios.',
+              '<strong>Poder de Pol&iacute;cia:</strong> limita&ccedil;&atilde;o de direitos individuais em favor do interesse p&uacute;blico. Atributos: <em>discricionariedade</em>, <em>autoexecutoriedade</em>, <em>coercibilidade</em>. Ex: fiscaliza&ccedil;&atilde;o sanit&aacute;ria, ambiental, de tr&acirc;nsito. Pode ser delegado a entidades privadas (ex: CREA).',
+              '<strong>Poder de pol&iacute;cia administrativa x judici&aacute;ria:</strong> administrativa = preventiva, repressiva; judici&aacute;ria = repress&aacute;vel, ap&oacute;s a infra&ccedil;&atilde;o.',
+              '<strong>Ato de pol&iacute;cia:</strong> licen&ccedil;a, autoriza&ccedil;&atilde;o, permiss&atilde;o. Discricion&aacute;rios em regra.'
+            ]
+          },
+          {
+            h: '10. Atos Administrativos &mdash; Elementos, Atributos e Esp&eacute;cies',
+            p: '<p>Todo ato administrativo tem 5 elementos (art. 2&ordm;, Lei 4.717/65):</p>',
+            ul: [
+              '<strong>Compet&ecirc;ncia:</strong> &aacute;gora, mat&eacute;ria, fun&ccedil;&atilde;o. Definida em lei. Pode ser delegada e avocada, salvo reserva legal.',
+              '<strong>Finalidade:</strong> interesse p&uacute;blico. Sempre vinculada. Ex: licen&ccedil;a = autorizar o que a lei permite.',
+              '<strong>Forma:</strong> exigida em lei. Geralmente escrita. V&iacute;cio de forma = nulidade (salvo se convalid&aacute;vel).',
+              '<strong>Motivo:</strong> fato + fundamento jur&iacute;dico. Deve ser escrito (motiva&ccedil;&atilde;o obrigat&oacute;ria por constitui&ccedil;&atilde;o).',
+              '<strong>Objeto:</strong> conte&uacute;do do ato. O que se faz/produz.',
+              '<strong>Atributos (PATI):</strong>',
+              '&nbsp;&bull; <strong>P</strong>resun&ccedil;&atilde;o de legitimidade: ato presume-se v&aacute;lido at&eacute; prova em contr&aacute;rio (inverte &ocirc;nus).<br>',
+              '&nbsp;&bull; <strong>A</strong>utoexecutoriedade: a Administra&ccedil;&atilde;o executa sem autoriza&ccedil;&atilde;o judicial.<br>',
+              '&nbsp;&bull; <strong>T</strong>ipicidade: cada ato corresponde a um tipo legal.<br>',
+              '&nbsp;&bull; <strong>I</strong>mperatividade: obriga&aacute; independentemente da concord&acirc;ncia do particular.',
+              '<strong>Classifica&ccedil;&atilde;o:</strong>',
+              '&nbsp;&bull; <strong>Vinculados x Discricion&aacute;rios:</strong> vinculado = lei determina todos os elementos; discricion&aacute;rio = h&aacute; margem de escolha (conveni&ecirc;ncia e oportunidade).<br>',
+              '&nbsp;&bull; <strong>Simples x Complexos:</strong> simples = uma manifesta&ccedil;&atilde;o de vontade; complexos = v&aacute;rias vontades.<br>',
+              '&nbsp;&bull; <strong>Unilaterais x Bilaterais:</strong> unilaterais = uma s&oacute; vontade; bilaterais = acordo.<br>',
+              '&nbsp;&bull; <strong>Gerais x Individuais:</strong> gera alcance impessoal; individual uma pessoa espec&iacute;fica.<br>',
+              '&nbsp;&bull; <strong>Definitivos x Provis&oacute;rios:</strong> definitivos n&atilde;o dependem de confirma&ccedil;&atilde;o; provis&oacute;rios sim.'
+            ]
+          },
+          {
+            h: '11. Esp&eacute;cies de Atos Administrativos',
+            p: '<p>Principais esp&eacute;cies:</p>',
+            ul: [
+              '<strong>Licen&ccedil;a:</strong> ato vinculado que autoriza o particular a exercer direito pr&eacute;-existente. Ex: licen&ccedil;a para construir.',
+              '<strong>Autoriza&ccedil;&atilde;o:</strong> ato discricion&aacute;rio, prec&aacute;rio, sem prazo. Ex: uso de bem p&uacute;blico, porte de arma.',
+              '<strong>Permiss&atilde;o:</strong> ato discricion&aacute;rio, prec&aacute;rio, oneroso. Ex: banca de jornal, transporte.',
+              '<strong>Concess&atilde;o:</strong> ato vinculado (lei autoriza), com prazo, oneroso. Ex: PPP.',
+              '<strong>Admiss&atilde;o:</strong> ato vinculado de ingresso de servidor no cargo p&uacute;blico.',
+              '<strong>Homologa&ccedil;&atilde;o:</strong> ato de controle, vinculado. Ex: homologa&ccedil;&atilde;o de licita&ccedil;&atilde;o.',
+              '<strong>Of&iacute;cio:</strong> manifesta&ccedil;&atilde;o interna.',
+              '<strong>Memorando:</strong> comunica&ccedil;&atilde;o interna simplificada.',
+              '<strong>Certid&atilde;o:</strong> documento que atesta situa&ccedil;&atilde;o f&aacute;tica ou jur&iacute;dica.',
+              '<strong>Atestado:</strong> declara&ccedil;&atilde;o de situa&ccedil;&atilde;o f&aacute;tica. Ex: atestado m&eacute;dico.',
+              '<strong>Protocolo:</strong> registro de entrada de documento.',
+              '<strong>Alvar&aacute;:</strong> ordem judicial ou administrativa de autoriza&ccedil;&atilde;o.'
+            ]
+          },
+          {
+            h: '12. Extin&ccedil;&atilde;o dos Atos Administrativos',
+            p: '<p>Formas de extin&ccedil;&atilde;o dos atos administrativos:</p>',
+            ul: [
+              '<strong>Anula&ccedil;&atilde;o:</strong> v&iacute;cio de legalidade. Efeitos <em>ex tunc</em> (retroativos). Vinculada. A Administra&ccedil;&atilde;o tem o dever de anular (S&uacute;mula 473 STF). Prazo decadencial: 5 anos (Lei 9.784/99, art. 54).',
+              '<strong>Revoga&ccedil;&atilde;o:</strong> por conveni&ecirc;ncia e oportunidade. Efeitos <em>ex nunc</em> (para o futuro). Discricion&aacute;ria. N&atilde;o pode revogar atos vinculados nem os que geraram direito adquirido.',
+              '<strong>Cassa&ccedil;&atilde;o:</strong> extin&ccedil;&atilde;o por descumprimento de condi&ccedil;&atilde;o ou falta de requisito. Ex: cassa&ccedil;&atilde;o de licen&ccedil;a por irregularidade.',
+              '<strong>Caducidade:</strong> perda de efic&aacute;cia por mudan&ccedil;a de lei ou de fato.',
+              '<strong>Contraposi&ccedil;&atilde;o (ou oposi&ccedil;&atilde;o):</strong> extin&ccedil;&atilde;o de ato pela pr&oacute;pria Administra&ccedil;&atilde;o por raz&otilde;es de legalidade.',
+              '<strong>Convalida&ccedil;&atilde;o:</strong> saneamento de v&iacute;cio san&aacute;vel (ex: v&iacute;cio de compet&ecirc;ncia n&atilde;o exclusiva, v&iacute;cio de forma). N&atilde;o pode convalidar v&iacute;cio de motivo ou objeto.',
+              '<strong>Prescri&ccedil;&atilde;o administrativa:</strong> 5 anos para a Administra&ccedil;&atilde;o anular ato com v&iacute;cio (Lei 9.784/99).',
+              '<strong>Decad&ecirc;ncia x prescri&ccedil;&atilde;o:</strong> decad&ecirc;ncia = perda do direito de agir (ato n&atilde;o-ed); prescri&ccedil;&atilde;o = perda do direito de punir (atos punitivos).'
+            ]
+          },
+          {
+            h: '13. Licita&ccedil;&otilde;es (Lei 14.133/21) &mdash; Detalhamento',
+            p: '<p>Lei 14.133/2021 (Nova Lei de Licita&ccedil;&otilde;es) substituiu a Lei 8.666/93. Principais pontos:</p>',
+            ul: [
+              '<strong>Modalidades (art. 28):</strong>',
+              '&nbsp;&bull; <strong>Concorr&ecirc;ncia:</strong> regra geral para valores maiores; obras e servi&ccedil;os de engenharia.<br>',
+              '&nbsp;&bull; <strong>Preg&atilde;o:</strong> para bens e servi&ccedil;os comuns. Eletr&ocirc;nico &eacute; preferencial.<br>',
+              '&nbsp;&bull; <strong>Concurso:</strong> para escolha de trabalho t&eacute;cnico, art&iacute;stico ou cient&iacute;fico.<br>',
+              '&nbsp;&bull; <strong>Leilh&atilde;o:</strong> para venda de bens inserv&iacute;veis ou de origem il&iacute;cita.<br>',
+              '&nbsp;&bull; <strong>Di&aacute;logo Competitivo:</strong> para casos complexos em que a Administra&ccedil;&atilde;o n&atilde;o consegue definir a solu&ccedil;&atilde;o t&eacute;cnica.',
+              '<strong>Tipos (art. 33):</strong>',
+              '&nbsp;&bull; Menor pre&ccedil;o<br>',
+              '&nbsp;&bull; Melhor t&eacute;cnica ou conte&uacute;do art&iacute;stico<br>',
+              '&nbsp;&bull; T&eacute;cnica e pre&ccedil;o<br>',
+              '&nbsp;&bull; Maior retorno econ&ocirc;mico<br>',
+              '&nbsp;&bull; Maior desconto',
+              '<strong>Fases (art. 17):</strong> preparat&oacute;ria, de divulga&ccedil;&atilde;o, de apresenta&ccedil;&atilde;o de propostas, de julgamento, de habilita&ccedil;&atilde;o, recursal, de homologa&ccedil;&atilde;o.',
+              '<strong>Princ&iacute;pios (art. 5&ordm;):</strong> legalidade, impessoalidade, moralidade, publicidade, efici&ecirc;ncia, interesse p&uacute;blico, probidade, igualdade, planejamento, transpar&ecirc;ncia, efic&aacute;cia, segrega&ccedil;&atilde;o de fun&ccedil;&otilde;es, motiva&ccedil;&atilde;o, vincula&ccedil;&atilde;o ao edital, julgamento objetivo, seguran&ccedil;a jur&iacute;dica, razoabilidade, competitividade, proporcionalidade, celeridade, economicidade, desenvolvimento nacional sustent&aacute;vel.',
+              '<strong>Dispensa (art. 75):</strong> rol taxativo. Valores at&eacute; R$ 50.000 (obras) / R$ 50.000 (outros servi&ccedil;os e compras).',
+              '<strong>Inexigibilidade (art. 74):</strong> inviabilidade de competi&ccedil;&atilde;o. Not&oacute;ria especializa&ccedil;&atilde;o ou singularidade do servi&ccedil;o.',
+              '<strong>Carona (ades&atilde;o &agrave; ata de registro de pre&ccedil;o):</strong> limitada a 50% dos quantitativos (regra).',
+              '<strong>Crit&eacute;rios de desempate (art. 60):</strong> bens produzidos no Brasil, sustentabilidade, microempresas e EPP, sorteio.'
+            ]
+          },
+          {
+            h: '14. Contratos Administrativos &mdash; Caracter&iacute;sticas',
+            p: '<p>Regidos pela Lei 14.133/21. Caracter&iacute;sticas:</p>',
+            ul: [
+              '<strong>Cl&aacute;usulas exorbitantes:</strong> prerrogativas da Administra&ccedil;&atilde;o (alterar, rescindir, fiscalizar, aplicar san&ccedil;&otilde;es). Equil&iacute;brio econ&ocirc;mico-financeiro.',
+              '<strong>Altera&ccedil;&atilde;o unilateral (art. 124):</strong> quantitativa at&eacute; 25% (obras) ou 50% (servi&ccedil;os) do valor inicial.',
+              '<strong>Rescis&atilde;o:</strong> unilateral (interesse p&uacute;blico, com indeniza&ccedil;&atilde;o), por acordo (Lei 14.133/21), judicial.',
+              '<strong>Garantias (art. 96):</strong> cau&ccedil;&atilde;o em dinheiro, seguro-garantia, fian&ccedil;a banc&aacute;ria, t&iacute;tulos da d&iacute;vida p&uacute;blica.',
+              '<strong>San&ccedil;&otilde;es (art. 156):</strong> advert&ecirc;ncia, multa, impedimento de licitar e contratar (at&eacute; 3 anos), declara&ccedil;&atilde;o de inidoneidade (at&eacute; 6 anos).',
+              '<strong>Equil&iacute;brio econ&ocirc;mico-financeiro:</strong> direito do contratado a recomposi&ccedil;&atilde;o em caso de fato imprevis&iacute;vel ou previs&iacute;vel de efeitos incalcul&aacute;veis (teoria da imprevis&atilde;o).',
+              '<strong>Garantia contratual:</strong> limite 5% do valor (obras) ou 10% (grandes vultos).',
+              '<strong>Modalidades: empreitada por pre&ccedil;o global, por pre&ccedil;o unit&aacute;rio, integral, tarefa.</strong>'
+            ]
+          },
+          {
+            h: '15. Servi&ccedil;os P&uacute;blicos',
+            p: '<p>Atividades prestadas pela Administra&ccedil;&atilde;o ou por seus delegados para satisfa&ccedil;&atilde;o de necessidades coletivas.</p>',
+            ul: [
+              '<strong>Princ&iacute;pios (art. 6&ordm;, Lei 8.987/95):</strong> atualidade, continuidade, efici&ecirc;ncia, generalidade, cortesia, modificade das tarifas, seguran&ccedil;a.',
+              '<strong>Classifica&ccedil;&atilde;o:</strong> pr&oacute;prios (Administra&ccedil;&atilde;o presta diretamente), impr&oacute;prios (s&atilde;o atividades de utilidade p&uacute;blica, n&atilde;o exclusivos do Estado).',
+              '<strong>Concess&atilde;o (Lei 8.987/95):</strong> deleg&aacute;&ccedil;&atilde;o da presta&ccedil;&atilde;o de servi&ccedil;o p&uacute;blico, com prazo, onerosa, mediante licita&ccedil;&atilde;o.',
+              '<strong>Permiss&atilde;o:</strong> ato discricion&aacute;rio, prec&aacute;rio (pode ser revogado a qualquer tempo).',
+              '<strong>Autoriza&ccedil;&atilde;o:</strong> ato discricion&aacute;rio, prec&aacute;rio, sem prazo. Para servi&ccedil;os de baixo interesse p&uacute;blico.',
+              '<strong>PPP (Lei 11.079/04):</strong> concess&atilde;o patrocinada ou administrativa. Prazo m&iacute;nimo 5 anos, m&aacute;ximo 35. Valor m&iacute;nimo R$ 20 milh&otilde;es.',
+              '<strong>Desconcentra&ccedil;&atilde;o:</strong> distribui&ccedil;&atilde;o interna de atribui&ccedil;&otilde;es. Dentro da mesma pessoa jur&iacute;dica. Cria &oacute;rg&atilde;os.',
+              '<strong>Descentraliza&ccedil;&atilde;o:</strong> transfer&ecirc;ncia de compet&ecirc;ncia para outra pessoa jur&iacute;dica. Cria entidades (autarquias, empresas p&uacute;blicas, etc.).',
+              '<strong>Entidades paraestatais:</strong> entidades privadas que exercem fun&ccedil;&otilde;es p&uacute;blicas. Ex: SESI, SENAI, OAB, CRMV.',
+              '<strong>&Oacute;rg&atilde;os p&uacute;blicos:</strong> unidades sem personalidade jur&iacute;dica. Classifica&ccedil;&atilde;o: aut&ocirc;nomos, aut&aacute;rquicos, superiores, subalternos, independentes, auxiliares, de assessoramento, coletivos, singulares.'
+            ]
+          },
+          {
+            h: '16. Responsabilidade Civil do Estado &mdash; Aprofundamento',
+            p: '<p>Art. 37, &sect;6&ordm;, CF/88: <strong>as pessoas jur&iacute;dicas de direito p&uacute;blico e as de direito privado prestadoras de servi&ccedil;os p&uacute;blicos responder&atilde;o pelos danos que seus agentes, nessa qualidade, causarem a terceiros</strong>.</p>',
+            ul: [
+              '<strong>Teoria adotada:</strong> <em>risco administrativo</em>. Responsabilidade OBJETIVA (n&atilde;o exige culpa do agente), mas admite excludentes.',
+              '<strong>Excludentes e atenuantes:</strong>',
+              '&nbsp;&bull; Culpa exclusiva da v&iacute;tima<br>',
+              '&nbsp;&bull; Culpa concorrente da v&iacute;tima (reduz a indeniza&ccedil;&atilde;o)<br>',
+              '&nbsp;&bull; Caso fortuito / for&ccedil;a maior<br>',
+              '&nbsp;&bull; Fato exclusivo de terceiro',
+              '<strong>A&ccedil;&atilde;o de regresso:</strong> contra o agente (subjetiva, com dolo ou culpa). Prazo prescricional: 5 anos (S&uacute;mula 666 STF, Decreto 20.910/32).',
+              '<strong>For&ccedil;as Armadas:</strong> objetiva + teoria do risco integral em danos nucleares e em opera&ccedil;&otilde;es militares.',
+              '<strong>Omiss&atilde;o do Estado:</strong> ainda h&aacute; diverg&ecirc;ncia. STJ (tese atual): admite responsabilidade objetiva se o Estado tinha o dever de agir e omitiu.',
+              '<strong>A&ccedil;&atilde;o contra o Estado:</strong> prazos prescricionais variados (5 anos para Fazenda, salvo leis espec&iacute;ficas).',
+              '<strong>Danos morais coletivos:</strong> cab&iacute;veis. Devem ser demonstrados.'
+            ]
+          },
+          {
+            h: '17. Controle da Administra&ccedil;&atilde;o P&uacute;blica',
+            p: '<p>Formas de controle:</p>',
+            ul: [
+              '<strong>Controle Interno (art. 74 CF):</strong> exercido pela pr&oacute;pria Administra&ccedil;&atilde;o. Sistema de controle interno (SCI), integrado em cada Poder. Atribui&ccedil;&otilde;es: avaliar cumprimento de metas, fiscalizar legalidade, acompanhar resultados.',
+              '<strong>Controle Externo (art. 71-75 CF):</strong> exercido pelo Congresso Nacional com aux&iacute;lio do TCU.',
+              '<strong>Controle Legislativo:</strong> CPI, susta&ccedil;&atilde;o de atos, fiscaliza&ccedil;&atilde;o cont&aacute;bil.',
+              '<strong>Controle Jurisdicional:</strong> exercido pelo Judici&aacute;rio. Instrumentos: MS, AP, ACP, a&ccedil;&atilde;o de improbidade.',
+              '<strong>Controle Social:</strong> participa&ccedil;&atilde;o do cidad&atilde;o. Conselho de Usu&aacute;rios, ouvidoria, audi&ecirc;ncias p&uacute;blicas.',
+              '<strong>S&uacute;mula 473 STF:</strong> a Administra&ccedil;&atilde;o pode anular seus pr&oacute;prios atos, quando eivados de v&iacute;cios que os tornam ilegais, porque deles n&atilde;o se originam direitos; ou revog&aacute;-los, por motivo de conveni&ecirc;ncia e oportunidade.',
+              '<strong>Princ&iacute;pio da Autotutela:</strong> mesmo princ&iacute;pio acima.',
+              '<strong>Lei 9.784/99:</strong> processo administrativo federal. Prazos, recursos, anula&ccedil;&atilde;o, revoga&ccedil;&atilde;o.',
+              '<strong>MP (art. 127-130):</strong> controle por inq&uacute;erito civil e a&ccedil;&atilde;o civil p&uacute;blica.',
+              '<strong>CGU (Controladoria-Geral da Uni&atilde;o):</strong> &oacute;rg&atilde;o central de controle interno do Executivo.'
+            ]
+          },
+          {
+            h: '18. Improbidade Administrativa (Lei 8.429/92 com Lei 14.230/21)',
+            p: '<p>A Lei 14.230/21 (conhecida como "Nova Lei de Improbidade") reformulou completamente a mat&eacute;ria. Principais mudan&ccedil;as:</p>',
+            ul: [
+              '<strong>3 modalidades (arts. 9&ordm;, 10 e 11):</strong>',
+              '&nbsp;&bull; <strong>Enriquecimento il&iacute;cito (art. 9&ordm;):</strong> auferir, ilicitamente, vantagem patrimonial em raz&atilde;o do cargo.<br>',
+              '&nbsp;&bull; <strong>Preju&iacute;zo ao er&aacute;rio (art. 10):</strong> auferir vantagem em favor de outrem, n&atilde;o proceder &agrave; presta&ccedil;&atilde;o de contas, revelar informa&ccedil;&atilde;o privilegiada, frustrar licita&ccedil;&atilde;o, etc.<br>',
+              '&nbsp;&bull; <strong>Viola&ccedil;&atilde;o de princ&iacute;pios (art. 11):</strong> violar princ&iacute;pios da Administra&ccedil;&atilde;o ou deveres inerentes ao cargo.',
+              '<strong>Elemento subjetivo:</strong> <em>DOLO</em> para todas as modalidades. A Lei 14.230/21 eliminou a culpa (mas com ressalva jurisprudencial).',
+              '<strong>San&ccedil;&otilde;es (art. 12):</strong> perda da fun&ccedil;&atilde;o p&uacute;blica, suspens&atilde;o dos direitos pol&iacute;ticos (at&eacute; 14 anos), multa civil, ressarcimento ao er&aacute;rio.',
+              '<strong>Prescri&ccedil;&atilde;o (art. 23):</strong> 8 anos para a&ccedil;&otilde;es de improbidade. <strong>A&ccedil;&atilde;o de ressarcimento &eacute; IMPRESCRIT&Iacute;VEL</strong> (art. 37, &sect;5&ordm;, CF/88).',
+              '<strong>Legitimados ativos (art. 17):</strong> MP, pessoa jur&iacute;dica interessada (Uni&atilde;o, Estado, DF, Munic&iacute;pio).',
+              '<strong>Elemento subjetivo:</strong> dolo deve ser provado pelo autor da a&ccedil;&atilde;o.',
+              '<strong>Fim do nexo causal autom&aacute;tico:</strong> a conduta deve efetivamente causar enriquecimento, dano ou viola&ccedil;&atilde;o.',
+              '<strong>Princ&iacute;pio da insignific&acirc;ncia:</strong> n&atilde;o configuram improbidade atos com valores irris&oacute;rios.'
+            ]
+          },
+          {
+            h: '19. Processo Administrativo Federal (Lei 9.784/99)',
+            p: '<p>Lei que disciplina o processo administrativo no &acirc;mbito da Administra&ccedil;&atilde;o P&uacute;blica Federal. Principais pontos:</p>',
+            ul: [
+              '<strong>Princ&iacute;pios (art. 2&ordm;):</strong> legalidade, finalidade, motiva&ccedil;&atilde;o, razoabilidade, proporcionalidade, moralidade, ampla defesa, contradit&oacute;rio, seguran&ccedil;a jur&iacute;dica, interesse p&uacute;blico, efici&ecirc;ncia.',
+              '<strong>Direitos do administrado (art. 3&ordm;):</strong> ser tratado com respeito, ter acesso a atos e registros, obter certid&otilde;es, conhecer identifica&ccedil;&atilde;o dos agentes, formular alega&ccedil;&otilde;es, ter prazo para defesa.',
+              '<strong>Prazos (art. 24 e 29):</strong> 5 dias para manifesta&ccedil;&atilde;o do interessado; 30 dias para decis&atilde;o de requerimento; 10 dias para recurso (regra).',
+              '<strong>Recursos:</strong> hier&aacute;rquico (regra), em raz&atilde;o de legalidade e m&eacute;rito.',
+              '<strong>Anula&ccedil;&atilde;o de atos (art. 53):</strong> 5 anos. Decad&ecirc;ncia.',
+              '<strong>Revoga&ccedil;&atilde;o (art. 55):</strong> por conveni&ecirc;ncia e oportunidade. N&atilde;o pode atingir atos vinculados ou que geraram direito adquirido.',
+              '<strong>Prescri&ccedil;&atilde;o (art. 1&ordm;, &sect;1&ordm;):</strong> 5 anos para a&ccedil;&otilde;es punitivas da Administra&ccedil;&atilde;o contra servidores e particulares.',
+              '<strong>Modalidades de processo:</strong> ordin&aacute;rio (regra), sum&aacute;rio (situa&ccedil;&otilde;es urgentes, art. 24, IX, par&aacute;grafo &uacute;nico), sum&iacute;ssimo (Lei 9.784/99, art. 47).'
+            ]
           }
         ]
       }
@@ -1107,6 +1916,144 @@
               '<strong>S&uacute;mula vinculante (art. 103-A):</strong> efeito vinculante e erga omnes.',
               'Efeitos: <strong>erga omnes</strong>, <strong>ex tunc</strong> (regra), <strong>retroativo</strong>.',
               'Modula&ccedil;&atilde;o de efeitos (art. 27 da Lei 9.868/99): o STF pode restringir efeitos ou fixar momento diverso.'
+            ]
+          },
+          {
+            h: '8. Direitos e Garantias Fundamentais &mdash; Detalhamento do Art. 5&ordm;',
+            p: '<p>O art. 5&ordm; da CF/88 cont&eacute;m 78 incisos. A CEBRASPE cobra os principais:</p>',
+            ul: [
+              '<strong>II &mdash; Igualdade:</strong> homens e mulheres s&atilde;o iguais em direitos e obriga&ccedil;&otilde;es.',
+              '<strong>III &mdash; Liberdade de express&atilde;o:</strong> vedado o anonimato (vedado mas com exce&ccedil;&otilde;es: literatura, arte, ci&ecirc;ncia).',
+              '<strong>IV &mdash; Livre manifesta&ccedil;&atilde;o do pensamento.</strong>',
+              '<strong>V &mdash; Direito de resposta + indeniza&ccedil;&atilde;o por dano moral/material &agrave; imagem.</strong>',
+              '<strong>VI &mdash; Liberdade religiosa.</strong>',
+              '<strong>VII &mdash; Garantia de atendimento em religi&otilde;es em hip&oacute;teses de risco &agrave; sa&uacute;de p&uacute;blica.</strong>',
+              '<strong>VIII &mdash; Ningu&eacute;m ser&aacute; preso sen&atilde;o em flagrante delito ou por ordem escrita de autoridade competente.</strong>',
+              '<strong>IX &mdash; Liberdade de exerc&iacute;cio de trabalho.</strong>',
+              '<strong>X &mdash; Inviolabilidade da intimidade, vida privada, honra e imagem.</strong>',
+              '<strong>XI &mdash; Inviolabilidade de casa (sem consentimento do morador; em flagrante, desastre, socorro, ou por ordem judicial, durante o dia).</strong>',
+              '<strong>XII &mdash; Inviolabilidade do sigilo da correspond&ecirc;ncia e comunica&ccedil;&otilde;es telef&ocirc;nicas (ordem judicial).</strong>',
+              '<strong>XIII &mdash; Livre exerc&iacute;cio de trabalho, of&iacute;cio ou profiss&atilde;o.</strong>',
+              '<strong>XIV &mdash; Acesso &agrave; informa&ccedil;&atilde;o (LAI).</strong>',
+              '<strong>XXXIII &mdash; Direito &agrave; informa&ccedil;&atilde;o p&uacute;blica (Lei 12.527/11).</strong>',
+              '<strong>XXXV &mdash; Inafastabilidade do Judici&aacute;rio (&quot;a lei n&atilde;o excluir&aacute; da aprecia&ccedil;&atilde;o do Poder Judici&aacute;rio les&atilde;o ou amea&ccedil;a a direito&quot;).</strong>',
+              '<strong>XXXVI &mdash; Direito adquirido, ato jur&iacute;dico perfeito e coisa julgada.</strong>',
+              '<strong>XXXIX &mdash; N&atilde;o h&aacute; crime sem lei anterior que o defina (legalidade penal).</strong>',
+              '<strong>XL &mdash; Irretroatividade da lei penal, salvo para beneficiar o r&eacute;u.</strong>',
+              '<strong>XLV &mdash; Pena pessoal, individualiza&ccedil;&atilde;o, proibi&ccedil;&atilde;o de banimento, trabalhos for&ccedil;ados, etc.</strong>',
+              '<strong>LXVII &mdash; Mandado de Seguran&ccedil;a (Lei 12.016/09).</strong>',
+              '<strong>LXVIII &mdash; Habeas Corpus.</strong>',
+              '<strong>LXIX &mdash; Mandado de Injun&ccedil;&atilde;o.</strong>',
+              '<strong>LXX &mdash; Habeas Data.</strong>',
+              '<strong>LXXI &mdash; Mandado de Seguran&ccedil;a Coletivo.</strong>',
+              '<strong>LXXII &mdash; A&ccedil;&atilde;o Popular (cidad&atilde;o no gozo dos direitos pol&iacute;ticos).</strong>',
+              '<strong>LXXVII &mdash; Gratuidade de HC, HD e MS.'
+            ]
+          },
+          {
+            h: '9. Rem&eacute;dios Constitucionais &mdash; Diferen&ccedil;as Cruciais',
+            p: '<p>Comparativo essencial para a CEBRASPE:</p>',
+            ul: [
+              '<strong>Habeas Corpus (HC):</strong> protege <em>liberdade de locomo&atilde;o</em>. Qualquer pessoa pode impetrar. Gratuito.',
+              '<strong>Habeas Data (HD):</strong> protege <em>informa&ccedil;&otilde;es pessoais em bancos de dados p&uacute;blicos</em>. Prazo: 60 dias da negativa administrativa.',
+              '<strong>Mandado de Seguran&ccedil;a (MS):</strong> protege <em>direito l&iacute;quido e certo n&atilde;o amparado por HC ou HD</em>. Prazo: 120 dias corridos (decadencial). Gratuito.',
+              '<strong>Mandado de Injun&ccedil;&atilde;o (MI):</strong> para exerc&iacute;cio de direitos/atividades sem norma regulamentadora. Pode ser coletivo.',
+              '<strong>A&ccedil;&atilde;o Popular (AP):</strong> <em>cidad&atilde;o no gozo dos direitos pol&iacute;ticos</em>, anula ato lesivo ao patrim&ocirc;nio p&uacute;blico, moralidade, meio ambiente, etc.',
+              '<strong>A&ccedil;&atilde;o Civil P&uacute;blica (ACP):</strong> MP, DP, Uni&atilde;o, Estados, DF, Munic&iacute;pios, associa&ccedil;&otilde;es. Para interesses difusos/coletivos.'
+            ]
+          },
+          {
+            h: '10. Nacionalidade e CIDADANIA',
+            p: '<p><strong>Art. 12 CF/88 &mdash; Brasileiros:</strong></p>',
+            ul: [
+              '<strong>Natos (art. 12, I):</strong>',
+              '&nbsp;&bull; nascidos na Rep&uacute;blica Federativa do Brasil, ainda que de pais estrangeiros, desde que estes n&atilde;o estejam a servi&ccedil;o de seu pa&iacute;s;<br>',
+              '&nbsp;&bull; nascidos no estrangeiro, de pai brasileiro ou m&atilde;e brasileira, desde que qualquer deles esteja a servi&ccedil;o da Rep&uacute;blica Federativa do Brasil;<br>',
+              '&nbsp;&bull; nascidos no estrangeiro, de pai brasileiro ou m&atilde;e brasileira, desde que sejam registrados em reparti&ccedil;&atilde;o brasileira competente (ou v&ecirc;m residir antes dos 12 anos);<br>',
+              '&nbsp;&bull; nascidos em pa&iacute;s que n&atilde;o admita o princ&iacute;pio do <em>jus soli</em>, de pai brasileiro ou m&atilde;e brasileira, que v&ecirc;m residir no Brasil e optam pela nacionalidade.',
+              '<strong>Naturalizados (art. 12, II):</strong> estrangeiros de qualquer nacionalidade, residentes h&aacute; mais de 15 anos ininterruptos e sem condena&ccedil;&atilde;o penal, ou que tenham obtido a nacionalidade por outra forma prevista em lei.',
+              '<strong>CARGOS PRIVATIVOS DE BRASILEIRO NATO (art. 12, &sect;3&ordm;):</strong> Presidente e Vice-Presidente, Presidente da C&acirc;mara dos Deputados e do Senado Federal, Ministros do STF, Tribunais superiores, TCU, Chefes de Miss&atilde;o Diplom&aacute;tica, Ministro de Estado da Defesa, Comandantes das For&ccedil;as Armadas, Membro do Conselho da Rep&uacute;blica.',
+              '<strong>Pegadinha CEBRASPE:</strong> confundir nato e naturalizado. Nato = nasce brasileiro (mesmo no exterior em certas condi&ccedil;&otilde;es). Naturalizado = passou por processo de naturaliza&ccedil;&atilde;o.'
+            ]
+          },
+          {
+            h: '11. Direitos Pol&iacute;ticos',
+            p: '<p>Art. 14 a 16 CF/88. <strong>Sufr&aacute;gio:</strong> voto.</p>',
+            ul: [
+              '<strong>Voto obrigat&oacute;rio:</strong> maiores de 18 e menores de 70 anos.',
+              '<strong>Voto facultativo:</strong> maiores de 70 anos, menores de 18 anos (alfabetizados), estrangeiros.',
+              '<strong>Capacidades pol&iacute;ticasativas:</strong> direito de votar e ser votado.',
+              '<strong>Inelegibilidade (art. 14, &sect;4&ordm;):</strong> declarada em condi&ccedil;&otilde;es especificadas na pr&oacute;pria Constitui&ccedil;&atilde;o e em lei complementar (Lei de Inelegibilidade - LC 64/90).',
+              '<strong>Cassados e suspens&atilde;o dos direitos pol&iacute;ticos:</strong> condenados por crime doloso com senten&ccedil;a transitada em julgado, improbidade administrativa, etc.',
+              '<strong>Perda dos direitos pol&iacute;ticos (art. 15):</strong> cancelamento da naturaliza&ccedil;&atilde;o por sentencia judicial em virtude de atividade nociva ao interesse nacional.',
+              '<strong>Restri&ccedil;&atilde;o (suspens&atilde;o):</strong> condena&ccedil;&atilde;o criminal transitada em julgado (enquanto dura o efeito da condena&ccedil;&atilde;o).',
+              '<strong>A&ccedil;&atilde;o Popular (art. 5&ordm;, LXXIII):</strong> exige cidadania (&quot;cidad&atilde;o no gozo dos direitos pol&iacute;ticos&quot;).'
+            ]
+          },
+          {
+            h: '12. Organiza&ccedil;&atilde;o do Estado &mdash; Detalhamento',
+            p: '<p><strong>Art. 18 CF/88:</strong> &quot;A organiza&ccedil;&atilde;o pol&iacute;tico-administrativa da Rep&uacute;blica Federativa do Brasil compreende a Uni&atilde;o, os Estados, o Distrito Federal, os Munic&iacute;pios, todos aut&ocirc;nomos&quot;.</p>',
+            ul: [
+              '<strong>Uni&atilde;o (art. 21-24):</strong> pessoa jur&iacute;dica de Direito P&uacute;blico interno. Compet&ecirc;ncias exclusivas (art. 21) e privativas (art. 22).',
+              '<strong>Estados (art. 25-28):</strong> autonomia pol&iacute;tica, administrativa e financeira. Constitui&ccedil;&atilde;o estadual pr&oacute;pria.',
+              '<strong>DF (art. 32):</strong> n&atilde;o &eacute; Munic&iacute;pio, n&atilde;o tem Assembl&eacute;ia Legislativa; tem C&acirc;mara Legislativa e Governador.',
+              '<strong>Munic&iacute;pios (art. 29-31):</strong> pessoa jur&iacute;dica de Direito P&uacute;blico. Lei Org&acirc;nica pr&oacute;pria. Autonomia.',
+              '<strong>Interven&ccedil;&atilde;o Federal (art. 34-35):</strong> nos Estados, na Uni&atilde;o. Hip&oacute;teses taxativas. Decreto do Congresso Nacional ou do STF, conforme o caso.',
+              '<strong>Interven&ccedil;&atilde;o Estadual (art. 36):</strong> em Munic&iacute;pios. Hip&oacute;teses taxativas. Decreto do Governador ou Assembleias Legislativas ou Tribunal de Justi&ccedil;a.'
+            ]
+          },
+          {
+            h: '13. Poder Constituinte',
+            p: '<p>Capacidade de elaborar a Constitui&ccedil;&atilde;o.</p>',
+            ul: [
+              '<strong>Poder Constituinte Origin&aacute;rio:</strong> inicial, ilimitado, incondicionado, aut&ocirc;nomo. Cria a Constitui&ccedil;&atilde;o. Irrevers&iacute;vel.',
+              '<strong>Poder Constituinte Derivado Reformador:</strong> decorrente. Capacidade de <em>emendar</em> a Constitui&ccedil;&atilde;o (art. 60). <strong>Limita&ccedil;&otilde;es:</strong> cl&aacute;usulas p&eacute;treas (art. 60, &sect;4&ordm;).',
+              '<strong>Poder Constituinte Derivado Decorrente:</strong> capacidade dos Estados de elaborarem suas pr&oacute;prias Constitui&ccedil;&otilde;es (art. 25).',
+              '<strong>Poder Constituinte Derivado Revis&iacute;stico:</strong> revis&atilde;o constitucional (art. 3&ordm; ADCT).',
+              '<strong>Cl&aacute;usulas p&eacute;treas:</strong> forma federativa, voto, separa&ccedil;&atilde;o dos Poderes, direitos e garantias individuais.',
+              '<strong>Emendas Constitucionais (art. 60):</strong> 1/3 dos membros da C&acirc;mara ou do Senado, ou 2/3 das Assembleias Legislativas (mais de 50% delas). Vota&ccedil;&atilde;o em dois turnos, 3/5 dos votos.'
+            ]
+          },
+          {
+            h: '14. Seguran&ccedil;a Social &mdash; Detalhamento Constitucional',
+            p: '<p>Art. 194-204. Tri&aacute;de: <strong>sa&uacute;de + previd&ecirc;ncia + assist&ecirc;ncia</strong>.</p>',
+            ul: [
+              '<strong>Sa&uacute;de (art. 196-200):</strong> direito de todos, dever do Estado. SUS &uacute;nico e descentralizado. A&ccedil;&otilde;es e servi&ccedil;os de sa&uacute;de s&atilde;o de relev&acirc;ncia p&uacute;blica.',
+              '<strong>Previd&ecirc;ncia (art. 201-202):</strong> car&aacute;ter contributivo, filia&ccedil;&atilde;o obrigat&oacute;ria. Cobertura: doen&ccedil;a, invalidez, morte, idade, prote&ccedil;&atilde;o &agrave; maternidade. Tr&ecirc;s regimes: RGPS, RPPS, previd&ecirc;ncia complementar.',
+              '<strong>Assist&ecirc;ncia (art. 203):</strong> n&atilde;o contributiva. BPC, prote&ccedil;&atilde;o &agrave; fam&iacute;lia, maternidade, crian&ccedil;a, adolescente, idoso, pessoa com defici&ecirc;ncia.',
+              '<strong>Financiamento (art. 195):</strong> contribui&ccedil;&otilde;es dos empregadores, dos trabalhadores e sobre a receita de concursos de progn&oacute;sticos. N&atilde;o incidir&aacute; sobre aposentadoria e pens&atilde;o concedidas pelo regime geral.',
+              '<strong>Equ&iacute;voco comum:</strong> BPC (assist&ecirc;ncia) n&atilde;o &eacute; benef&iacute;cio previdenci&aacute;rio. N&atilde;o exige contribui&ccedil;&atilde;o.',
+              '<strong>Or&ccedil;amento da Seguridade (art. 165, &sect;5&ordm;, III e art. 250):</strong> receitas e despesas aparecem em or&ccedil;amento pr&oacute;prio.'
+            ]
+          },
+          {
+            h: '15. EC 103/2019 &mdash; Reforma da Previd&ecirc;ncia &mdash; Mudan&ccedil;as Detalhadas',
+            p: '<p>A Emenda Constitucional 103/2019 alterou profundamente o sistema previdenci&aacute;rio brasileiro.</p>',
+            ul: [
+              '<strong>Aposentadoria por idade (RGPS):</strong> 65 anos (H) / 62 anos (M) com 20/15 anos de contribui&ccedil;&atilde;o. Car&ecirc;ncia de 180 meses.',
+              '<strong>Regra de transi&ccedil;&atilde;o &mdash; pontos (art. 17):</strong> soma de idade + tempo de contribui&ccedil;&atilde;o. Em 2019: 86 (M) e 96 (H). Aumenta 1 ponto por ano at&eacute; 99 (M) e 105 (H).',
+              '<strong>Ped&aacute;gio 50% (art. 17, &sect;2&ordm;):</strong> quem estava a at&eacute; 2 anos do tempo de contribui&ccedil;&atilde;o. Cumpriu ped&aacute;gio de 50% do tempo restante.',
+              '<strong>Ped&aacute;gio 100% (art. 20):</strong> idade m&iacute;nima de 60 (H) e 57 (M) + tempo de contribui&ccedil;&atilde;o + ped&aacute;gio integral.',
+              '<strong>Regras de idade progressiva (art. 4&ordm;):</strong> idade m&iacute;nima progride de 56/61 (M) e 61/65 (H).',
+              '<strong>Sal&aacute;rio-de-benef&iacute;cio:</strong> m&eacute;dia de 100% dos sal&aacute;rios desde 07/1994 (fator previdenci&aacute;rio extinto).',
+              '<strong>Valor da aposentadoria por idade:</strong> 60% + 2% por ano que exceder 20 (H) ou 15 (M) anos.',
+              '<strong>Pens&atilde;o por morte:</strong> 50% + 10% por dependente, at&eacute; 100%. Dura&ccedil;&atilde;o vital&iacute;cia ou tempor&aacute;ria conforme idade do c&ocirc;njuge.',
+              '<strong>Aposentadoria especial:</strong> 15, 20 ou 25 anos, conforme agente. Para quem come&ccedil;ou depois, pode haver idade m&iacute;nima (60/55).',
+              '<strong>Al&iacute;quotas progressivas:</strong> 7,5% a 14% para o empregado (Lei 14.973/24).',
+              '<strong>Reforma tamb&eacute;m abrangeu servidores p&uacute;blicos:</strong> idade m&iacute;nima de 65 (H) e 62 (M), regras de transi&ccedil;&atilde;o espec&iacute;ficas.'
+            ]
+          },
+          {
+            h: '16. Sistema Tribut&aacute;rio Nacional',
+            p: '<p>Art. 145-162. <strong>Princ&iacute;pios:</strong> legalidade, anterioridade, irretroatividade, vedação ao confisco, isonomia, capacidade contributiva.</p>',
+            ul: [
+              '<strong>Impostos da Uni&atilde;o (art. 153):</strong> II, IE, IR, IPI, IOF, ITR, IGF (imposto sobre grandes fortunas &mdash; n&atilde;o regulamentado).',
+              '<strong>Impostos dos Estados (art. 155):</strong> ICMS, IPVA, ITCMD.',
+              '<strong>Impostos dos Munic&iacute;pios (art. 156):</strong> ISS, IPTU, ITBI.',
+              '<strong>Contribui&ccedil;&otilde;es especiais (art. 149 e 195):</strong> contribui&ccedil;&otilde;es sociais, de interven&ccedil;&atilde;o no dom&iacute;nio econ&ocirc;mico, de categoria profissional.',
+              '<strong>Reparti&ccedil;&atilde;o de receitas tribut&aacute;rias:</strong> IR (art. 157), IPI (art. 159), IOF, ITR, ICMS (art. 158).',
+              '<strong>Imunidades (art. 150, VI):</strong> religi&otilde;es, partidos, sindicatos, livros, jornais, peri&oacute;dicos, papel para impress&atilde;o, entidades educacionais e assistenciais sem fins lucrativos.',
+              '<strong>Princ&iacute;pio da legalidade estrita (art. 150, I):</strong> nenhum tributo pode ser criado ou aumentado sem lei.'
             ]
           }
         ]
@@ -1343,6 +2290,175 @@
               'N&atilde;o pode ser acumulado com outro benef&iacute;cio do RGPS ou RPPS.',
               'Revis&atilde;o bienal (atualiza&ccedil;&atilde;o do cadastro).'
             ]
+          },
+          {
+            h: '10. Sal&aacute;rio-de-Benef&iacute;cio e RMI &mdash; Aprofundamento',
+            p: '<p>O sal&aacute;rio-de-benef&iacute;cio (SB) &eacute; a base para o c&aacute;lculo da Renda Mensal Inicial (RMI). Regras conforme EC 103/19:</p>',
+            ul: [
+              '<strong>Regra geral (ap&oacute;s EC 103/19, art. 26):</strong> m&eacute;dia aritm&eacute;tica simples de 100% dos sal&aacute;rios-de-contribui&ccedil;&atilde;o desde 07/1994 (ou do in&iacute;cio das contribui&ccedil;&otilde;es, se posterior).',
+              '<strong>Regra antiga (antes EC 103/19):</strong> 80% dos maiores sal&aacute;rios (descontados os 20% menores), com aplica&ccedil;&atilde;o do fator previdenci&aacute;rio (Lei 9.876/99).',
+              '<strong>Limite do SB:</strong> teto do RGPS (R$ 8.157,41 em 2026).',
+              '<strong>Aposentadoria por idade (RGPS, EC 103/19):</strong> valor = 60% + 2% por ano que exceder 20 (H) ou 15 (M) anos. Ex: mulher com 20 anos = 60% + 2%&times;5 = 70% da m&eacute;dia.',
+              '<strong>Aposentadoria por tempo de contribui&ccedil;&atilde;o:</strong> extinta pela EC 103/19. Quem j&aacute; tinha direito adquirido pode se aposentar pela regra antiga (80% + fator).',
+              '<strong>Aposentadoria especial:</strong> 100% da m&eacute;dia (integral, sem redutor).',
+              '<strong>Aposentadoria por incapacidade permanente (invalidez):</strong> 100% da m&eacute;dia.',
+              '<strong>Aux&iacute;lio por incapacidade tempor&aacute;ria:</strong> 91% da m&eacute;dia (regra geral). Acidente do trabalho = 100%.',
+              '<strong>Pens&atilde;o por morte:</strong> 50% + 10% por dependente, at&eacute; 100% (cota familiar).',
+              '<strong>Fator previdenci&aacute;rio (extinto em 2019):</strong> multiplicava o valor. Favorecia quem se aposentava mais tarde. Quem se aposentou antes da EC 103/19 pode usar.',
+              '<strong>Regra de prote&ccedil;&atilde;o (Lei 8.213/91, art. 26-A):</strong> se a regra nova for pior, usa-se a regra antiga (limite: teto do RGPS).'
+            ]
+          },
+          {
+            h: '11. C&aacute;lculo Pr&aacute;tico da Aposentadoria por Idade',
+            p: '<p>Exemplo pr&aacute;tico: <strong>Mulher, 62 anos, 15 anos de contribui&ccedil;&atilde;o, m&eacute;dia de R$ 5.000</strong>.</p>',
+            ul: [
+              '<strong>Passo 1 &mdash; Idade e tempo:</strong> 62 anos (M) + 15 anos = atinge o m&iacute;nimo. Regra da EC 103/19.',
+              '<strong>Passo 2 &mdash; Car&ecirc;ncia:</strong> 180 contribui&ccedil;&otilde;es (15 anos). A partir de EC 103/19, regra transit&oacute;ria reduz para quem j&aacute; contribuiu at&eacute; 14/11/2019.',
+              '<strong>Passo 3 &mdash; SB:</strong> m&eacute;dia de 100% dos sal&aacute;rios desde 07/1994 = R$ 5.000.',
+              '<strong>Passo 4 &mdash; RMI:</strong> 60% + 2% por ano que exceder 15. (15 anos &rarr; 60% = R$ 3.000).',
+              '<strong>Resultado:</strong> RMI = R$ 3.000/m&ecirc;s (se optar pela regra da EC 103/19).',
+              '<strong>Pegadinha CEBRASPE:</strong> confundir fator previdenci&aacute;rio (extinto) com a regra de 60% + 2%. N&atilde;o existe mais fator ap&oacute;s 13/11/2019.'
+            ]
+          },
+          {
+            h: '12. Aposentadoria Especial &mdash; Detalhamento',
+            p: '<p>Para atividades com exposi&ccedil;&atilde;o a agentes nocivos (f&iacute;sicos, qu&iacute;micos, biol&oacute;gicos, ergon&ocirc;micos) ou periculosidade.</p>',
+            ul: [
+              '<strong>Tempo de atividade especial (regra antiga, at&eacute; 13/11/2019):</strong> 15, 20 ou 25 anos, conforme o agente.',
+              '&nbsp;&bull; <strong>15 anos:</strong> ru&iacute;do, vibra&ccedil;&atilde;o, calor, frio, umidade, radia&ccedil;&atilde;o ionizante (alguns).<br>',
+              '&nbsp;&bull; <strong>20 anos:</strong> agente qu&iacute;mico, biol&oacute;gico, ergon&ocirc;micos.<br>',
+              '&nbsp;&bull; <strong>25 anos:</strong> minera&ccedil;&atilde;o subterr&acirc;nea, atividades com amianto, radia&ccedil;&atilde;o ionizante.',
+              '<strong>Regra nova (ap&oacute;s EC 103/19, para quem come&ccedil;ou depois):</strong> idade m&iacute;nima de 60 (H) / 55 (M), com 25/20/15 anos de atividade especial, conforme agente.',
+              '<strong>Lista de atividades:</strong> Anexos I, II, III do Decreto 3.048/99.',
+              '<strong>Documenta&ccedil;&atilde;o:</strong> PPP (Perfil Profissiogr&aacute;fico Previdenci&aacute;rio) ou laudo t&eacute;cnico. LTCAT (Laudo T&eacute;cnico de Condi&ccedil;&otilde;es Ambientais do Trabalho) substitu&iacute;do em alguns casos.',
+              '<strong>Convers&atilde;o de tempo especial em comum:</strong> multiplicador 1,4 (mulher) / 1,5 (homem), ou 1,2 para atividades com agentes menos nocivos.',
+              '<strong>Per&iacute;odo como aluno:</strong> tempo de estudo (t&eacute;cnico) pode ser convertido em tempo comum, com idade m&iacute;nima de 25 anos (Lei 9.527/97).',
+              '<strong>Valor:</strong> 100% da m&eacute;dia (integral).'
+            ]
+          },
+          {
+            h: '13. Aposentadoria por Incapacidade Permanente (Invalidez)',
+            p: '<p>Antes da EC 103/19, era chamada aposentadoria por invalidez.</p>',
+            ul: [
+              '<strong>Requisitos:</strong> doen&ccedil;a ou acidente que torne o segurado total e permanentemente incapaz para o trabalho, sem possibilidade de reabilita&ccedil;&atilde;o.',
+              '<strong>Car&ecirc;ncia:</strong> 12 contribui&ccedil;&otilde;es mensais (salvo acidente do trabalho, doen&ccedil;a profissional ou do trabalho).',
+              '<strong>Qualidade de segurado:</strong> necess&aacute;ria (salvo acidente do trabalho).',
+              '<strong>Per&iacute;odo de gra&ccedil;a:</strong> se o segurado perdeu a qualidade, n&atilde;o tem direito (salvo acidente do trabalho).',
+              '<strong>Valor:</strong> 100% do sal&aacute;rio-de-benef&iacute;cio.',
+              '<strong>Acidente do trabalho:</strong> dispensa car&ecirc;ncia e qualidade de segurado. Estabilidade no emprego de 1 ano ap&oacute;s cessar o aux&iacute;lio.',
+              '<strong>Doen&ccedil;as que isentam car&ecirc;ncia (Lei 8.213/91, art. 26, II):</strong> tuberculose ativa, hansen&iacute;ase, aliena&ccedil;&atilde;o mental, neoplasia maligna, cegueira, Aids, cardiopatia grave, doen&ccedil;a de Parkinson, espondiloartrose anquilosante, nefropatia grave, hepatopatia grave, esclerose m&uacute;ltipla, s&iacute;ndrome de defici&ecirc;ncia imunol&oacute;gica.',
+              '<strong>Readapta&ccedil;&atilde;o profissional:</strong> INSS tentar&aacute; recolocar o segurado em outra fun&ccedil;&atilde;o antes da aposentadoria.'
+            ]
+          },
+          {
+            h: '14. Aux&iacute;lio por Incapacidade Tempor&aacute;ria (antigo Aux&iacute;lio-Doen&ccedil;a)',
+            p: '<p>Nomenclatura alterada pela EC 103/19.</p>',
+            ul: [
+              '<strong>Requisitos:</strong>',
+              '&nbsp;&bull; Qualidade de segurado.<br>',
+              '&nbsp;&bull; Car&ecirc;ncia de 12 contribui&ccedil;&otilde;es (salvo acidente do trabalho).<br>',
+              '&nbsp;&bull; Incapacidade tempor&aacute;ria para o trabalho, comprovada por per&iacute;cia m&eacute;dica do INSS.',
+              '<strong>Valor:</strong> 91% da m&eacute;dia. Para acidente do trabalho: 100% da m&eacute;dia.',
+              '<strong>Per&iacute;odo de pagamento:</strong> enquanto perdurar a incapacidade (com per&iacute;cias peri&oacute;dicas).',
+              '<strong>Data de in&iacute;cio do benef&iacute;cio (DIB):</strong> 16&ordm; dia de afastamento (empregado) ou data do requerimento (demais).',
+              '<strong>Pegadinha CEBRASPE:</strong> a nova nomenclatura (aux&iacute;lio por incapacidade tempor&aacute;ria) substituiu "aux&iacute;lio-doen&ccedil;a", mas a legisla&ccedil;&atilde;o antiga continua a ser cobrada com o nome antigo. N&atilde;o confunda os termos.',
+              '<strong>Prorroga&ccedil;&atilde;o:</strong> per&iacute;cia m&eacute;dica avalia a cada 60 dias (pode ser menos em casos graves).'
+            ]
+          },
+          {
+            h: '15. Aux&iacute;lio-Acidente',
+            p: '<p>Indeniza&ccedil;&atilde;o por redu&ccedil;&atilde;o definitiva da capacidade de trabalho.</p>',
+            ul: [
+              '<strong>Requisitos:</strong>',
+              '&nbsp;&bull; Qualidade de segurado.<br>',
+              '&nbsp;&bull; Car&ecirc;ncia: NENHUMA (Lei 8.213/91, art. 26, &sect;1&ordm;).<br>',
+              '&nbsp;&bull; Redu&ccedil;&atilde;o definitiva da capacidade para o trabalho habitual.<br>',
+              '&nbsp;&bull; N&atilde;o gera aposentadoria.',
+              '<strong>Valor:</strong> 50% do sal&aacute;rio-de-benef&iacute;cio que serviria de base para a aposentadoria por incapacidade permanente.',
+              '<strong>Caracter&iacute;sticas:</strong>',
+              '&nbsp;&bull; Pode ser acumulado com sal&aacute;rio (se continuar trabalhando).<br>',
+              '&nbsp;&bull; Vital&iacute;cio (n&atilde;o cessa com a recupera&ccedil;&atilde;o, salvo se o segurado retornar &agrave; atividade habitual).<br>',
+              '&nbsp;&bull; Acumul&aacute;vel com pens&atilde;o por morte (S&uacute;mula 507 STJ).',
+              '<strong>Pegadinha CEBRASPE:</strong> aux&iacute;lio-acidente &eacute; indeniza&ccedil;&atilde;o, n&atilde;o substitui o sal&aacute;rio.'
+            ]
+          },
+          {
+            h: '16. Sal&aacute;rio-Maternidade',
+            p: '<p>Benef&iacute;cio pago &agrave; m&atilde;e (ou pai, em casos espec&iacute;ficos) durante a licen&ccedil;a maternidade.</p>',
+            ul: [
+              '<strong>Categorias e prazos:</strong>',
+              '&nbsp;&bull; <strong>Empregada:</strong> 120 dias, a partir do 8&ordm; m&ecirc;s de gesta&ccedil;&atilde;o. Pago pela empresa (que compensa com o INSS) ou pelo INSS (quando n&atilde;o h&aacute; v&iacute;nculo empregat&iacute;cio).<br>',
+              '&nbsp;&bull; <strong>Contribuinte individual, facultativa, especial, MEI:</strong> 120 dias, mediante requerimento.<br>',
+              '&nbsp;&bull; <strong>Desempregada (qualidade de segurado):</strong> 120 dias, se mantida a qualidade de segurado.<br>',
+              '&nbsp;&bull; <strong>Adotante:</strong> 120 dias, redu&ccedil;&otilde;es conforme a idade da crian&ccedil;a (Lei 13.509/17, art. 71-A).',
+              '<strong>Car&ecirc;ncia:</strong>',
+              '&nbsp;&bull; Empregada: 0 (desde que comprove filia&ccedil;&atilde;o).<br>',
+              '&nbsp;&bull; Demais: 10 contribui&ccedil;&otilde;es.<br>',
+              '&nbsp;&bull; Em parto antecipado, mant&eacute;m-se o prazo de 120 dias.',
+              '<strong>Valor:</strong>',
+              '&nbsp;&bull; Empregada: integral (sem redu&ccedil;&atilde;o).<br>',
+              '&nbsp;&bull; Contribuinte individual e facultativa: 1/12 da soma dos 12 &uacute;ltimos sal&aacute;rios-de-contribui&ccedil;&atilde;o (ou do total se menos).<br>',
+              '&nbsp;&bull; Adotante: mesmo valor.',
+              '<strong>Licen&ccedil;a-maternidade estendida (Cultura/Empresa Cidad&atilde;):</strong> 180 dias, conforme ades&atilde;o ao programa.',
+              '<strong>Aborto n&atilde;o criminoso:</strong> 2 semanas.',
+              '<strong>P&eacute;rdida do beb&ecirc; (natimorto):</strong> 120 dias, mas com discusses jurisprudenciais.'
+            ]
+          },
+          {
+            h: '17. Sal&aacute;rio-Fam&iacute;lia',
+            p: '<p>Benef&iacute;cio pago ao segurado de baixa renda que tem filhos ou equiparados de at&eacute; 14 anos (ou inv&aacute;lidos de qualquer idade).</p>',
+            ul: [
+              '<strong>Requisitos:</strong> qualidade de segurado e filho/equiparado nas condi&ccedil;&otilde;es da lei. <strong>N&atilde;o exige car&ecirc;ncia</strong>.',
+              '<strong>Limitado a:</strong> 14 anos, ou inv&aacute;lido de qualquer idade.',
+              '<strong>Cota parte familiar:</strong> pago por dependente.',
+              '<strong>Limite de renda (atualizado por MP):</strong> cabe&ccedil;a-de-fam&iacute;lia com renda at&eacute; certo valor (regras sofrem atualiza&ccedil;&atilde;o peri&oacute;dica via portaria).',
+              '<strong>Valor (2026):</strong> R$ 62,04 por dependente (empregado) ou outro valor, conforme atualiza&ccedil;&atilde;o.',
+              '<strong>Quem recebe:</strong> o segurado empregado, avulso, dom&eacute;stico. Demais categorias n&atilde;o t&ecirc;m direito.',
+              '<strong>Caracter&iacute;stica:</strong> pago com o sal&aacute;rio, pelo empregador (que deduz do INSS).',
+              '<strong>Cumulabilidade:</strong> com aux&iacute;lio-doen&ccedil;a, aposentadoria por invalidez, idade ou especial. N&atilde;o cumul&aacute;vel com aux&iacute;lio-acidente ou pens&atilde;o (S&uacute;mula 55 STJ).'
+            ]
+          },
+          {
+            h: '18. Aux&iacute;lio-Reclus&atilde;o',
+            p: '<p>Benef&iacute;cio pago aos dependentes do segurado recolhido &agrave; pris&atilde;o em regime fechado.</p>',
+            ul: [
+              '<strong>Requisitos:</strong>',
+              '&nbsp;&bull; Qualidade de segurado do recluso.<br>',
+              '&nbsp;&bull; Regime fechado (n&atilde;o se aplica a regimes aberto, semiaberto ou domiciliar).<br>',
+              '&nbsp;&bull; Car&ecirc;ncia: 24 contribui&ccedil;&otilde;es, reduzidas para 12 em caso de regime prisional.<br>',
+              '&nbsp;&bull; Dependentes em condi&ccedil;&otilde;es de receber.<br>',
+              '&nbsp;&bull; Recluso de baixa renda (regra da EC 104/20: renda do segurado at&eacute; R$ 1.754,18 em 2026).',
+              '<strong>Valor:</strong> equivalente ao aux&iacute;lio-doen&ccedil;a, se recluso de baixa renda; valor da aposentadoria por invalidez, se regime fechado e sem renda m&aacute;xima.',
+              '<strong>Suspensa&ccedil;&atilde;o:</strong> se o segurado passar para regime aberto, semiaberto ou domiciliar.',
+              '<strong>Cessada&ccedil;&atilde;o:</strong> morte do segurado, fuga, sa&iacute;da definitiva do sistema prisional.',
+              '<strong>Manuten&ccedil;&atilde;o do aux&iacute;lio:</strong> at&eacute; 6 meses ap&oacute;s a sa&iacedil;&atilde;o, se o segurado voltar ao trabalho.',
+              '<strong>Pegadinha CEBRASPE:</strong> aux&iacute;lio-reclus&atilde;o n&atilde;o &eacute; pago ao pr&oacute;prio segurado, mas aos seus dependentes.'
+            ]
+          },
+          {
+            h: '19. Reaberta&ccedil;&atilde;o e Reabilita&ccedil;&atilde;o Profissional',
+            p: '<p>Procedimentos que visam reintegrar o segurado ao trabalho.</p>',
+            ul: [
+              '<strong>Reabilita&ccedil;&atilde;o profissional (Lei 8.213/91, art. 89-93):</strong> programa do INSS para segurados com incapacidade parcial. Fornece cursos, treinamentos, pr&oacute;teses, &oacute;rteses. Objetivo: reinserir no mercado de trabalho.',
+              '<strong>Curso de qualifica&ccedil;&atilde;o profissional:</strong> ministrado pelo INSS ou por entidades conveniadas.',
+              '<strong>Readapta&ccedil;&atilde;o funcional:</strong> remo&ccedil;&atilde;o para cargo compat&iacute;vel com a limita&ccedil;&atilde;o (servidor p&uacute;blico).',
+              '<strong>Habilita&ccedil;&atilde;o e reabilita&ccedil;&atilde;o:</strong> segurado incapaz parcial ou totalmente deve ser encaminhado para o programa antes da aposentadoria por invalidez (se houver possibilidade de recupera&ccedil;&atilde;o).',
+              '<strong>Indeniza&ccedil;&atilde;o:</strong> se o segurado recusar ou abandonar o programa, pode ter o benef&iacute;cio suspenso.'
+            ]
+          },
+          {
+            h: '20. Crimes Previdenci&aacute;rios e Penalidades',
+            p: '<p>Crimes previstos no C&oacute;digo Penal e em legisla&ccedil;&atilde;o penal extravagante.</p>',
+            ul: [
+              '<strong>Estelionato previdenci&aacute;rio (art. 171, &sect;3&ordm;, CP):</strong> obter, para si ou para outrem, vantagem il&iacute;cita em preju&iacute;zo do INSS, induzindo ou mantendo algu&eacute;m em erro. Pena: reclus&atilde;o de 1 a 5 anos, multa.',
+              '<strong>Apropria&ccedil;&atilde;o ind&eacute;bita previdenci&aacute;ria (art. 168-A, CP):</strong> n&atilde;o recolher contribui&ccedil;&atilde;o social descontada de trabalhador, no prazo legal. Pena: reclus&atilde;o de 2 a 5 anos, multa.',
+              '<strong>Sonega&ccedil;&atilde;o de contribui&ccedil;&atilde;o previdenci&aacute;ria (art. 337-A, CP):</strong> suprimir ou reduzir contribui&ccedil;&atilde;o social, por qualquer meio. Pena: reclus&atilde;o de 2 a 5 anos, multa.',
+              '<strong>Fraude na qualidade de segurado (art. 347, CP):</strong> obter benef&iacute;cio sem direito. Pena: deten&ccedil;&atilde;o de 1 a 5 anos, multa.',
+              '<strong>Lei 8.212/91, art. 95:</strong> constitui crime deixar de recolher contribui&ccedil;&atilde;o social no prazo legal. Pena: deten&ccedil;&atilde;o de 6 meses a 2 anos, multa.',
+              '<strong>Lei 8.213/91, art. 116:</strong> crimes contra a seguridade social.',
+              '<strong>Princ&iacute;pio da insignific&acirc;ncia:</strong> STF (HC 115.254): valores muito pequenos n&atilde;o configuram crime.',
+              '<strong>Extin&ccedil;&atilde;o da punibilidade:</strong> pagamento do d&eacute;bito antes do recebimento da den&uacute;ncia (Lei 10.684/03).'
+            ]
           }
         ]
       }
@@ -1537,6 +2653,163 @@
               '<strong>EC 103/19:</strong> marco normativo atual, com regras transit&oacute;rias.',
               '<strong>Lei 14.176/2021:</strong> transferiu a gest&atilde;o do BPC do MDS para o INSS.'
             ]
+          },
+          {
+            h: '8. Lei 8.212/91 &mdash; Custeio da Seguridade &mdash; Detalhamento',
+            p: '<p>Lei 8.212/91 disciplina o <strong>custeio</strong> da Seguridade Social. Foco nas contribui&ccedil;&otilde;es sociais.</p>',
+            ul: [
+              '<strong>Contribuintes (art. 11):</strong>',
+              '&nbsp;&bull; Empresas<br>',
+              '&nbsp;&bull; Empregadores dom&eacute;sticos<br>',
+              '&nbsp;&bull; Trabalhadores (segurados)<br>',
+              '&nbsp;&bull; Entidades beneficentes de assist&ecirc;ncia social<br>',
+              '&nbsp;&bull; Cooperativas<br>',
+              '&nbsp;&bull; Administra&ccedil;&atilde;o P&uacute;blica direta, indireta e fundacional',
+              '<strong>Sal&aacute;rio-de-contribui&ccedil;&atilde;o (art. 28):</strong>',
+              '&nbsp;&bull; Empregado: total da remunera&ccedil;&atilde;o (sal&aacute;rio + gorjetas + comiss&otilde;es + adicionais).<br>',
+              '&nbsp;&bull; Contribuinte individual: o valor por ele declarado.<br>',
+              '&nbsp;&bull; Limites: m&iacute;nimo = sal&aacute;rio-m&iacute;nimo; m&aacute;ximo = teto do RGPS.<br>',
+              '&nbsp;&bull; Dirigente sindical: a remunera&ccedil;&atilde;o paga pela entidade.',
+              '<strong>Al&iacute;quotas (Lei 14.973/2024):</strong>',
+              '&nbsp;&bull; <strong>Empregado, dom&eacute;stico e trabalhador avulso (progressiva):</strong><br>',
+              '&nbsp;&bull; At&eacute; R$ 1.518,00: 7,5%<br>',
+              '&nbsp;&bull; De R$ 1.518,01 a R$ 2.793,88: 9%<br>',
+              '&nbsp;&bull; De R$ 2.793,89 a R$ 4.190,83: 12%<br>',
+              '&nbsp;&bull; De R$ 4.190,84 a R$ 8.157,41: 14%<br>',
+              '&nbsp;&bull; <strong>Contribuinte individual e facultativo:</strong> 20% (fixa) ou 11% (baixa renda, para cobertura simplificada).<br>',
+              '&nbsp;&bull; <strong>MEI:</strong> 5% do sal&aacute;rio-m&iacute;nimo (renda at&eacute; R$ 81.000/ano).<br>',
+              '&nbsp;&bull; <strong>Empregador (empresa):</strong> 20% sobre a folha + RAT (1%, 2% ou 3%) + Sistema S (aplica&ccedil;&atilde;o opcional).',
+              '<strong>Decreto 3.048/99 (Regulamento da Previd&ecirc;ncia):</strong> normas detalhadas de procedimentos, per&iacute;cia, benef&iacute;cios.'
+            ]
+          },
+          {
+            h: '9. Benef&iacute;cios Detalhados (Lei 8.213/91)',
+            p: '<p>Art. 18 da Lei 8.213/91 elenca os benef&iacute;cios do RGPS:</p>',
+            ul: [
+              '<strong>I &mdash; Aposentadorias:</strong> por incapacidade permanente, idade, especial, compuls&oacute;ria (70 anos), tempo de contribui&ccedil;&atilde;o (regra transit&oacute;ria, EC 103/19).',
+              '<strong>II &mdash; Aux&iacute;lio por incapacidade tempor&aacute;ria (antigo aux&iacute;lio-doen&ccedil;a):</strong> art. 59-63. 12 contribui&ccedil;&otilde;es de car&ecirc;ncia (salvo acidente). 91% do SB.',
+              '<strong>III &mdash; Sal&aacute;rio-fam&iacute;lia (art. 65-70):</strong> para filhos/equiparados at&eacute; 14 anos. Pago com o sal&aacute;rio. Sem car&ecirc;ncia.',
+              '<strong>IV &mdash; Sal&aacute;rio-maternidade (art. 71-73):</strong> 120 dias para a m&atilde;e. Car&ecirc;ncia 10 meses (empregada n&atilde;o exige).',
+              '<strong>V &mdash; Aux&iacute;lio-acidente (art. 86):</strong> indeniza&ccedil;&atilde;o. 50% do SB. Sem car&ecirc;ncia.',
+              '<strong>VI &mdash; Pens&atilde;o por morte (art. 74-79):</strong> 50% + 10%/dependente. Sem car&ecirc;ncia (basta qualidade de segurado).',
+              '<strong>VII &mdash; Aux&iacute;lio-reclus&atilde;o (art. 80-84):</strong> regime fechado. Car&ecirc;ncia 24 meses. Rendas baixas.',
+              '<strong>VIII &mdash; Abono anual (13&ordm;):</strong> pago em dezembro aos segurados que recebem benef&iacute;cios.',
+              '<strong>IX &mdash; Servi&ccedil;os:</strong> reabilita&ccedil;&atilde;o profissional, justificação administrativa.',
+              '<strong>Per&iacute;odo de gra&ccedil;a (art. 15):</strong> 12 meses ap&oacute;s cessar contribui&ccedil;&atilde;o (regra geral). Prorroga&ccedil;&atilde;o para quem contribuiu 120 (H) ou 60 (M) meses: mais 12 meses.'
+            ]
+          },
+          {
+            h: '10. Dependentes (Lei 8.213/91, art. 16)',
+            p: '<p>Dependentes previdenci&aacute;rios se dividem em 3 classes:</p>',
+            ul: [
+              '<strong>Classe I:</strong> c&ocirc;njuge, companheiro(a), filho(a) n&atilde;o emancipado(a) de qualquer condi&ccedil;&atilde;o, menor de 21 anos ou inv&aacute;lido(a), enteado(a), tutelado(a).',
+              '<strong>Classe II:</strong> pai, m&atilde;e, irm&atilde;o (n&atilde;o emancipado, menor de 21 anos ou inv&aacute;lido).',
+              '<strong>Classe III:</strong> demais parentes (av&oacute;s, tios, etc.) n&atilde;o mencionados nas classes anteriores, desde que vivam sob depend&ecirc;ncia econ&ocirc;mica.',
+              '<strong>Ordem de prefer&ecirc;ncia:</strong> 1&ordf; classe &rarr; 2&ordf; classe &rarr; 3&ordf; classe.',
+              '<strong>Companheiro(a) homossexual:</strong> equipara&ccedil;&atilde;o legal (CF/88, art. 5&ordm; e Lei 11.340/06). STF e STJ reconhecem uniões homoafetivas.',
+              '<strong>Menor sob guarda:</strong> S&uacute;mula 187 do STJ. Equipara&ccedil;&atilde;o a filho para fins previdenci&aacute;rios.',
+              '<strong>Inscri&ccedil;&atilde;o:</strong> autom&aacute;tica, por declara&ccedil;&atilde;o do segurado, dispensada para dependentes legais.',
+              '<strong>Perda da qualidade de dependente:</strong> cessada a condi&ccedil;&atilde;o (ex: casamento do filho, morte).'
+            ]
+          },
+          {
+            h: '11. Habilita&ccedil;&atilde;o de Benef&iacute;cios e Documenta&ccedil;&atilde;o',
+            p: '<p>Para requerer benef&iacute;cios no INSS, o segurado deve apresentar documenta&ccedil;&atilde;o b&aacute;sica:</p>',
+            ul: [
+              '<strong>Documentos pessoais:</strong> RG, CPF, comprovante de resid&ecirc;ncia, CTPS ou comprovante de v&iacute;nculo.',
+              '<strong>CNIS (Cadastro Nacional de Informa&ccedil;&otilde;es Sociais):</strong> principal fonte de dados do segurado. Pode ser consultado e corrigido.',
+              '<strong>Carn&ecirc;-contribui&ccedil;&atilde;o / GPS / GFIP:</strong> comprovantes de contribui&ccedil;&atilde;o.',
+              '<strong>Laudos e PPP:</strong> para aposentadoria especial.',
+              '<strong>Atestado m&eacute;dico:</strong> para aux&iacute;lio-doen&ccedil;a (per&iacute;cia INSS).',
+              '<strong>Certid&atilde;o de &oacute;bito:</strong> para pens&atilde;o por morte.',
+              '<strong>Documentos dos dependentes:</strong> para pens&atilde;o.',
+              '<strong>Justifica&ccedil;&atilde;o administrativa (Lei 8.213/91, art. 108-110):</strong> prova testemunhal quando n&atilde;o h&aacute; documentos. Valor probante limitado.',
+              '<strong>INSS Digital / Meu INSS:</strong> canais eletr&ocirc;nicos para requerimento.',
+              '<strong>Prazo para an&aacute;lise:</strong> 30 dias (Lei 10.711/03, alterada pela Lei 13.846/19). Se n&atilde;o cumprido, o benef&iacute;cio deve ser concedido pr&eacute;viamente at&eacute; a decis&atilde;o.'
+            ]
+          },
+          {
+            h: '12. Processo Administrativo Previdenci&aacute;rio &mdash; Detalhamento',
+            p: '<p>Procedimento no &acirc;mbito do INSS:</p>',
+            ul: [
+              '<strong>1&ordf; inst&acirc;ncia:</strong> APS (Ag&ecirc;ncia da Previd&ecirc;ncia Social). Decis&atilde;o do chefe da APS ou do gerente executivo.',
+              '<strong>2&ordf; inst&acirc;ncia:</strong> JR (Junta de Recursos) do CRPS (Conselho de Recursos da Previd&ecirc;ncia Social). &Oacute;rg&atilde;o colegiado com representa&ccedil;&atilde;o parit&aacute;ria (Uni&atilde;o, empresas, segurados).',
+              '<strong>3&ordf; inst&acirc;ncia (em mat&eacute;ria espec&iacute;fica):</strong> CRPS (em Bras&iacute;lia).',
+              '<strong>Prazo para recurso:</strong> 30 dias corridos (Lei 9.784/99, art. 59).',
+              '<strong>Efeito suspensivo:</strong> regra &eacute; ter efeito suspensivo (Lei 8.213/91, art. 126, &uacute;nico).',
+              '<strong>Pedido de reconsidera&ccedil;&atilde;o:</strong> cab&iacute;vel na 1&ordf; inst&acirc;ncia, 10 dias.',
+              '<strong>Justifica&ccedil;&atilde;o administrativa (art. 108-110):</strong> quando o segurado n&atilde;o tem como provar a atividade.',
+              '<strong>Recurso especial / extraordin&aacute;rio:</strong> para mat&eacute;ria constitucional ou de relev&acirc;ncia.',
+              '<strong>Reclama&ccedil;&atilde;o ao Conselho de Recursos:</strong> 30 dias.',
+              '<strong>Representa&ccedil;&atilde;o processual:</strong> por advogado com procura&ccedil;&atilde;o ou sindicato (com autoriza&ccedil;&atilde;o).'
+            ]
+          },
+          {
+            h: '13. Processo Judicial Previdenci&aacute;rio',
+            p: '<p>A&ccedil;&otilde;es judiciais para garantia de direitos previdenci&aacute;rios.</p>',
+            ul: [
+              '<strong>Compet&ecirc;ncia (CF, art. 109, I):</strong> Justi&ccedil;a Federal. Varas Federais Previdenci&aacute;rias.',
+              '<strong>Juizados Especiais Federais (Lei 10.259/01):</strong> causas at&eacute; <strong>60 sal&aacute;rios-m&iacute;nimos</strong>. Gratuidade de custas. Sem honor&aacute;rios para vencido (salvo lide maliciosa).',
+              '<strong>Turmas Recursais e Turma Regional:</strong> para recursos dos JEFs.',
+              '<strong>TRF (Tribunal Regional Federal):</strong> &uacute;ltima inst&acirc;ncia na Justi&ccedil;a Federal (salvo STF/STJ em mat&eacute;ria constitucional/infraconstitucional).',
+              '<strong>Legitima&ccedil;&atilde;o ativa:</strong> segurado, dependente, sindicato (como substituto processual), MP.',
+              '<strong>Legitima&ccedil;&atilde;o passiva:</strong> INSS.',
+              '<strong>Imprescritibilidade do direito ao benef&iacute;cio (S&uacute;mula 85 STJ):</strong> o direito &agrave; concess&atilde;o do benef&iacute;cio n&atilde;o prescreve.',
+              '<strong>Decad&ecirc;ncia das parcelas (5 anos):</strong> parcelas vencidas h&aacute; mais de 5 anos s&atilde;o perdidas (Lei 8.213/91, art. 103-A).',
+              '<strong>Tutela antecipada:</strong> cab&iacute;vel quando h&aacute; prova documental e risco de dano.',
+              '<strong>Honor&aacute;rios advocat&iacute;cios:</strong> 10% a 20% sobre o valor da condena&ccedil;&atilde;o, conforme jurisprud&ecirc;ncia.',
+              '<strong>Custas:</strong> 1% do valor da causa, isento se benefici&aacute;rio da justi&ccedil;a gratuita.',
+              '<strong>Justi&ccedil;a gratuita:</strong> presun&ccedil;&atilde;o de hipossufici&ecirc;ncia para quem recebe benef&iacute;cio de valor at&eacute; teto do INSS (Lei 10.259/01, art. 3&ordm;).',
+              '<strong>Reconven&ccedil;&atilde;o:</strong> INSS n&atilde;o pode reconvir. Mas pode contestar.',
+              '<strong>CPC aplicado:</strong> Lei 13.105/15 (CPC/2015).'
+            ]
+          },
+          {
+            h: '14. Crimes e Infra&ccedil;&otilde;es Administrativas Previdenci&aacute;rias',
+            p: '<p>Legisla&ccedil;&atilde;o penal e administrativa aplic&aacute;vel.</p>',
+            ul: [
+              '<strong>CP, art. 171, &sect;3&ordm; (estelionato):</strong> obter vantagem em preju&iacute;zo do INSS. Pena: reclus&atilde;o 1-5 anos.',
+              '<strong>CP, art. 168-A (apropria&ccedil;&atilde;o ind&eacute;bita):</strong> n&atilde;o recolher contribui&ccedil;&atilde;o descontada. Pena: reclus&atilde;o 2-5 anos.',
+              '<strong>CP, art. 337-A (sonega&ccedil;&atilde;o de contribui&ccedil;&atilde;o):</strong> suprimir ou reduzir contribui&ccedil;&atilde;o. Pena: reclus&atilde;o 2-5 anos.',
+              '<strong>Lei 8.212/91, art. 32 (caput):</strong> o d&eacute;bito atualizado monetariamente &eacute; considerado cr&eacute;dito da Uni&atilde;o.',
+              '<strong>Lei 8.212/91, art. 32-A (inclu&iacute;do pela Lei 11.727/08):</strong> inclus&atilde;o da contribui&ccedil;&atilde;o em d&iacute;vida ativa e execu&ccedil;&atilde;o fiscal.',
+              '<strong>Infra&ccedil;&otilde;es (Lei 8.212/91, art. 22):</strong> multas, encerramento de atividades, etc.',
+              '<strong>Mandado de Procedimento Fiscal (MPF):</strong> emitido pela Receita Federal.',
+              '<strong>NIT (N&uacute;mero de Identifica&ccedil;&atilde;o do Trabalhador) / PIS/PASEP:</strong> identificadores do segurado.',
+              '<strong>Certificado de Regularidade Fiscal (CRF):</strong> exigido para participar de licita&ccedil;&otilde;es, etc.',
+              '<strong>Princ&iacute;pio da insignific&acirc;ncia:</strong> STF: valores at&eacute; R$ 20.000 n&atilde;o configuram crime (HC 115.254, mas com ressalva).'
+            ]
+          },
+          {
+            h: '15. Contagem Rec&iacute;proca e Certid&atilde;o de Tempo de Contribui&ccedil;&atilde;o (CTC)',
+            p: '<p>Regras para contagem de tempo de contribui&ccedil;&atilde;o em diferentes regimes.</p>',
+            ul: [
+              '<strong>Contagem rec&iacute;proca (art. 94-99, Lei 8.213/91):</strong> tempo de contribui&ccedil;&atilde;o em RGPS, RPPS e regimes militares pode ser contado para aposentadoria em outro regime.',
+              '<strong>CTC (Certid&atilde;o de Tempo de Contribui&ccedil;&atilde;o):</strong> documento emitido pelo &oacute;rg&atilde;o de origem para aproveitamento do tempo em outro regime. Formato digital ou f&iacute;sico.',
+              '<strong>Averbação:</strong> registro do tempo de contribui&ccedil;&atilde;o em outro regime.',
+              '<strong>Limite:</strong> n&atilde;o se pode contar o mesmo tempo em dois regimes (vedação da duplicidade).',
+              '<strong>Desconto das contribui&ccedil;&otilde;es:</strong> o segurado que transita para outro regime pode ter desconto proporcional.',
+              '<strong>Princ&iacute;pio do paralelismo:</strong> o c&aacute;lculo do tempo segue a legisla&ccedil;&atilde;o do regime de origem.',
+              '<strong>Atividade rural:</strong> pode ser contada pelo regime pr&oacute;prio (segurado especial).',
+              '<strong>Tempo militar:</strong> conta para aposentadoria no RGPS ou RPPS, com aplica&ccedil;&atilde;o de ped&aacute;gio em alguns casos.'
+            ]
+          },
+          {
+            h: '16. Regimes Pr&oacute;prios de Previd&ecirc;ncia Social (RPPS)',
+            p: '<p>Regimes dos servidores p&uacute;blicos titulares de cargo efetivo.</p>',
+            ul: [
+              '<strong>Constitui&ccedil;&atilde;o (art. 40):</strong> regime pr&oacute;prio, de car&aacute;ter contributivo e solid&aacute;rio.',
+              '<strong>Lei 9.717/98:</strong> regras gerais para RPPS dos servidores p&uacute;blicos.',
+              '<strong>Lei 10.887/04:</strong> regras para aposentadoria e pens&atilde;o.',
+              '<strong>Regras de aposentadoria (EC 103/19):</strong> idade m&iacute;nima de 65 (H) / 62 (M), com 25/10 anos de efetivo exerc&iacute;cio e 10 anos de servi&ccedil;o p&uacute;blico, 5 anos no cargo.',
+              '<strong>Regras de transi&ccedil;&atilde;o (EC 103/19, art. 4&ordm; e 21):</strong> pontos, idade m&iacute;nima progressiva, ped&aacute;gio.',
+              '<strong>Regra de direito adquirido:</strong> quem cumpriu requisitos antes de 13/11/2019 pode se aposentar pela regra antiga.',
+              '<strong>Pens&atilde;o por morte:</strong> 50% + 10% por dependente, vital&iacute;cia ou tempor&aacute;ria.',
+              '<strong>Al&iacute;quotas progressivas:</strong> de 7,5% a 16,79% (servidor federal), conforme faixa de contribui&ccedil;&atilde;o.',
+              '<strong>Teto:</strong> o maior valor entre o teto do RGPS e o subs&iacute;dio do Ministro do STF.',
+              '<strong>Cumulação:</strong> aposentado em RPPS pode acumular com PENS&Atilde;O (mas n&atilde;o com outra aposentadoria).',
+              '<strong>Cargo comissionado e tempor&aacute;rio:</strong> vincula-se ao RGPS, n&atilde;o ao RPPS.'
+            ]
           }
         ]
       }
@@ -1728,6 +3001,237 @@
               '<strong>Redu&ccedil;&atilde;o percentual:</strong> V &rarr; V &times; (1 - X/100).',
               '<strong>Aumento seguido de redu&ccedil;&atilde;o:</strong> o resultado l&iacute;quido &eacute; V &times; (1+X/100)(1-Y/100).',
               'Cuidado: a ordem dos fatores N&Atilde;O altera o resultado (mas alterar o percentual muda).'
+            ]
+          },
+          {
+            h: '9. L&oacute;gica Proposicional &mdash; Detalhamento Completo',
+            p: '<p>Proposi&ccedil;&otilde;es s&atilde;o senten&ccedil;as declarativas (V ou F). N&atilde;o s&atilde;o proposi&ccedil;&otilde;es: exclama&ccedil;&otilde;es, perguntas, ordens, paradoxos, senten&ccedil;as abertas.</p>',
+            ul: [
+              '<strong>Conectivos l&oacute;gicos:</strong>',
+              '&nbsp;&bull; <strong>N&Atilde;O (~):</strong> inverte V/F. ~V = F, ~F = V.<br>',
+              '&nbsp;&bull; <strong>E (∧):</strong> V s&oacute; quando ambas V. Tabela-verdade: VV=V, VF=F, FV=F, FF=F.<br>',
+              '&nbsp;&bull; <strong>OU (∨):</strong> F s&oacute; quando ambas F. Tabela-verdade: VV=V, VF=V, FV=V, FF=F.<br>',
+              '&nbsp;&bull; <strong>SE...ENT&Atilde;O (&rarr;):</strong> F s&oacute; quando V&rarr;F. Tabela: VV=V, VF=F, FV=V, FF=V.<br>',
+              '&nbsp;&bull; <strong>SE E SOMENTE SE (&harr;):</strong> V quando ambas V ou ambas F.',
+              '<strong>Equival&ecirc;ncias essenciais:</strong>',
+              '&nbsp;&bull; <strong>Contrapositiva:</strong> P &rarr; Q &equiv; ~Q &rarr; ~P<br>',
+              '&nbsp;&bull; <strong>Implica&ccedil;&atilde;o material:</strong> P &rarr; Q &equiv; ~P &or; Q<br>',
+              '&nbsp;&bull; <strong>De Morgan:</strong> ~(P ∧ Q) &equiv; ~P &or; ~Q; ~(P &or; Q) &equiv; ~P ∧ ~Q<br>',
+              '&nbsp;&bull; <strong>Bicondicional:</strong> P &harr; Q &equiv; (P &rarr; Q) ∧ (Q &rarr; P)<br>',
+              '&nbsp;&bull; <strong>Dupla nega&ccedil;&atilde;o:</strong> ~(~P) &equiv; P',
+              '<strong>Negações Importantes:</strong>',
+              '&nbsp;&bull; ~(P ∧ Q) = ~P &or; ~Q<br>',
+              '&nbsp;&bull; ~(P &or; Q) = ~P ∧ ~Q<br>',
+              '&nbsp;&bull; ~(P &rarr; Q) = P ∧ ~Q<br>',
+              '&nbsp;&bull; ~(P &harr; Q) = P ↔ ~Q (ou ~P ↔ Q)<br>',
+              '&nbsp;&bull; ~(∀x: P(x)) = ∃x: ~P(x)<br>',
+              '&nbsp;&bull; ~(∃x: P(x)) = ∀x: ~P(x)<br>',
+              '&nbsp;&bull; "Todo A &eacute; B" → "Algum A n&atilde;o &eacute; B"<br>',
+              '&nbsp;&bull; "Algum A &eacute; B" → "Nenhum A &eacute; B"<br>',
+              '&nbsp;&bull; "Nenhum A &eacute; B" → "Algum A &eacute; B"',
+              '<strong>Quantificadores:</strong>',
+              '&nbsp;&bull; <strong>Universal (∀):</strong> "todo", "qualquer", "cada".<br>',
+              '&nbsp;&bull; <strong>Existencial (∃):</strong> "algum", "existe pelo menos um", "pelo menos um".<br>',
+              '&nbsp;&bull; "Algum" no sentido de "pelo menos um" (n&atilde;o exclusivo).',
+              '<strong>Tipos de proposições compostas:</strong>',
+              '&nbsp;&bull; <strong>Contradição:</strong> sempre F (ex: P ∧ ~P).<br>',
+              '&nbsp;&bull; <strong>Tautologia:</strong> sempre V (ex: P &or; ~P).<br>',
+              '&nbsp;&bull; <strong>Contingência:</strong> ora V, ora F (ex: P ∧ Q).',
+              '<strong>Equivalência x Implicação:</strong>',
+              '&nbsp;&bull; <strong>Equivalência (≡):</strong> tabelas-verdade idênticas.<br>',
+              '&nbsp;&bull; <strong>Implicação l&oacute;gica (⇒):</strong> toda vez que P &eacute; V, Q tamb&eacute;m &eacute; V.',
+              '<strong>Argumento v&aacute;lido:</strong> se todas as premissas forem V, a conclusão tamb&eacute;m &eacute; V.',
+              '<strong>Argumento inv&aacute;lido:</strong> pode ter premissas V e conclusão F.',
+              '<strong>Diagramas de Euler-Venn:</strong> auxiliam em problemas de conjuntos e silogismos.'
+            ]
+          },
+          {
+            h: '10. Análise Combinatória &mdash; Aprofundamento',
+            p: '<p>Técnicas de contagem. Cuidado para identificar o tipo correto de agrupamento.</p>',
+            ul: [
+              '<strong>Princ&iacute;pio Fundamental da Contagem (PFC):</strong> se h&aacute; <em>m</em> modos de fazer A e <em>n</em> modos de fazer B, h&aacute; m &times; n modos de fazer A <em>e</em> B. <em>Princ&iacute;pio multiplicativo.</em>',
+              '<strong>Permutação (P):</strong> arranjo onde se usam TODOS os elementos. P(n) = n!.',
+              '<strong>Arranjo (A):</strong> grupos onde a ORDEM importa. A(n,k) = n!/(n-k)!.',
+              '<strong>Combinação (C):</strong> grupos onde a ORDEM NÃO importa. C(n,k) = n!/[k!(n-k)!].',
+              '<strong>Identificação do tipo:</strong>',
+              '&nbsp;&bull; Ordem importa? <strong>Sim</strong> &rarr; Arranjo. <strong>Não</strong> &rarr; Combinação.<br>',
+              '&nbsp;&bull; Usa todos os elementos? <strong>Sim</strong> &rarr; Permutação.<br>',
+              '&nbsp;&bull; Repeti&ccedil;&atilde;o permitida? &rarr; usar f&oacute;rmulas espec&iacute;ficas.',
+              '<strong>Permutação com repetição:</strong> P(n; r1, r2, ..., rk) = n! / (r1! &times; r2! &times; ... &times; rk!), onde r1+r2+...+rk = n.',
+              '<strong>Combinação completa:</strong> C(n+k-1, k) = número de combinações com repetição de n elementos tomados k a k.',
+              '<strong>Triângulo de Pascal:</strong> n=0: 1; n=1: 1 1; n=2: 1 2 1; n=3: 1 3 3 1; n=4: 1 4 6 4 1; n=5: 1 5 10 10 5 1. Linhas dão os valores de C(n,k).',
+              '<strong>Binômio de Newton:</strong> (a+b)^n = Σ C(n,k) &times; a^(n-k) &times; b^k, para k de 0 a n.',
+              '<strong>Exemplos pr&aacute;ticos:</strong>',
+              '&nbsp;&bull; 5 pessoas em fila: P(5) = 5! = 120<br>',
+              '&nbsp;&bull; 5 pessoas premiar 1&ordm;, 2&ordm; e 3&ordm; lugares: A(5,3) = 60<br>',
+              '&nbsp;&bull; 5 pessoas formar comiss&atilde;o de 3: C(5,3) = 10<br>',
+              '&nbsp;&bull; Anagrama de BANANA: P(6; 3,2,1) = 60 (B=1, A=3, N=2)'
+            ]
+          },
+          {
+            h: '11. Probabilidade &mdash; Detalhamento',
+            p: '<p>Conceito cl&aacute;ssico de Laplace: P = casos favor&aacute;veis / casos poss&iacute;veis.</p>',
+            ul: [
+              '<strong>Defini&ccedil;&atilde;o cl&aacute;ssica:</strong> P(A) = n&uacute;mero de casos favor&aacute;veis / n&uacute;mero de casos poss&iacute;veis.',
+              '<strong>Propriedades:</strong> 0 ≤ P(A) ≤ 1. P(Ω) = 1 (evento certo). P(∅) = 0 (evento imposs&iacute;vel).',
+              '<strong>Eventos complementares:</strong> P(A) + P(~A) = 1. Logo, P(~A) = 1 - P(A).',
+              '<strong>Eventos mutuamente exclusivos:</strong> P(A ∩ B) = 0.',
+              '<strong>Uni&atilde;o de eventos:</strong> P(A ∪ B) = P(A) + P(B) - P(A ∩ B).',
+              '<strong>Interse&ccedil;&atilde;o de eventos independentes:</strong> P(A ∩ B) = P(A) &times; P(B).',
+              '<strong>Probabilidade condicional:</strong> P(A|B) = P(A ∩ B) / P(B). Indica a probabilidade de A dado que B ocorreu.',
+              '<strong>Teorema de Bayes:</strong> P(A|B) = [P(B|A) &times; P(A)] / P(B). Inverte condicional.',
+              '<strong>Distribuição Binomial:</strong> P(X=k) = C(n,k) &times; p^k &times; (1-p)^(n-k).',
+              '&nbsp;&bull; n = n&uacute;mero de tentativas.<br>',
+              '&nbsp;&bull; k = n&uacute;mero de sucessos desejados.<br>',
+              '&nbsp;&bull; p = probabilidade de sucesso em cada tentativa.<br>',
+              '&nbsp;&bull; Esperan&ccedil;a: E(X) = n&times;p. Vari&acirc;ncia: Var(X) = n&times;p&times;(1-p).',
+              '<strong>Exemplo:</strong> lan&ccedil;ar moeda 10 vezes, qual P de sair 5 caras?<br>&nbsp;&bull; n=10, k=5, p=0,5. P = C(10,5) &times; 0,5^5 &times; 0,5^5 = 252 &times; 0,000976 = 0,2461.'
+            ]
+          },
+          {
+            h: '12. Estat&iacute;stica &mdash; Medidas, Tendência e Dispersão',
+            p: '<p>Conceitos estat&iacute;sticos para concurso.</p>',
+            ul: [
+              '<strong>M&eacute;dia aritmética simples:</strong> &micro; = (x1 + x2 + ... + xn) / n.',
+              '<strong>M&eacute;dia aritmética ponderada:</strong> &micro; = Σ(xi &times; pi) / Σ pi.',
+              '<strong>Mediana (Md):</strong> valor que divide a amostra ordenada em duas metades. Se n &iacute;mpar, &eacute; o valor central. Se n par, &eacute; a m&eacute;dia dos dois centrais.',
+              '<strong>Moda (Mo):</strong> valor que mais se repete. Pode haver mais de uma (bimodal, multimodal).',
+              '<strong>Relação entre m&eacute;dia, mediana e moda:</strong>',
+              '&nbsp;&bull; Distribui&ccedil;&atilde;o sim&eacute;trica: &micro; = Md = Mo.<br>',
+              '&nbsp;&bull; Assim&eacute;trica &agrave; direita: Mo < Md < &micro;.<br>',
+              '&nbsp;&bull; Assim&eacute;trica &agrave; esquerda: &micro; < Md < Mo.',
+              '<strong>Vari&acirc;ncia (σ&sup2;):</strong> m&eacute;dia dos quadrados dos desvios em rela&ccedil;&atilde;o &agrave; m&eacute;dia. &sigma;&sup2; = Σ(xi - &micro;)&sup2; / n (populacional) ou /(n-1) (amostral).',
+              '<strong>Desvio padr&atilde;o (σ):</strong> raiz quadrada da vari&acirc;ncia.',
+              '<strong>Coeficiente de varia&ccedil;&atilde;o (CV):</strong> CV = σ / &micro; &times; 100%. Mede dispers&atilde;o relativa.',
+              '<strong>Frequência relativa:</strong> fr = fi / n. Pode ser expressa em %.',
+              '<strong>Gr&aacute;ficos:</strong> histograma (vari&aacute;veis cont&iacute;nuas), gr&aacute;fico de barras (discretas), gr&aacute;fico de pizza (proporções).',
+              '<strong>Probabilidade e estat&iacute;stica:</strong> estat&iacute;stica descritiva, inferencial.'
+            ]
+          },
+          {
+            h: '13. Matem&aacute;tica Financeira &mdash; Detalhamento',
+            p: '<p>Juros, descontos, taxas.</p>',
+            ul: [
+              '<strong>Juros Simples:</strong> J = C &times; i &times; t. M = C(1 + i&middot;t). Os juros incidem apenas sobre o capital inicial.',
+              '&nbsp;&bull; Juros sempre iguais.<br>',
+              '&nbsp;&bull; C = capital inicial. i = taxa (em decimal). t = per&iacute;odo.<br>',
+              '&nbsp;&bull; Convers&atilde;o de taxa: ano &divide; 12 = m&ecirc;s (simples).',
+              '<strong>Juros Compostos:</strong> M = C(1 + i)^t. Os juros incidem sobre o capital + juros acumulados.',
+              '&nbsp;&bull; Crescimento exponencial.<br>',
+              '&nbsp;&bull; Convers&atilde;o de taxa anual para mensal: (1 + i_a) = (1 + i_m)^12 &rarr; i_m = (1 + i_a)^(1/12) - 1.',
+              '<strong>Descontos:</strong>',
+              '&nbsp;&bull; <strong>Simples (por dentro):</strong> D = N &times; d &times; t. Valor atual: A = N - D = N(1 - d&middot;t).<br>',
+              '&nbsp;&bull; <strong>Composto (por dentro):</strong> D = N &times; [1 - (1-d)^t]. Valor atual: A = N &times; (1-d)^t.<br>',
+              '&nbsp;&bull; <strong>Racional (por dentro):</strong> D = N &times; d &times; t / (1 + d&middot;t).<br>',
+              '&nbsp;&bull; <strong>Comercial (por fora):</strong> D = N &times; d &times; t.',
+              '<strong>Equival&ecirc;ncia de capitais:</strong> dois capitais s&atilde;o equivalentes se, descontados &agrave; mesma taxa e mesma data focal, t&ecirc;m o mesmo valor atual.',
+              '<strong>Taxa efetiva vs nominal:</strong> efetiva &eacute; a aplicada; nominal &eacute; a taxa contratual (ex: 12% a.a. com capitaliza&ccedil;&atilde;o mensal = 1% a.m. = 12,68% efetiva).',
+              '<strong>S&eacute;ries de pagamentos:</strong>',
+              '&nbsp;&bull; <strong>Postecipada (renda certa):</strong> pagamento no fim de cada per&iacute;odo.<br>',
+              '&nbsp;&bull; <strong>Antecipada:</strong> pagamento no in&iacute;cio de cada per&iacute;odo.<br>',
+              '&nbsp;&bull; <strong>F&oacute;rmula do valor presente (postecipada):</strong> PV = PMT &times; [(1 - (1+i)^-n) / i].<br>',
+              '&nbsp;&bull; <strong>F&oacute;rmula do valor futuro:</strong> FV = PMT &times; [((1+i)^n - 1) / i].',
+              '<strong>Taxa interna de retorno (TIR):</strong> taxa que iguala o valor presente l&iacute;quido a zero.',
+              '<strong>Inflação e corre&ccedil;&atilde;o monet&aacute;ria:</strong> taxa real = (1 + taxa nominal) / (1 + infla&ccedil;&atilde;o) - 1.'
+            ]
+          },
+          {
+            h: '14. Geometria Plana e Espacial',
+            p: '<p>Conceitos b&aacute;sicos de geometria para resolver quest&otilde;es.</p>',
+            ul: [
+              '<strong>Per&iacute;metro (P):</strong> soma dos lados de uma figura.',
+              '<strong>&Aacute;rea (A):</strong>',
+              '&nbsp;&bull; <strong>Quadrado:</strong> A = L&sup2;<br>',
+              '&nbsp;&bull; <strong>Ret&acirc;ngulo:</strong> A = base &times; altura<br>',
+              '&nbsp;&bull; <strong>Tri&acirc;ngulo:</strong> A = (base &times; altura) / 2<br>',
+              '&nbsp;&bull; <strong>Trap&eacute;zio:</strong> A = [(B + b) &times; h] / 2 (soma de bases vezes altura / 2)<br>',
+              '&nbsp;&bull; <strong>Losango:</strong> A = (D &times; d) / 2 (diagonais)<br>',
+              '&nbsp;&bull; <strong>C&iacute;rculo:</strong> A = π &times; r&sup2;<br>',
+              '&nbsp;&bull; <strong>Setor circular:</strong> A = (θ/360) &times; π &times; r&sup2;',
+              '<strong>Volume (V):</strong>',
+              '&nbsp;&bull; <strong>Cubo:</strong> V = a&sup3;<br>',
+              '&nbsp;&bull; <strong>Paralelep&iacute;pedo:</strong> V = a &times; b &times; c<br>',
+              '&nbsp;&bull; <strong>Cilindro:</strong> V = π &times; r&sup2; &times; h<br>',
+              '&nbsp;&bull; <strong>Cone:</strong> V = (1/3) &times; π &times; r&sup2; &times; h<br>',
+              '&nbsp;&bull; <strong>Esfera:</strong> V = (4/3) &times; π &times; r&sup3;<br>',
+              '&nbsp;&bull; <strong>Pir&acirc;mide:</strong> V = (1/3) &times; A_base &times; h',
+              '<strong>Teorema de Pit&aacute;goras:</strong> a&sup2; = b&sup2; + c&sup2;. Para tri&acirc;ngulo ret&acirc;ngulo.',
+              '<strong>Raz&otilde;es trigonom&eacute;tricas:</strong> sen, cos, tan em tri&acirc;ngulos ret&acirc;ngulos.',
+              '<strong>Semelhan&ccedil;a de tri&acirc;ngulos:</strong> raz&atilde;o entre lados correspondentes &eacute; constante.'
+            ]
+          },
+          {
+            h: '15. Conjuntos &mdash; Detalhamento',
+            p: '<p>Opera&ccedil;&otilde;es com conjuntos e diagramas de Venn.</p>',
+            ul: [
+              '<strong>Representação:</strong> por extenso (listagem), por propriedade (x | condi&ccedil;&atilde;o), por diagrama de Venn.',
+              '<strong>Subconjunto (⊂):</strong> A ⊂ B se todo elemento de A pertence a B.',
+              '&nbsp;&bull; A ⊂ A (todo conjunto &eacute; subconjunto de si mesmo).<br>',
+              '&nbsp;&bull; ∅ ⊂ A (conjunto vazio &eacute; subconjunto de qualquer conjunto).<br>',
+              '&nbsp;&bull; N&uacute;mero de subconjuntos: 2^n.',
+              '<strong>Uni&atilde;o (A ∪ B):</strong> elementos de A ou B. |A ∪ B| = |A| + |B| - |A ∩ B|.',
+              '<strong>Interse&ccedil;&atilde;o (A ∩ B):</strong> elementos comuns a A e B. Se A ∩ B = ∅, s&atilde;o disjuntos.',
+              '<strong>Diferen&ccedil;a (A - B):</strong> elementos de A que n&atilde;o est&atilde;o em B.',
+              '<strong>Complementar (A&acute; ou A^c):</strong> elementos do universo (U) que n&atilde;o est&atilde;o em A. A ∪ A&acute; = U; A ∩ A&acute; = ∅.',
+              '<strong>Leis de De Morgan (conjuntos):</strong>',
+              '&nbsp;&bull; (A ∪ B)&acute; = A&acute; ∩ B&acute;<br>',
+              '&nbsp;&bull; (A ∩ B)&acute; = A&acute; ∪ B&acute;',
+              '<strong>Princ&iacute;pio da inclus&atilde;o-exclus&atilde;o:</strong>',
+              '&nbsp;&bull; |A ∪ B| = |A| + |B| - |A ∩ B|<br>',
+              '&nbsp;&bull; |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C|',
+              '<strong>Exemplo:</strong> 30 alunos, 15 gostam de matem&aacute;tica, 10 de portugu&ecirc;s, 5 de ambos. Quantos gostam de pelo menos uma? 15 + 10 - 5 = 20. S&oacute matem&aacute;tica: 10. S&oacute portugu&ecirc;s: 5. Nenhuma: 30 - 20 = 10.'
+            ]
+          },
+          {
+            h: '16. Sequências, Padrões e Raciocínio Analítico (CEBRASPE)',
+            p: '<p>Tipo especial de quest&atilde;o muito cobrada.</p>',
+            ul: [
+              '<strong>Sequência aritmética (PA):</strong> a_n = a_1 + (n-1) &times; r, onde r &eacute; a raz&atilde;o.',
+              '<strong>Sequência geométrica (PG):</strong> a_n = a_1 &times; q^(n-1), onde q &eacute; a raz&atilde;o.',
+              '<strong>Soma dos n primeiros termos de uma PA:</strong> S_n = n &times; (a_1 + a_n) / 2.',
+              '<strong>Soma dos n primeiros termos de uma PG:</strong> S_n = a_1 &times; (q^n - 1) / (q - 1), q &ne; 1.',
+              '<strong>Padrões num&eacute;ricos:</strong> analisar diferen&ccedil;as, raz&otilde;es, altern&acirc;ncia (pares/&iacute;mpares), Fibonacci.',
+              '<strong>Sequência de Fibonacci:</strong> 1, 1, 2, 3, 5, 8, 13, 21, 34, 55... Cada termo &eacute; a soma dos dois anteriores.',
+              '<strong>Raciocínio analítico CEBRASPE:</strong> enunciados longos com gr&aacute;ficos, tabelas, esquemas. Cuidado com:',
+              '&nbsp;&bull; Palavras absolutistas (sempre, nunca, todo, nenhum) - geralmente tornam a proposi&ccedil;&atilde;o F.<br>',
+              '&nbsp;&bull; Palavras suavizadoras (alguns, pode, eventualmente) - geralmente tornam a proposi&ccedil;&atilde;o C.<br>',
+              '&nbsp;&bull; Quantificadores invertidos (alguns &eacute; diferente de todos).<br>',
+              '&nbsp;&bull; Distin&ccedil;&atilde;o entre "se P, ent&atilde;o Q" e "P porque Q".',
+              '<strong>Diagramas l&oacute;gicos:</strong> auxiliam em problemas de conjuntos e silogismos categ&oacute;ricos.',
+              '<strong>Silogismo categ&oacute;rico:</strong> racioc&iacute;nio dedutivo com tr&ecirc;s proposi&ccedil;&otilde;es (duas premissas e uma conclus&atilde;o). Ex: "Todo A &eacute; B. Todo B &eacute; C. Logo, todo A &eacute; C."',
+              '<strong>Fal&aacute;cias l&oacute;gicas:</strong>',
+              '&nbsp;&bull; <strong>Ad hominem:</strong> atacar a pessoa, n&atilde;o o argumento.<br>',
+              '&nbsp;&bull; <strong>Ad populum:</strong> "todo mundo faz, ent&atilde;o &eacute; certo".<br>',
+              '&nbsp;&bull; <strong>Falsa dicotomia:</strong> apresentar s&oacute; duas op&ccedil;&otilde;es quando h&aacute; mais.<br>',
+              '&nbsp;&bull; <strong>Non sequitur:</strong> conclus&atilde;o n&atilde;o decorre das premissas.<br>',
+              '&nbsp;&bull; <strong>Espantalho:</strong> distorcer o argumento do advers&aacute;rio.',
+              '<strong>Proposições equivalentes e tautológicas:</strong> s&atilde;o verdadeiras em qualquer situa&ccedil;&atilde;o.',
+              '<strong>Proposições contradit&oacute;rias:</strong> sempre uma V e outra F.'
+            ]
+          },
+          {
+            h: '17. Equações e Sistemas Lineares',
+            p: '<p>&Uacute;ltima revis&atilde;o de matem&aacute;tica b&aacute;sica.</p>',
+            ul: [
+              '<strong>Equa&ccedil;&atilde;o de 1&ordm; grau:</strong> ax + b = 0 &rarr; x = -b/a.',
+              '<strong>Equa&ccedil;&atilde;o de 2&ordm; grau:</strong> ax&sup2; + bx + c = 0. F&oacute;rmula de Bhaskara: x = (-b ± √Δ) / 2a, onde Δ = b&sup2; - 4ac.',
+              '&nbsp;&bull; Se Δ > 0: duas ra&iacute;zes reais distintas.<br>',
+              '&nbsp;&bull; Se Δ = 0: duas ra&iacute;zes reais iguais.<br>',
+              '&nbsp;&bull; Se Δ < 0: nenhuma raiz real.',
+              '<strong>Rela&ccedil;&otilde;es entre coeficientes e ra&iacute;zes:</strong>',
+              '&nbsp;&bull; Soma: x1 + x2 = -b/a<br>',
+              '&nbsp;&bull; Produto: x1 &times; x2 = c/a',
+              '<strong>Sistemas lineares 2x2:</strong> resolu&ccedil;&atilde;o por substitui&ccedil;&atilde;o, adi&ccedil;&atilde;o ou regra de Cramer.',
+              '<strong>Regra de Cramer 2x2:</strong>',
+              '&nbsp;&bull; ax + by = c<br>',
+              '&nbsp;&bull; dx + ey = f<br>',
+              '&nbsp;&bull; D = a&times;e - b&times;d (determinante).<br>',
+              '&nbsp;&bull; Se D &ne; 0: SPD (solu&ccedil;&atilde;o &uacute;nica).<br>',
+              '&nbsp;&bull; Se D = 0: SI (sem solu&ccedil;&atilde;o) ou SPI (infinitas).',
+              '<strong>Sistemas 3x3:</strong> regra de Cramer ou escalonamento (Gauss).',
+              '<strong>Inequa&ccedil;&otilde;es:</strong> multiplicar/dividir por n&uacute;mero negativo inverte o sinal da desigualdade.',
+              '<strong>Inequação-produto:</strong> estudar o sinal de cada fator (usar tabela de sinais).',
+              '<strong>Inequação-quociente:</strong> n&atilde;o pode zerar o denominador.'
             ]
           }
         ]
