@@ -528,7 +528,8 @@
       if (materia.materia.capitulos) {
         materia.materia.capitulos.forEach((cap, i) => {
           html += `<div class="materia-capitulo">`;
-          html += `<h3 class="cap-titulo"><span class="cap-num">${i+1}</span> ${cap.h.replace(/^\d+\.\s*/, '')}</h3>`;
+          const tituloCap = cap.h.replace(/^\d+\.\s*/, '');
+          html += `<h3 class="cap-titulo"><span class="cap-num">${i+1}</span> ${tituloCap}</h3>`;
           if (cap.p) html += `<div class="cap-paragrafo">${cap.p}</div>`;
           if (cap.ul) {
             html += '<ul class="cap-lista">';
@@ -547,6 +548,11 @@
             cap.ul3.forEach(item => { html += `<li>${item}</li>`; });
             html += '</ul>';
           }
+          html += `<div class="cap-ai-actions">
+            <button class="btn-mini ai-cap-btn" data-cap-acao="explicar" data-cap-idx="${i}">&#10024; Explicar com IA</button>
+            <button class="btn-mini ai-cap-btn" data-cap-acao="resumir" data-cap-idx="${i}">&#128221; Resumir</button>
+            <button class="btn-mini ai-cap-btn" data-cap-acao="quiz" data-cap-idx="${i}">&#127942; Gerar quiz</button>
+          </div>`;
           html += '</div>';
         });
       }
@@ -573,6 +579,45 @@
         tab.classList.add('active');
         $('detail-content-' + tab.dataset.dtab).classList.add('active');
       });
+    });
+
+    // Botões "Explicar com IA / Resumir / Gerar quiz" em cada capítulo
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('.ai-cap-btn');
+      if (!btn) return;
+      const acao = btn.dataset.capAcao;
+      const idx = parseInt(btn.dataset.capIdx, 10);
+      if (!materiaAtiva) return;
+      const mat = CONTEUDO.find(m => m.id === materiaAtiva);
+      if (!mat || !mat.materia || !mat.materia.capitulos) return;
+      const cap = mat.materia.capitulos[idx];
+      if (!cap) return;
+      const tituloCap = (cap.h || '').replace(/^\d+\.\s*/, '').replace(/<[^>]+>/g, '');
+
+      if (!window.AIWidget || !window.AICore) return;
+      const cfg = AICore.load();
+      if (!AICore.isConfigured(cfg)) {
+        if (window.toast) window.toast('Configure a IA no Dashboard primeiro', 'err');
+        else alert('Configure a IA no Dashboard primeiro');
+        return;
+      }
+
+      let contexto, prompt;
+      if (acao === 'explicar') {
+        contexto = 'topico';
+        prompt = `Explique o tópico "${tituloCap}" da matéria "${mat.nome}" de forma didática, com exemplos práticos e base legal (lei/artigo) quando aplicável para o concurso do INSS/CEBRASPE.`;
+      } else if (acao === 'resumir') {
+        contexto = 'resumo';
+        prompt = `Faça um resumo em até 8 bullets do tópico "${tituloCap}" (matéria: ${mat.nome}) com os pontos mais cobrados pelo CEBRASPE.`;
+      } else if (acao === 'quiz') {
+        contexto = 'quiz';
+        prompt = `Crie 3 questões no estilo CEBRASPE sobre "${tituloCap}" (matéria: ${mat.nome}), com gabarito comentado em 1 linha.`;
+      } else {
+        return;
+      }
+      AIWidget.setContext(contexto, { materia: mat.nome, topico: tituloCap });
+      AIWidget.openPanel();
+      AIWidget.sendMessage(prompt);
     });
   }
 
@@ -739,10 +784,13 @@
       feedbackHtml = `<div class="questao-feedback"><strong>${resp === q.correta ? '✓ Correto!' : '✗ Incorreto'}</strong> &middot; <strong>Gabarito:</strong> letra ${String.fromCharCode(65 + q.correta)}. ${q.explicacao}</div>`;
     }
 
+    const explicarBtn = `<button class="btn-mini ai-explain-btn" data-action="explicar" title="Pedir explicação detalhada à IA">&#10024; Explicar com IA</button>`;
+
     container.innerHTML = `
       <div class="questao-num">QUEST&Atilde;O ${simuladoIdx + 1} de ${simuladoQuestoes.length} &middot; ${q.matNome}</div>
       <div class="questao-texto">${q.enunciado}</div>
       <div class="questao-opcoes">${opcoesHtml}</div>
+      <div class="questao-explain-row">${explicarBtn}</div>
       ${feedbackHtml}
     `;
 
@@ -754,6 +802,36 @@
         renderQuestao();
       });
     });
+
+    const explainBtn = container.querySelector('.ai-explain-btn');
+    if (explainBtn) {
+      explainBtn.addEventListener('click', () => {
+        if (!window.AIWidget || !window.AICore) return;
+        const cfg = AICore.load();
+        if (!AICore.isConfigured(cfg)) {
+          if (window.toast) window.toast('Configure a IA no Dashboard primeiro', 'err');
+          else alert('Configure a IA no Dashboard primeiro');
+          return;
+        }
+        const alternativasTxt = q.opcoes.map((a, i) => `${String.fromCharCode(65 + i)}) ${a}`).join('\n');
+        const tpl = window.AIPrompts.PROMPTS.questao;
+        const message = window.AIPrompts.render(tpl, {
+          enunciado: q.enunciado,
+          alternativas: alternativasTxt,
+          materia: q.matNome || '',
+          topico: q.topico || ''
+        });
+        // Define contexto e abre widget com a mensagem já enviada
+        AIWidget.setContext('questao', {
+          enunciado: q.enunciado,
+          alternativas: q.opcoes,
+          materia: q.matNome || '',
+          topico: q.topico || ''
+        });
+        AIWidget.openPanel();
+        AIWidget.sendMessage(message);
+      });
+    }
   }
 
   function navegarQuestao(dir) {
@@ -1810,6 +1888,7 @@
       case 'notes': renderNotes(); break;
       case 'calc': updateCalcDisplay(); break;
       case 'pomodoro': updatePomoDisplay(); break;
+      case 'tutor-ia': if (window.AIChatPage) AIChatPage.refresh(); break;
     }
   }
 
@@ -1831,6 +1910,11 @@
     initBalloon();
     initPomodoro();
     initDados();
+
+    // IA: inicializar widget flutuante, página dedicada e card no Dashboard
+    if (window.AIWidget) AIWidget.init({ onConfigChange: () => {} });
+    if (window.AIChatPage) AIChatPage.init();
+    if (window.AIConfig) AIConfig.renderCard('ai-config-host');
 
     // First render
     renderizar();

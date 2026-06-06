@@ -203,6 +203,16 @@
         <button class="see-all" data-page="simulados" data-tab="lista">Ver hist&oacute;rico &rarr;</button>
       </div>
       <div id="dash-simulados" class="simulados-list"></div>
+
+      <!-- IA: TUTOR PESSOAL -->
+      <div class="section-head">
+        <div>
+          <h3>&#10024; Tutor IA</h3>
+          <span class="section-date">Professor pessoal com Gemini ou Qwen</span>
+        </div>
+        <button class="see-all" data-page="tutor-ia">Abrir chat &rarr;</button>
+      </div>
+      <div id="ai-config-host"></div>
     </section>
 
     <!-- ============== MATÉRIAS ============== -->
@@ -720,6 +730,9 @@
       </div>
     </section>
 
+    <!-- ============== TUTOR IA ============== -->
+    <section id="page-tutor-ia" class="page"></section>
+
   </main>
 
   <!-- BOTTOM NAV -->
@@ -735,6 +748,10 @@
     <button class="nav-btn" data-page="simulados">
       <span class="nav-icon">&#127942;</span>
       <span class="nav-label">Simulados</span>
+    </button>
+    <button class="nav-btn" data-page="tutor-ia">
+      <span class="nav-icon">&#10024;</span>
+      <span class="nav-label">Tutor IA</span>
     </button>
     <button class="nav-btn" data-page="progresso">
       <span class="nav-icon">&#128200;</span>
@@ -787,5 +804,13 @@
 
 <script src="data.js"></script>
 <script src="script.js"></script>
+<!-- IA: clientes e UI -->
+<script src="api/prompts.js"></script>
+<script src="api/gemini.js"></script>
+<script src="api/qwen.js"></script>
+<script src="api/ai.js"></script>
+<script src="api/ai-config.js"></script>
+<script src="api/ai-ui.js"></script>
+<script src="api/ai-page.js"></script>
 </body>
 </html>
