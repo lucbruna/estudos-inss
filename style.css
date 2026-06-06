@@ -2901,8 +2901,8 @@ input, select, textarea { font-family: inherit; }
 /* --- Widget flutuante --- */
 .ai-widget {
   position: fixed;
-  right: 20px;
-  bottom: 90px;
+  right: 16px;
+  bottom: calc(var(--nav-h) + 90px + var(--safe-bottom));
   z-index: 100;
   font-family: inherit;
 }
@@ -2942,7 +2942,7 @@ input, select, textarea { font-family: inherit; }
   width: 380px;
   max-width: calc(100vw - 40px);
   height: 540px;
-  max-height: calc(100vh - 130px);
+  max-height: calc(100vh - 200px);
   background: var(--surface, #16162a);
   border: 1px solid var(--border, rgba(255,255,255,0.08));
   border-radius: 16px;
