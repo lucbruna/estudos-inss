@@ -4,7 +4,7 @@
    ========================================================== */
 'use strict';
 
-const CACHE_NAME = 'inss2026-v1';
+const CACHE_NAME = 'inss2026-v2';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -27,6 +27,7 @@ const CORE_ASSETS = [
   './api/prompts.js',
   './api/gemini.js',
   './api/qwen.js',
+  './api/ollama.js',
   './api/ai.js',
   './api/ai-config.js',
   './api/ai-ui.js',
