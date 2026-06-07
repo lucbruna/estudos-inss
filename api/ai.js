@@ -43,23 +43,7 @@
     const key = getKey(cfg);
     if (!key) throw new Error('Nenhuma chave configurada para ' + cfg.provider);
     const model = getModel(cfg);
-    const history = (cfg.history || []).slice(-10); // últimos 10 turnos
-    const common = {
-      apiKey: key,
-      model,
-      message,
-      system: systemPrompt,
-      temperature: cfg.temperature,
-      maxOutputTokens: cfg.maxOutputTokens,
-      history: history.map(m => ({ role: m.role, content: m.content, parts: m.role === 'user' ? undefined : [{ text: m.content }] }))
-        .filter(m => m.role === 'user' || m.role === 'model' || m.role === 'assistant')
-    };
-    // Normaliza history para o formato de cada provider
-    common.history = history.map(m => ({
-      role: m.role,
-      content: m.content,
-      parts: [{ text: m.content }]
-    }));
+    const history = (cfg.history || []).slice(-10);
 
     if (cfg.provider === 'qwen') {
       return global.AIQwen.chat({
@@ -96,10 +80,12 @@
   }
 
   function hasAnyKey(cfg) {
+    cfg = cfg || load();
     return !!(cfg.geminiKey || cfg.qwenKey);
   }
 
   function isConfigured(cfg) {
+    cfg = cfg || load();
     return !!getKey(cfg);
   }
 

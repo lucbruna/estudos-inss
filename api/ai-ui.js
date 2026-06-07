@@ -244,8 +244,8 @@
       });
     }
 
-    appendMessage('user', message);
-    global.AICore.pushHistory(cfg, 'user', message);
+    appendMessage('user', fullMessage);
+    global.AICore.pushHistory(cfg, 'user', fullMessage);
     const typing = appendTyping();
 
     try {

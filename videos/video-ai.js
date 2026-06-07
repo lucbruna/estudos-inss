@@ -44,8 +44,8 @@
     if (!global.AICore) {
       throw new Error('Módulo AI não carregado. Configure a IA no Dashboard primeiro.');
     }
-    const isReady = (typeof global.AICore.hasAnyKey === 'function' && global.AICore.hasAnyKey())
-      || (typeof global.AICore.isConfigured === 'function' && global.AICore.isConfigured());
+    const _aiCfg = global.AICore.load();
+    const isReady = global.AICore.hasAnyKey(_aiCfg) || global.AICore.isConfigured(_aiCfg);
     if (!isReady) {
       throw new Error('Chave de API não configurada. Vá ao Dashboard e configure Gemini ou Qwen.');
     }
@@ -79,17 +79,13 @@ NÃO inclua comentários, apenas o JSON.`;
 
     let response;
     try {
-      response = await global.AICore.send({
-        prompt: prompt,
-        context: 'geral',
-        maxOutputTokens: 1500
-      });
+      response = await global.AICore.send(_aiCfg, prompt, global.AIPrompts.systemFor('geral', {}));
     } catch (e) {
       if (typeof onProgress === 'function') onProgress({ stage: 'error', error: e.message });
       throw e;
     }
 
-    const list = parseResponse(response);
+    const list = parseResponse(response && response.text ? response.text : response);
     if (list && list.length) {
       setCache(subject + '::' + (topico || ''), list);
     }
