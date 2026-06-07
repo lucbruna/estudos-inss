@@ -94,7 +94,7 @@
     document.getElementById('ai-context-clear').addEventListener('click', () => {
       setContext('geral', {});
     });
-    document.getElementById('ai-send').addEventListener('click', sendMessage);
+    document.getElementById('ai-send').addEventListener('click', () => sendMessage());
     const ta = document.getElementById('ai-input');
     ta.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' && !e.shiftKey) {
@@ -215,6 +215,7 @@
 
   async function sendMessage(text, isContextual) {
     if (isSending) return;
+    if (text && typeof text !== 'string') text = undefined;
     const input = document.getElementById('ai-input');
     const message = text || (input ? input.value.trim() : '');
     if (!message) return;

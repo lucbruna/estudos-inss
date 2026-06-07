@@ -77,7 +77,7 @@
     document.getElementById('ai-page-config').addEventListener('click', () => {
       if (global.AIConfig) global.AIConfig.openModal();
     });
-    document.getElementById('ai-page-send').addEventListener('click', send);
+    document.getElementById('ai-page-send').addEventListener('click', () => send());
     const ta = document.getElementById('ai-page-input');
     ta.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' && !e.shiftKey) {
@@ -241,6 +241,7 @@
 
   async function send(text) {
     if (isSending) return;
+    if (text && typeof text !== 'string') text = undefined;
     const input = document.getElementById('ai-page-input');
     const message = text || (input ? input.value.trim() : '');
     if (!message) return;
