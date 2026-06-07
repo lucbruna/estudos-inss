@@ -1889,6 +1889,7 @@
       case 'calc': updateCalcDisplay(); break;
       case 'pomodoro': updatePomoDisplay(); break;
       case 'tutor-ia': if (window.AIChatPage) AIChatPage.refresh(); break;
+      case 'videos': if (window.VideoUI) VideoUI.open(); break;
     }
   }
 
@@ -1915,6 +1916,9 @@
     if (window.AIWidget) AIWidget.init({ onConfigChange: () => {} });
     if (window.AIChatPage) AIChatPage.init();
     if (window.AIConfig) AIConfig.renderCard('ai-config-host');
+
+    // Videos: pre-render da página para abrir instantaneamente
+    if (window.VideoUI) VideoUI.init();
 
     // First render
     renderizar();
