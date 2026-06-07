@@ -31,7 +31,6 @@
     page = document.createElement('section');
     page.id = PAGE_ID;
     page.className = 'page';
-    page.style.display = 'none';
     document.body.appendChild(page);
     return page;
   }
