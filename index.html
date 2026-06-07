@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="#0a0a1a">
+  <meta name="theme-color" content="#6366f1" media="(prefers-color-scheme: light)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="INSS 2026">
+  <meta name="description" content="Plano de estudos completo para o concurso do INSS 2026 com IA, videoaulas e simulados.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icons/icon-192.svg">
+  <link rel="apple-touch-icon" href="icons/icon-192.svg">
   <title>INSS 2026 — Dashboard Galáctica</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -830,5 +838,16 @@
 <script src="videos/video-storage.js"></script>
 <script src="videos/video-ai.js"></script>
 <script src="videos/video-ui.js"></script>
+<script src="shortcuts.js"></script>
+<script src="a11y.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function (e) {
+        console.warn('SW register falhou:', e);
+      });
+    });
+  }
+</script>
 </body>
 </html>

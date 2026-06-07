@@ -3059,6 +3059,26 @@ input, select, textarea { font-family: inherit; }
   .lightbox-annotations { border-left: 0; border-top: 1px solid var(--card-border); }
 }
 
+/* ============== SHORTCUTS HELP ============== */
+.shortcuts-table {
+  width: 100%; border-collapse: collapse; font-size: .88rem;
+}
+.shortcuts-table td { padding: 8px 6px; border-bottom: 1px solid var(--card-border); }
+.shortcuts-table tr:last-child td { border-bottom: 0; }
+.shortcuts-table kbd {
+  display: inline-block;
+  background: var(--bg, rgba(0,0,0,.05));
+  color: var(--text);
+  border: 1px solid var(--card-border);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  padding: 2px 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .8rem;
+  font-weight: 600;
+  min-width: 70px; text-align: center;
+}
+
 /* ============== RESPONSIVO ============== */
 @media (min-width: 540px) {
   #app { max-width: 520px; }

@@ -1920,6 +1920,12 @@
     // Videos: pre-render da página para abrir instantaneamente
     if (window.VideoUI) VideoUI.init();
 
+    // Atalhos de teclado (1-6 nav, Ctrl+K IA, ? ajuda, Esc fecha modal)
+    if (window.Shortcuts) Shortcuts.init();
+    // A11y: aria-labels, roles de dialog, focus management
+    if (window.A11y) A11y.init();
+    window.navegarPara = navegarPara;
+
     // First render
     renderizar();
 

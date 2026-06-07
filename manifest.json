@@ -1,0 +1,44 @@
+{
+  "name": "INSS 2026 — Plano de Estudos",
+  "short_name": "INSS 2026",
+  "description": "Plano de estudos completo para o concurso do INSS 2026 com IA, videoaulas e simulados.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "lang": "pt-BR",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tutor IA",
+      "url": "./?page=tutor-ia",
+      "description": "Abrir chat com o tutor de IA"
+    },
+    {
+      "name": "Simulados",
+      "url": "./?page=simulados",
+      "description": "Iniciar um simulado"
+    },
+    {
+      "name": "Vídeos",
+      "url": "./?page=videos",
+      "description": "Biblioteca de videoaulas"
+    }
+  ]
+}
