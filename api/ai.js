@@ -10,6 +10,8 @@
     provider: 'gemini',
     geminiKey: '',
     qwenKey: '',
+    ollamaBaseUrl: 'http://localhost:11434',
+    ollamaModel: 'qwen2.5-coder:7b',
     geminiModel: 'gemini-1.5-flash',
     qwenModel: 'qwen-turbo',
     temperature: 0.7,
@@ -32,22 +34,39 @@
   }
 
   function getKey(cfg) {
-    return cfg.provider === 'qwen' ? cfg.qwenKey : cfg.geminiKey;
+    if (cfg.provider === 'qwen') return cfg.qwenKey;
+    if (cfg.provider === 'ollama') return cfg.ollamaBaseUrl;
+    return cfg.geminiKey;
   }
 
   function getModel(cfg) {
-    return cfg.provider === 'qwen' ? cfg.qwenModel : cfg.geminiModel;
+    if (cfg.provider === 'qwen') return cfg.qwenModel;
+    if (cfg.provider === 'ollama') return cfg.ollamaModel;
+    return cfg.geminiModel;
   }
 
   async function send(cfg, message, systemPrompt) {
     const key = getKey(cfg);
-    if (!key) throw new Error('Nenhuma chave configurada para ' + cfg.provider);
+    if (cfg.provider !== 'ollama' && !key) {
+      throw new Error('Nenhuma chave configurada para ' + cfg.provider);
+    }
     const model = getModel(cfg);
     const history = (cfg.history || []).slice(-10);
 
     if (cfg.provider === 'qwen') {
       return global.AIQwen.chat({
         apiKey: key,
+        model,
+        message,
+        system: systemPrompt,
+        temperature: cfg.temperature,
+        maxTokens: cfg.maxOutputTokens,
+        history: history.map(m => ({ role: m.role, content: m.content }))
+      });
+    }
+    if (cfg.provider === 'ollama') {
+      return global.AIOllama.chat({
+        baseURL: cfg.ollamaBaseUrl,
         model,
         message,
         system: systemPrompt,
@@ -81,11 +100,12 @@
 
   function hasAnyKey(cfg) {
     cfg = cfg || load();
-    return !!(cfg.geminiKey || cfg.qwenKey);
+    return !!(cfg.geminiKey || cfg.qwenKey || (cfg.ollamaBaseUrl && cfg.ollamaModel));
   }
 
   function isConfigured(cfg) {
     cfg = cfg || load();
+    if (cfg.provider === 'ollama') return !!(cfg.ollamaBaseUrl && cfg.ollamaModel);
     return !!getKey(cfg);
   }
 

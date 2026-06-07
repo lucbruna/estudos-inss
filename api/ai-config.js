@@ -33,6 +33,13 @@
               <small>qwen-turbo (DashScope)</small>
             </span>
           </label>
+          <label class="ai-prov-opt">
+            <input type="radio" name="ai-provider" value="ollama" ${cfg.provider === 'ollama' ? 'checked' : ''}>
+            <span class="ai-prov-card">
+              <strong>Ollama (local)</strong>
+              <small>100% offline, sem chave</small>
+            </span>
+          </label>
         </div>
 
         <div class="ai-field">
@@ -51,6 +58,18 @@
             <button class="ai-mini" data-toggle="ai-key-qwen" title="Mostrar/ocultar">&#128065;</button>
           </div>
           <small><a href="https://dashscope.console.aliyun.com/apiKey" target="_blank" rel="noopener">Obter chave &rarr;</a></small>
+        </div>
+
+        <div class="ai-field">
+          <label>Ollama — servidor local</label>
+          <div class="ai-input-row">
+            <input type="text" id="ai-ollama-url" placeholder="http://localhost:11434" value="${escAttr(cfg.ollamaBaseUrl)}">
+            <button class="ai-mini" id="ai-ollama-detect" title="Listar modelos instalados">&#128269;</button>
+          </div>
+          <label>Modelo</label>
+          <input type="text" id="ai-ollama-model" list="ai-ollama-models" placeholder="qwen2.5-coder:7b" value="${escAttr(cfg.ollamaModel)}">
+          <datalist id="ai-ollama-models"></datalist>
+          <small><a href="https://ollama.com" target="_blank" rel="noopener">Instalar Ollama &rarr;</a> &nbsp; <code>ollama pull qwen2.5:7b</code></small>
         </div>
 
         <div class="ai-advanced">
@@ -106,6 +125,7 @@
     temp.addEventListener('input', () => { tempVal.textContent = temp.value; });
     el.querySelector('#ai-test').addEventListener('click', testConnection);
     el.querySelector('#ai-save').addEventListener('click', saveConfig);
+    el.querySelector('#ai-ollama-detect').addEventListener('click', detectOllamaModels);
 
     updateCardStatus();
   }
@@ -115,9 +135,42 @@
   function updateCardStatus() {
     const cfg = global.AICore.load();
     const prov = (document.querySelector('input[name="ai-provider"]:checked') || {}).value || cfg.provider;
-    const has = prov === 'qwen' ? !!cfg.qwenKey : !!cfg.geminiKey;
+    const has = isProviderReady(prov, cfg);
     const el = document.getElementById('ai-card-status');
     if (el) el.className = 'ai-status ' + (has ? 'on' : 'off');
+  }
+
+  function isProviderReady(prov, cfg) {
+    if (prov === 'qwen') return !!cfg.qwenKey;
+    if (prov === 'ollama') return !!(cfg.ollamaBaseUrl && cfg.ollamaModel);
+    return !!cfg.geminiKey;
+  }
+
+  async function detectOllamaModels() {
+    const result = document.getElementById('ai-test-result');
+    const baseURL = document.getElementById('ai-ollama-url').value.trim();
+    if (!baseURL) {
+      result.className = 'ai-test-result err';
+      result.textContent = '❌ Informe a URL do Ollama.';
+      return;
+    }
+    result.className = 'ai-test-result loading';
+    result.textContent = '🔄 Buscando modelos...';
+    try {
+      const r = await global.AIOllama.testConfig(baseURL);
+      if (r.ok) {
+        const dl = document.getElementById('ai-ollama-models');
+        dl.innerHTML = r.models.map(m => `<option value="${escAttr(m)}">`).join('');
+        result.className = 'ai-test-result ok';
+        result.textContent = `✅ ${r.models.length} modelo(s) encontrado(s): ${r.models.slice(0, 5).join(', ')}${r.models.length > 5 ? '...' : ''}`;
+      } else {
+        result.className = 'ai-test-result err';
+        result.textContent = '❌ ' + r.error;
+      }
+    } catch (e) {
+      result.className = 'ai-test-result err';
+      result.textContent = '❌ ' + e.message;
+    }
   }
 
   async function testConnection() {
@@ -127,6 +180,32 @@
 
     const cfg = global.AICore.load();
     const prov = (document.querySelector('input[name="ai-provider"]:checked') || {}).value || cfg.provider;
+
+    if (prov === 'ollama') {
+      const baseURL = document.getElementById('ai-ollama-url').value.trim();
+      const model = document.getElementById('ai-ollama-model').value.trim();
+      if (!baseURL || !model) {
+        result.className = 'ai-test-result err';
+        result.textContent = '❌ Informe URL e modelo do Ollama.';
+        return;
+      }
+      try {
+        const r = await global.AIOllama.chat({
+          baseURL,
+          model,
+          message: 'Responda apenas: OK',
+          temperature: 0,
+          maxTokens: 16
+        });
+        result.className = 'ai-test-result ok';
+        result.textContent = '✅ Conexão OK! Resposta: "' + r.text + '"';
+      } catch (e) {
+        result.className = 'ai-test-result err';
+        result.textContent = '❌ ' + e.message;
+      }
+      return;
+    }
+
     const key = prov === 'qwen'
       ? document.getElementById('ai-key-qwen').value.trim()
       : document.getElementById('ai-key-gemini').value.trim();
@@ -158,6 +237,8 @@
     cfg.provider = (document.querySelector('input[name="ai-provider"]:checked') || {}).value || 'gemini';
     cfg.geminiKey = document.getElementById('ai-key-gemini').value.trim();
     cfg.qwenKey = document.getElementById('ai-key-qwen').value.trim();
+    cfg.ollamaBaseUrl = document.getElementById('ai-ollama-url').value.trim();
+    cfg.ollamaModel = document.getElementById('ai-ollama-model').value.trim();
     cfg.geminiModel = document.getElementById('ai-model-gemini').value;
     cfg.qwenModel = document.getElementById('ai-model-qwen').value;
     cfg.temperature = parseFloat(document.getElementById('ai-temp').value);

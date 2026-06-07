@@ -282,7 +282,8 @@
     const el = document.getElementById('ai-provider-label');
     if (!el) return;
     if (global.AICore.isConfigured(cfg)) {
-      el.textContent = cfg.provider === 'qwen' ? 'Qwen' : 'Gemini';
+      const labels = { gemini: 'Gemini', qwen: 'Qwen', ollama: 'Ollama' };
+      el.textContent = labels[cfg.provider] || cfg.provider;
     } else {
       el.textContent = 'não configurado';
     }
